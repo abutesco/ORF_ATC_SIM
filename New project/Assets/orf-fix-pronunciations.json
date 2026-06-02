@@ -1,0 +1,1312 @@
+{
+  "ACOYU": {
+    "aliases": [
+      "acoyu",
+      "acoiu",
+      "a c o y u"
+    ],
+    "spoken": "ah-coo-yoh"
+  },
+  "AKQ": {
+    "aliases": [
+      "Wakefield"
+    ],
+    "spoken": "WAKE-FIELD AIRPORT"
+  },
+  "ARICE": {
+    "aliases": [
+      "uh-rice",
+      "a r i c e"
+    ],
+    "spoken": "ah-rise"
+  },
+  "ATLIIC": {
+    "aliases": [
+      "atliic",
+      "a t l i i c"
+    ],
+    "spoken": "atl-iic"
+  },
+  "BAAGN": {
+    "aliases": [
+      "bar-gon",
+      "b a a g n"
+    ],
+    "spoken": "ba-gun"
+  },
+  "BALIF": {
+    "aliases": [
+      "bah-lif",
+      "b a l i f"
+    ],
+    "spoken": "bail-leaf"
+  },
+  "BCOAT": {
+    "aliases": [
+      "bcoat",
+      "b c o a t"
+    ],
+    "spoken": "bee-coat"
+  },
+  "BESRE": {
+    "aliases": [
+      "besre",
+      "b e s r e"
+    ],
+    "spoken": "bes-rey"
+  },
+  "BIMLE": {
+    "aliases": [
+      "beem-leh",
+      "b i m l e"
+    ],
+    "spoken": "bim-leh"
+  },
+  "CALEY": {
+    "aliases": [
+      "caley",
+      "calei",
+      "c a l e y"
+    ],
+    "spoken": "car-li"
+  },
+  "CATAS": {
+    "aliases": [
+      "caitas",
+      "c a t a s"
+    ],
+    "spoken": "car-tas"
+  },
+  "CEGLI": {
+    "aliases": [
+      "cegli",
+      "c e g l i"
+    ],
+    "spoken": "cegl-i"
+  },
+  "CEGRU": {
+    "aliases": [
+      "cegru",
+      "c e g r u"
+    ],
+    "spoken": "seg-ru"
+  },
+  "CHS": {
+    "aliases": [],
+    "spoken": "Charleston"
+  },
+  "CIBAC": {
+    "aliases": [
+      "sigh-back",
+      "c i b a c"
+    ],
+    "spoken": "see-back"
+  },
+  "COKLI": {
+    "aliases": [
+      "cook-lie",
+      "cok-lie c o k l i"
+    ],
+    "spoken": "cok-li"
+  },
+  "CORET": {
+    "aliases": [
+      "kaw-ret",
+      "c o r e t"
+    ],
+    "spoken": "co-ret"
+  },
+  "CPK": {
+    "aliases": [],
+    "spoken": "Chesapeake Airport"
+  },
+  "CROOM": {
+    "aliases": [
+      "croom",
+      "c r o o m"
+    ],
+    "spoken": "croom"
+  },
+  "DARTT": {
+    "aliases": [
+      "dartt",
+      "d a r t t"
+    ],
+    "spoken": "dart"
+  },
+  "DEEMS": {
+    "aliases": [
+      "deems",
+      "dims",
+      "d e e m s"
+    ],
+    "spoken": "deems"
+  },
+  "DRIVE": {
+    "aliases": [
+      "drive",
+      "d r i v e"
+    ],
+    "spoken": "drive"
+  },
+  "DRONE": {
+    "aliases": [
+      "drone",
+      "d r o n e"
+    ],
+    "spoken": "drone"
+  },
+  "DULTS": {
+    "aliases": [
+      "dults",
+      "d u l t s"
+    ],
+    "spoken": "dults"
+  },
+  "ECG": {
+    "aliases": [
+      "Eli-zabet city"
+    ],
+    "spoken": "ELIZABETH CITY AIRPORT"
+  },
+  "EDDYS": {
+    "aliases": [
+      "eddys",
+      "eddis",
+      "e d d y s"
+    ],
+    "spoken": "edd-ees"
+  },
+  "ELMER": {
+    "aliases": [
+      "el-mer",
+      "e l m e r"
+    ],
+    "spoken": "hell-mer"
+  },
+  "ETUME": {
+    "aliases": [
+      "etume",
+      "e-too-me"
+    ],
+    "spoken": "eh-too-me"
+  },
+  "EVINN": {
+    "aliases": [
+      "evinn",
+      "e v i n n"
+    ],
+    "spoken": "ev-inn"
+  },
+  "EWOOD": {
+    "aliases": [
+      "e-wood",
+      "e w o o d"
+    ],
+    "spoken": "he-wood"
+  },
+  "EYOBI": {
+    "aliases": [],
+    "spoken": "HEE-YO-BI"
+  },
+  "FAF": {
+    "aliases": [
+      "Felker"
+    ],
+    "spoken": "Fel-ker Airport"
+  },
+  "FEVBI": {
+    "aliases": [
+      "fev-by",
+      "f e v b i"
+    ],
+    "spoken": "fev-bi"
+  },
+  "FKN": {
+    "aliases": [
+      "Franklin"
+    ],
+    "spoken": "FRANKLIN"
+  },
+  "FOSOP": {
+    "aliases": [
+      "fosop",
+      "f o s o p"
+    ],
+    "spoken": "fos-op"
+  },
+  "FOVPO": {
+    "aliases": [
+      "fovpo",
+      "f o v p o"
+    ],
+    "spoken": "fov-po"
+  },
+  "FOXEI": {
+    "aliases": [
+      "fox-xei",
+      "f o x e i"
+    ],
+    "spoken": "fox-xii"
+  },
+  "GEDLE": {
+    "aliases": [
+      "ger-dul",
+      "g e d l e"
+    ],
+    "spoken": "ger-dle"
+  },
+  "GENUU": {
+    "aliases": [
+      "jee-nyoo",
+      "g e n u u"
+    ],
+    "spoken": "jee-yoo"
+  },
+  "GORYE": {
+    "aliases": [
+      "goh-rye",
+      "gorie",
+      "g o r y e"
+    ],
+    "spoken": "gor-yeh"
+  },
+  "GRAIT": {
+    "aliases": [
+      "great",
+      "g r a i t"
+    ],
+    "spoken": "grate"
+  },
+  "GUDLE": {
+    "aliases": [
+      "goodle",
+      "g u d l e"
+    ],
+    "spoken": "gur-dle"
+  },
+  "GUMBE": {
+    "aliases": [
+      "goom-bey",
+      "g u m b e"
+    ],
+    "spoken": "gum-bey"
+  },
+  "GUMPP": {
+    "aliases": [
+      "goom-p",
+      "g u m p p"
+    ],
+    "spoken": "gum-p"
+  },
+  "GUTLE": {
+    "aliases": [
+      "goo-tul",
+      "g u t l e"
+    ],
+    "spoken": "GOOT-leh"
+  },
+  "HABKI": {
+    "aliases": [
+      "hab-ky",
+      "h a b k i"
+    ],
+    "spoken": "hab-ki"
+  },
+  "HAKDY": {
+    "aliases": [
+      "hakdy",
+      "hakdi",
+      "h a k d y"
+    ],
+    "spoken": "hakd-y"
+  },
+  "HASBA": {
+    "aliases": [
+      "hasba",
+      "h a s b a"
+    ],
+    "spoken": "has-ba"
+  },
+  "HCM": {
+    "aliases": [
+      "whore-cum",
+      "HAR-CUM"
+    ],
+    "spoken": "HER-kum"
+  },
+  "HEELS": {
+    "aliases": [
+      "heels",
+      "hills",
+      "h e e l s"
+    ],
+    "spoken": "heels"
+  },
+  "HISAM": {
+    "aliases": [
+      "hee-sam",
+      "h i s a m"
+    ],
+    "spoken": "hi-sam"
+  },
+  "HOLND": {
+    "aliases": [],
+    "spoken": "HOLAND"
+  },
+  "HOUKY": {
+    "aliases": [
+      "hoo-key",
+      "houki",
+      "h o u k y"
+    ],
+    "spoken": "how-key"
+  },
+  "HPW": {
+    "aliases": [
+      "hope well",
+      "h p w"
+    ],
+    "spoken": "Hope-well"
+  },
+  "HUMAL": {
+    "aliases": [
+      "hu-mal",
+      "h u m a l"
+    ],
+    "spoken": "hyoo-mal"
+  },
+  "HUMIV": {
+    "aliases": [
+      "you-miv",
+      "h u m i v"
+    ],
+    "spoken": "hyoo-miv"
+  },
+  "HUXOL": {
+    "aliases": [
+      "huxol",
+      "h u x o l"
+    ],
+    "spoken": "HUCK-sahl"
+  },
+  "ICACO": {
+    "aliases": [
+      "he-cay-co",
+      "i c a c o"
+    ],
+    "spoken": "hi-kay-ko"
+  },
+  "IDZAT": {
+    "aliases": [
+      "hide-zat",
+      "i d z a t"
+    ],
+    "spoken": "id-zat"
+  },
+  "IFESO": {
+    "aliases": [
+      "ifeso",
+      "i f e s o"
+    ],
+    "spoken": "hi-fe-so"
+  },
+  "INLYT": {
+    "aliases": [
+      "in-lyt",
+      "in-lite",
+      "i n l y t"
+    ],
+    "spoken": "in-lit"
+  },
+  "ISUBE": {
+    "aliases": [
+      "hi-su-bey",
+      "i s u b e"
+    ],
+    "spoken": "hee-suu-bey"
+  },
+  "JADIM": {
+    "aliases": [
+      "jay-dim",
+      "j a d i m"
+    ],
+    "spoken": "jah-dim"
+  },
+  "JAJAE": {
+    "aliases": [
+      "jah-jay",
+      "j a j a e"
+    ],
+    "spoken": "jay-jay"
+  },
+  "JAMIE": {
+    "aliases": [
+      "JAY-MIE",
+      "j a m i e"
+    ],
+    "spoken": "jamie"
+  },
+  "JASSI": {
+    "aliases": [
+      "jas-sigh",
+      "j a s s i"
+    ],
+    "spoken": "jass-i"
+  },
+  "JAWES": {
+    "aliases": [
+      "jay-wes",
+      "j a w e s"
+    ],
+    "spoken": "jaws"
+  },
+  "JETIT": {
+    "aliases": [
+      "jay-tit",
+      "j e t i t"
+    ],
+    "spoken": "je-tit"
+  },
+  "JHALL": {
+    "aliases": [
+      "j-hall",
+      "j h a l l"
+    ],
+    "spoken": "jay-hall"
+  },
+  "JIMMY": {
+    "aliases": [
+      "jim-my",
+      "jim-mi",
+      "j i m m y"
+    ],
+    "spoken": "jimmy"
+  },
+  "JOHAR": {
+    "aliases": [
+      "johar",
+      "j o h a r"
+    ],
+    "spoken": "jo-har"
+  },
+  "JOVAM": {
+    "aliases": [
+      "joo-vam",
+      "j o v a m"
+    ],
+    "spoken": "joh-vam"
+  },
+  "JUBJI": {
+    "aliases": [
+      "job-ji",
+      "j u b j i"
+    ],
+    "spoken": "jub-ji"
+  },
+  "JUDLU": {
+    "aliases": [
+      "judlu",
+      "j u d l u"
+    ],
+    "spoken": "jood-lu"
+  },
+  "JUGPI": {
+    "aliases": [
+      "jug-pee",
+      "j u g p i"
+    ],
+    "spoken": "jug-pie"
+  },
+  "JUSBO": {
+    "aliases": [
+      "jus-boo",
+      "j u s b o"
+    ],
+    "spoken": "jus-bo"
+  },
+  "KALDA": {
+    "aliases": [
+      "kalda",
+      "k a l d a"
+    ],
+    "spoken": "kal-dah"
+  },
+  "KOHLS": {
+    "aliases": [
+      "cor-ls",
+      "kohls",
+      "k o h l s"
+    ],
+    "spoken": "coals"
+  },
+  "KOOKI": {
+    "aliases": [
+      "koo-key",
+      "k o o k i"
+    ],
+    "spoken": "cook-kie"
+  },
+  "KULEY": {
+    "aliases": [
+      "kuley",
+      "kulei",
+      "k u l e y"
+    ],
+    "spoken": "koo-ley"
+  },
+  "LALSE": {
+    "aliases": [
+      "lal-s",
+      "l a l s e"
+    ],
+    "spoken": "lal-say"
+  },
+  "LFI": {
+    "aliases": [
+      "Lang-li"
+    ],
+    "spoken": "Lang-ley Air FORCE Base"
+  },
+  "LIBLE": {
+    "aliases": [
+      "lie-bul",
+      "l i b l e"
+    ],
+    "spoken": "lib-ley"
+  },
+  "LODBE": {
+    "aliases": [
+      "lodbe",
+      "l o d b e"
+    ],
+    "spoken": "lord-bay"
+  },
+  "LUFSY": {
+    "aliases": [
+      "luf-sy",
+      "lufsi",
+      "l u f s y"
+    ],
+    "spoken": "luf-si"
+  },
+  "MAGUZ": {
+    "aliases": [
+      "ma-goz",
+      "m a g u z"
+    ],
+    "spoken": "ma-guz"
+  },
+  "MALEC": {
+    "aliases": [
+      "may-lek",
+      "m a l e c"
+    ],
+    "spoken": "mah-lec"
+  },
+  "MAZON": {
+    "aliases": [
+      "mah-zon",
+      "m a z o n"
+    ],
+    "spoken": "may-zon"
+  },
+  "MEEKA": {
+    "aliases": [
+      "meeka",
+      "mika",
+      "m e e k a"
+    ],
+    "spoken": "mee-kah"
+  },
+  "MELFA": {
+    "aliases": [
+      "melfa",
+      "m e l f a"
+    ],
+    "spoken": "mel-fa"
+  },
+  "MERFE": {
+    "aliases": [
+      "merfe",
+      "m e r f e"
+    ],
+    "spoken": "merf-e"
+  },
+  "MESLE": {
+    "aliases": [
+      "mes-leh",
+      "m e s l e"
+    ],
+    "spoken": "me-sul"
+  },
+  "MFV": {
+    "aliases": [
+      "MELFA AIRPORT"
+    ],
+    "spoken": "ACCOMACK AIRPORT"
+  },
+  "MIDRE": {
+    "aliases": [
+      "meh-drey",
+      "m i d r e"
+    ],
+    "spoken": "mi-dray"
+  },
+  "MILUE": {
+    "aliases": [
+      "milue",
+      "m i l u e"
+    ],
+    "spoken": "mil-you"
+  },
+  "MIMAE": {
+    "aliases": [
+      "mi-mae",
+      "m i m a e"
+    ],
+    "spoken": "mi-may"
+  },
+  "MOTUE": {
+    "aliases": [
+      "mo-tew",
+      "m o t u e"
+    ],
+    "spoken": "mot-tyu"
+  },
+  "MXY": {
+    "aliases": [],
+    "spoken": "MOXIE"
+  },
+  "NALDE": {
+    "aliases": [
+      "nail-ds",
+      "na-ld",
+      "n a l d e"
+    ],
+    "spoken": "nal-dey"
+  },
+  "NETUE": {
+    "aliases": [
+      "net-you",
+      "n e t u e"
+    ],
+    "spoken": "net-tyoo"
+  },
+  "NGU": {
+    "aliases": [
+      "Navy-chambers"
+    ],
+    "spoken": "Chambers"
+  },
+  "NKS": {
+    "aliases": [],
+    "spoken": "SPIRIT-WINGS"
+  },
+  "NONNU": {
+    "aliases": [
+      "nor-nu",
+      "n o n n u"
+    ],
+    "spoken": "no-nu"
+  },
+  "NORTN": {
+    "aliases": [
+      "nortn",
+      "n o r t n"
+    ],
+    "spoken": "nor-tin"
+  },
+  "NOXEE": {
+    "aliases": [
+      "noxee",
+      "noxi",
+      "n o x e e"
+    ],
+    "spoken": "nor-xee"
+  },
+  "NUTIY": {
+    "aliases": [
+      "nuh-tiy",
+      "nuh-tii",
+      "n u t i y"
+    ],
+    "spoken": "nut-ty"
+  },
+  "NUTZE": {
+    "aliases": [
+      "noot-zee",
+      "noot-zey",
+      "nut-zee",
+      "n u t z e"
+    ],
+    "spoken": "nut-zey"
+  },
+  "OBERE": {
+    "aliases": [
+      "oh-be-re",
+      "o b e r e"
+    ],
+    "spoken": "oh-bere"
+  },
+  "OCSIP": {
+    "aliases": [
+      "oh-sip",
+      "o c s i p"
+    ],
+    "spoken": "ock-sip"
+  },
+  "ODGOE": {
+    "aliases": [
+      "odgoe",
+      "o d g o e"
+    ],
+    "spoken": "odd-go"
+  },
+  "OGTOE": {
+    "aliases": [
+      "ogtoe",
+      "o g t o e"
+    ],
+    "spoken": "og-toe"
+  },
+  "OLUCE": {
+    "aliases": [
+      "oluce",
+      "o l u c e"
+    ],
+    "spoken": "oh-loose"
+  },
+  "OMRIE": {
+    "aliases": [
+      "ohm-ry",
+      "om-ree",
+      "o m r i e"
+    ],
+    "spoken": "ohm-ree"
+  },
+  "ONX": {
+    "aliases": [
+      "CURRI-TUCK"
+    ],
+    "spoken": "CURRY-TUCK Airport"
+  },
+  "ORF": {
+    "aliases": [
+      "Norf-fuck"
+    ],
+    "spoken": "Nor-folk"
+  },
+  "OTETY": {
+    "aliases": [
+      "or-te-ty",
+      "oh-te-ti",
+      "o t e t y"
+    ],
+    "spoken": "oh-te-ty"
+  },
+  "OUTLA": {
+    "aliases": [
+      "outla",
+      "o u t l a"
+    ],
+    "spoken": "out-law"
+  },
+  "PAKSE": {
+    "aliases": [
+      "pak-see",
+      "p a k s e"
+    ],
+    "spoken": "pak-sey"
+  },
+  "PANLE": {
+    "aliases": [
+      "pan-le",
+      "pa-nu",
+      "p a n l e"
+    ],
+    "spoken": "pan-ley"
+  },
+  "PEAAY": {
+    "aliases": [
+      "peaay",
+      "peaai",
+      "p e a a y"
+    ],
+    "spoken": "pay"
+  },
+  "PEFOC": {
+    "aliases": [
+      "pee-foak",
+      "p e f o c"
+    ],
+    "spoken": "pee-fuck"
+  },
+  "PHF": {
+    "aliases": [
+      "NEW-PORT NEWS"
+    ],
+    "spoken": "NEWPORT NEWS AIRPORT"
+  },
+  "PRONI": {
+    "aliases": [
+      "pro-ny",
+      "p r o n i"
+    ],
+    "spoken": "pro-nee"
+  },
+  "PVG": {
+    "aliases": [
+      "HAMPTON"
+    ],
+    "spoken": "Hampton Roads Airport"
+  },
+  "PXT": {
+    "aliases": [],
+    "spoken": "Patuxent"
+  },
+  "RACOT": {
+    "aliases": [
+      "racot",
+      "r a c o t"
+    ],
+    "spoken": "racot"
+  },
+  "RAPTR": {
+    "aliases": [
+      "r a p t r",
+      "rap-tor",
+      "raptor",
+      "raptr"
+    ],
+    "spoken": "rap-tor"
+  },
+  "RERSE": {
+    "aliases": [
+      "rey-sey",
+      "r e r s e"
+    ],
+    "spoken": "rer-sey"
+  },
+  "REXUE": {
+    "aliases": [
+      "rexue",
+      "r e x u e"
+    ],
+    "spoken": "rex-you"
+  },
+  "RIC": {
+    "aliases": [],
+    "spoken": "Richmond"
+  },
+  "RIDDS": {
+    "aliases": [
+      "ridds",
+      "r i d d s"
+    ],
+    "spoken": "ridds"
+  },
+  "RILLO": {
+    "aliases": [
+      "rillo",
+      "r i l l o"
+    ],
+    "spoken": "rill-o"
+  },
+  "ROBOY": {
+    "aliases": [
+      "roboy",
+      "roboi",
+      "r o b o y"
+    ],
+    "spoken": "ro-boy"
+  },
+  "RONKE": {
+    "aliases": [
+      "ronke",
+      "r o n k e"
+    ],
+    "spoken": "ron-key"
+  },
+  "RREGG": {
+    "aliases": [
+      "rregg",
+      "r r e g g"
+    ],
+    "spoken": "reg"
+  },
+  "RUSSL": {
+    "aliases": [
+      "rus-sul",
+      "r u s s l"
+    ],
+    "spoken": "rus-sel"
+  },
+  "SAGOE": {
+    "aliases": [
+      "sagoe",
+      "s a g o e"
+    ],
+    "spoken": "sa-goe"
+  },
+  "SBY": {
+    "aliases": [],
+    "spoken": "SALSBURY"
+  },
+  "SCHOL": {
+    "aliases": [
+      "skull",
+      "skole",
+      "s c h o l"
+    ],
+    "spoken": "schole"
+  },
+  "SCTYP": {
+    "aliases": [],
+    "spoken": "SCOTTY PEE"
+  },
+  "SEZJY": {
+    "aliases": [
+      "sez-jay",
+      "sezji",
+      "s e z j y"
+    ],
+    "spoken": "sez-jy"
+  },
+  "SFQ": {
+    "aliases": [
+      "SAW-FOLK"
+    ],
+    "spoken": "Suffolk Airport"
+  },
+  "SIE": {
+    "aliases": [],
+    "spoken": "Sea-isle"
+  },
+  "SIMLE": {
+    "aliases": [
+      "simle",
+      "s i m l e"
+    ],
+    "spoken": "sim-ley"
+  },
+  "SKOUT": {
+    "aliases": [
+      "skout",
+      "skoot",
+      "s k o u t"
+    ],
+    "spoken": "scout"
+  },
+  "SOFIE": {
+    "aliases": [
+      "so-phie",
+      "s o f i e"
+    ],
+    "spoken": "so-fie"
+  },
+  "SOLOC": {
+    "aliases": [
+      "soloc",
+      "s o l o c"
+    ],
+    "spoken": "so-lock"
+  },
+  "STEIN": {
+    "aliases": [
+      "stain",
+      "s t e i n"
+    ],
+    "spoken": "stine"
+  },
+  "STEVE": {
+    "aliases": [
+      "steve",
+      "s t e v e"
+    ],
+    "spoken": "steve"
+  },
+  "SUFSO": {
+    "aliases": [
+      "sufso",
+      "s u f s o"
+    ],
+    "spoken": "suf-so"
+  },
+  "SUNNS": {
+    "aliases": [
+      "sunns",
+      "s u n n s"
+    ],
+    "spoken": "sunns"
+  },
+  "SURUE": {
+    "aliases": [
+      "su-rew",
+      "s u r u e"
+    ],
+    "spoken": "su-rue"
+  },
+  "SWOPE": {
+    "aliases": [
+      "swope",
+      "s w o p e"
+    ],
+    "spoken": "swope"
+  },
+  "TABUE": {
+    "aliases": [
+      "tabue",
+      "t a b u e"
+    ],
+    "spoken": "tab-ue"
+  },
+  "TACLO": {
+    "aliases": [
+      "tac-low",
+      "t a c l o"
+    ],
+    "spoken": "tack-lo"
+  },
+  "TAFYI": {
+    "aliases": [
+      "taf-ya",
+      "tafii",
+      "t a f y i"
+    ],
+    "spoken": "taf-yi"
+  },
+  "TAVAE": {
+    "aliases": [
+      "tah-VAH-ee",
+      "tah-vay",
+      "t a v a e"
+    ],
+    "spoken": "ta-va-he"
+  },
+  "TECHI": {
+    "aliases": [
+      "techi",
+      "t e c h i"
+    ],
+    "spoken": "tech-i"
+  },
+  "TERKS": {
+    "aliases": [
+      "terks",
+      "t e r k s"
+    ],
+    "spoken": "terks"
+  },
+  "THHMP": {
+    "aliases": [],
+    "spoken": "THUMP"
+  },
+  "TRPOD": {
+    "aliases": [
+      "tree-pod",
+      "t r p o d"
+    ],
+    "spoken": "tri-pod"
+  },
+  "TURET": {
+    "aliases": [
+      "toe-ret",
+      "t u r e t"
+    ],
+    "spoken": "tu-ret"
+  },
+  "UBKUC": {
+    "aliases": [
+      "uub-kuk",
+      "u b k u c"
+    ],
+    "spoken": "ub-kuc"
+  },
+  "UCGEL": {
+    "aliases": [
+      "ooh-jell",
+      "u c g e l"
+    ],
+    "spoken": "us-gel"
+  },
+  "VABCH": {
+    "aliases": [
+      "VA Beach"
+    ],
+    "spoken": "VABCH"
+  },
+  "VEGHE": {
+    "aliases": [
+      "veghe",
+      "v e g h e"
+    ],
+    "spoken": "vegh-e"
+  },
+  "VV": {
+    "aliases": [],
+    "spoken": "NAVY"
+  },
+  "WAIKS": {
+    "aliases": [
+      "waiks",
+      "w a i k s"
+    ],
+    "spoken": "waiks"
+  },
+  "WENBA": {
+    "aliases": [
+      "wenba",
+      "w e n b a"
+    ],
+    "spoken": "wen-ba"
+  },
+  "WENDU": {
+    "aliases": [
+      "wendu",
+      "w e n d u"
+    ],
+    "spoken": "wen-du"
+  },
+  "WEVUX": {
+    "aliases": [
+      "way-vuks",
+      "w e v u x"
+    ],
+    "spoken": "weev-vux"
+  },
+  "WINAL": {
+    "aliases": [
+      "wee-nal",
+      "w i n a l"
+    ],
+    "spoken": "wine-nall"
+  },
+  "WOLIB": {
+    "aliases": [
+      "woo-lib",
+      "w o l i b"
+    ],
+    "spoken": "woh-lib"
+  },
+  "WOPAT": {
+    "aliases": [
+      "wor-pat",
+      "w o p a t"
+    ],
+    "spoken": "woh-pat"
+  },
+  "WOPID": {
+    "aliases": [
+      "woo-pid",
+      "w o p i d"
+    ],
+    "spoken": "wo-pid"
+  },
+  "WOVTI": {
+    "aliases": [
+      "woov-ty",
+      "w o v t i"
+    ],
+    "spoken": "wove-tee"
+  },
+  "WUBUT": {
+    "aliases": [
+      "war-but",
+      "w u b u t"
+    ],
+    "spoken": "woo-but"
+  },
+  "YIBUV": {
+    "aliases": [
+      "yibuv",
+      "iibuv",
+      "y i b u v"
+    ],
+    "spoken": "yee-buv"
+  },
+  "YINDU": {
+    "aliases": [
+      "yindu",
+      "iindu",
+      "y i n d u"
+    ],
+    "spoken": "yin-du"
+  },
+  "YINUK": {
+    "aliases": [
+      "yinuk",
+      "iinuk",
+      "y i n u k"
+    ],
+    "spoken": "yin-nuk"
+  },
+  "ZAGIV": {
+    "aliases": [
+      "zay-giv",
+      "z a g i v"
+    ],
+    "spoken": "zah-giv"
+  },
+  "ZAKEN": {
+    "aliases": [
+      "zaken",
+      "z a k e n"
+    ],
+    "spoken": "zak-en"
+  },
+  "ZAXIB": {
+    "aliases": [
+      "zay-xib",
+      "z a x i b"
+    ],
+    "spoken": "zah-xib"
+  },
+  "ZESMI": {
+    "aliases": [
+      "zesmi",
+      "z e s m i"
+    ],
+    "spoken": "zes-mi"
+  },
+  "ZIGTU": {
+    "aliases": [
+      "zigtu",
+      "z i g t u"
+    ],
+    "spoken": "zig-tu"
+  },
+  "ZINAV": {
+    "aliases": [
+      "zye-nav",
+      "z i n a v"
+    ],
+    "spoken": "zee-nav"
+  },
+  "ZIXER": {
+    "aliases": [
+      "zi-xer",
+      "z i x e r"
+    ],
+    "spoken": "ziks-ser"
+  },
+  "ZJAAY": {
+    "aliases": [
+      "z-jaay",
+      "z-jaai",
+      "z j a a y"
+    ],
+    "spoken": "zee-jaay"
+  },
+  "ZOTID": {
+    "aliases": [
+      "zo-tide",
+      "z o t i d"
+    ],
+    "spoken": "zo-tid"
+  },
+  "C": {
+    "aliases": [],
+    "spoken": "Coast Guard"
+  }
+}

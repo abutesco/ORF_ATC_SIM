@@ -1,0 +1,14 @@
+{
+  "name": "orf-atc-sim-api",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.3",
+    "multer": "^1.4.5-lts.1"
+  }
+}

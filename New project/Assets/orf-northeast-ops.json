@@ -1,0 +1,1937 @@
+{
+  "source": "ORF_Northeast_Operations_Consolidated_Dataset (1).xlsx",
+  "sheets": {
+    "Overview": {
+      "row_count": 10,
+      "rows": [
+        {
+          "field": "airport_ident",
+          "value": "KORF",
+          "source_url": "https://www.faa.gov/air_traffic/flight_info/aeronav/Digital_Products/dtpp/search/results/?cycle=2604&dir=asc&page=6&sort=city&state=VA"
+        },
+        {
+          "field": "airport_name",
+          "value": "Norfolk International Airport",
+          "source_url": "https://www.faa.gov/air_traffic/flight_info/aeronav/Digital_Products/dtpp/search/results/?cycle=2604&dir=asc&page=6&sort=city&state=VA"
+        },
+        {
+          "field": "operation_mode",
+          "value": "NORTHEAST OPS - RWY 05 arrivals and RWY 05 departures",
+          "source_url": "https://aeronav.faa.gov/d-tpp/2604/00291ad.pdf"
+        },
+        {
+          "field": "primary_arrival_runway",
+          "value": "05",
+          "source_url": "https://aeronav.faa.gov/d-tpp/2604/00291il5.pdf"
+        },
+        {
+          "field": "primary_departure_runway",
+          "value": "05",
+          "source_url": "https://aeronav.faa.gov/d-tpp/2604/00291holnd.pdf"
+        },
+        {
+          "field": "runway_05_magnetic_heading",
+          "value": "048.7 airport diagram / 047 ILS course",
+          "source_url": "https://aeronav.faa.gov/d-tpp/2604/00291ad.pdf"
+        },
+        {
+          "field": "ils_course",
+          "value": "047",
+          "source_url": "https://aeronav.faa.gov/d-tpp/2604/00291il5.pdf"
+        },
+        {
+          "field": "localizer_frequency",
+          "value": "109.1 I-ORF Chan 28",
+          "source_url": "https://aeronav.faa.gov/d-tpp/2604/00291il5.pdf"
+        },
+        {
+          "field": "glideslope",
+          "value": "3.00 degrees; TCH 56",
+          "source_url": "https://aeronav.faa.gov/d-tpp/2604/00291il5.pdf"
+        },
+        {
+          "field": "sim_note",
+          "value": "Use the Approach_ILS_RWY05 sheet as the hard path. Use STAR/SID sheets only to feed aircraft toward vectors, then force localizer capture at CALEY/PEAAY/ORF05_INT gates.",
+          "source_url": null
+        }
+      ]
+    },
+    "Frequencies": {
+      "row_count": 7,
+      "rows": [
+        {
+          "facility": "ATIS",
+          "frequency": "127.15",
+          "use_in_sim": "weather/arrival info",
+          "when_to_use": "Before clearance and approach setup",
+          "source_url": null
+        },
+        {
+          "facility": "Clearance Delivery",
+          "frequency": "118.5",
+          "use_in_sim": "IFR release/SID assignment",
+          "when_to_use": "Before taxi/departure",
+          "source_url": null
+        },
+        {
+          "facility": "Ground Control",
+          "frequency": "121.9",
+          "use_in_sim": "taxi/runway crossing",
+          "when_to_use": "Taxi to RWY 05 / after landing",
+          "source_url": null
+        },
+        {
+          "facility": "Norfolk Tower",
+          "frequency": "120.8",
+          "use_in_sim": "takeoff/landing clearance",
+          "when_to_use": "Runway 05 takeoff, landing, short final handoff",
+          "source_url": null
+        },
+        {
+          "facility": "Norfolk Tower UHF",
+          "frequency": "257.8",
+          "use_in_sim": "military tower backup",
+          "when_to_use": "Military traffic",
+          "source_url": null
+        },
+        {
+          "facility": "Norfolk Departure Control(DR1)",
+          "frequency": "125.2",
+          "use_in_sim": "departure initial control",
+          "when_to_use": "After tower handoff on SID",
+          "source_url": null
+        },
+        {
+          "facility": "Norfolk Departure UHF",
+          "frequency": "363.125",
+          "use_in_sim": "military departure backup",
+          "when_to_use": "Military departures",
+          "source_url": null
+        }
+      ]
+    },
+    "Runways": {
+      "row_count": 1,
+      "rows": [
+        {
+          "airport_ident": "KORF",
+          "airport_name": "Norfolk Intl",
+          "runway": "05",
+          "operation": "northeast",
+          "lat": "36.8839",
+          "lon": "-76.2083",
+          "mag_heading": "048.7",
+          "ils_course": "047",
+          "active_arrival": true,
+          "active_departure": true,
+          "tower_freq": "120.8",
+          "departure_freq": "125.2",
+          "notes": "PRIMARY NE ops runway. Use for arrivals, departures, ILS,"
+        }
+      ]
+    },
+    "STARs_ORF05": {
+      "row_count": 13,
+      "rows": [
+        {
+          "flow_name": "KOHLS1_ORF05",
+          "airport_ident": "KORF",
+          "runway": "05",
+          "operation": "northeast",
+          "sequence": 1,
+          "fix_ident": "NUTZE",
+          "lat": "36.03",
+          "lon": "-76.85",
+          "altitude_min": "090",
+          "altitude_max": null,
+          "speed_max": "250",
+          "track_course": "060",
+          "expected_action": "descend_via",
+          "handoff_sector": "ZDC_TO_ORF_APP",
+          "notes": "Use NUTZE transition only when spawned from southwest/south."
+        },
+        {
+          "flow_name": "KOHLS1_ORF05",
+          "airport_ident": "KORF",
+          "runway": "05",
+          "operation": "northeast",
+          "sequence": 2,
+          "fix_ident": "DEENE",
+          "lat": "36.18",
+          "lon": "-76.29",
+          "altitude_min": "090",
+          "altitude_max": null,
+          "speed_max": "250",
+          "track_course": "069",
+          "expected_action": "descend_via",
+          "handoff_sector": "ORF_APP",
+          "notes": "Hold aircraft above 9,000 until KOHLS stream is established; then descend for sequencing."
+        },
+        {
+          "flow_name": "KOHLS1_ORF05",
+          "airport_ident": "KORF",
+          "runway": "05",
+          "operation": "northeast",
+          "sequence": 3,
+          "fix_ident": "KOHLS",
+          "lat": "36.41",
+          "lon": "-75.72",
+          "altitude_min": "090",
+          "altitude_max": null,
+          "speed_max": "250",
+          "track_course": "055",
+          "expected_action": "merge",
+          "handoff_sector": "ORF_APP",
+          "notes": "Primary arrival merge fix for KOHLS ONE."
+        },
+        {
+          "flow_name": "KOHLS1_ORF05",
+          "airport_ident": "KORF",
+          "runway": "05",
+          "operation": "northeast",
+          "sequence": 4,
+          "fix_ident": "DRONE",
+          "lat": "36.75",
+          "lon": "-76.23",
+          "altitude_min": "040",
+          "altitude_max": "060",
+          "speed_max": "220",
+          "track_course": "055",
+          "expected_action": "expect_vectors",
+          "handoff_sector": "ORF_APP",
+          "notes": "After DRONE, give radar vectors to RWY 05 final."
+        },
+        {
+          "flow_name": "KOHLS1_ORF05",
+          "airport_ident": "KORF",
+          "runway": "05",
+          "operation": "northeast",
+          "sequence": 5,
+          "fix_ident": "ORF05_VECTOR_BASE",
+          "lat": "36.78",
+          "lon": "-76.35",
+          "altitude_min": "030",
+          "altitude_max": "040",
+          "speed_max": "210",
+          "track_course": "090-140",
+          "expected_action": "vector_base",
+          "handoff_sector": "ORF_APP",
+          "notes": "Controller-created base leg. Turn aircraft southeast/east to intercept 047 localizer."
+        },
+        {
+          "flow_name": "KOHLS1_ORF05",
+          "airport_ident": "KORF",
+          "runway": "05",
+          "operation": "northeast",
+          "sequence": 6,
+          "fix_ident": "ORF05_INT",
+          "lat": "36.74",
+          "lon": "-76.37",
+          "altitude_min": "030",
+          "altitude_max": "030",
+          "speed_max": "180",
+          "track_course": "047",
+          "expected_action": "intercept_localizer",
+          "handoff_sector": "ORF_APP",
+          "notes": "12 NM final intercept gate; switch to ILS path sheet after this point."
+        },
+        {
+          "flow_name": "OUTLA1_ORF05",
+          "airport_ident": "KORF",
+          "runway": "05",
+          "operation": "northeast",
+          "sequence": 1,
+          "fix_ident": "HCM",
+          "lat": "36.76",
+          "lon": "-76.74",
+          "altitude_min": "050",
+          "altitude_max": "100",
+          "speed_max": "250",
+          "track_course": "226",
+          "expected_action": "descend_via",
+          "handoff_sector": "ZDC_TO_ORF_APP",
+          "notes": "Harcum transition stream from west/northwest."
+        },
+        {
+          "flow_name": "OUTLA1_ORF05",
+          "airport_ident": "KORF",
+          "runway": "05",
+          "operation": "northeast",
+          "sequence": 2,
+          "fix_ident": "TERKS",
+          "lat": "36.67",
+          "lon": "-76.42",
+          "altitude_min": "030",
+          "altitude_max": "080",
+          "speed_max": "240",
+          "track_course": "220",
+          "expected_action": "descend_via",
+          "handoff_sector": "ORF_APP",
+          "notes": "Reduce and descend for terminal merge."
+        },
+        {
+          "flow_name": "OUTLA1_ORF05",
+          "airport_ident": "KORF",
+          "runway": "05",
+          "operation": "northeast",
+          "sequence": 3,
+          "fix_ident": "STEIN",
+          "lat": "36.54",
+          "lon": "-76.09",
+          "altitude_min": "030",
+          "altitude_max": "050",
+          "speed_max": "230",
+          "track_course": "220",
+          "expected_action": "descend_via",
+          "handoff_sector": "ORF_APP",
+          "notes": "Set up east side vectoring."
+        },
+        {
+          "flow_name": "OUTLA1_ORF05",
+          "airport_ident": "KORF",
+          "runway": "05",
+          "operation": "northeast",
+          "sequence": 4,
+          "fix_ident": "OUTLA",
+          "lat": "36.74",
+          "lon": "-75.72",
+          "altitude_min": "030",
+          "altitude_max": "050",
+          "speed_max": "220",
+          "track_course": "291/142",
+          "expected_action": "merge",
+          "handoff_sector": "ORF_APP",
+          "notes": "OUTLA ONE merge fix; start sequencing to RWY 05."
+        },
+        {
+          "flow_name": "OUTLA1_ORF05",
+          "airport_ident": "KORF",
+          "runway": "05",
+          "operation": "northeast",
+          "sequence": 5,
+          "fix_ident": "MEEKA",
+          "lat": "36.72",
+          "lon": "-75.30",
+          "altitude_min": "030",
+          "altitude_max": "050",
+          "speed_max": "210",
+          "track_course": "142",
+          "expected_action": "expect_vectors",
+          "handoff_sector": "ORF_APP",
+          "notes": "Use this as east/northeast vector staging for RWY 05."
+        },
+        {
+          "flow_name": "OUTLA1_ORF05",
+          "airport_ident": "KORF",
+          "runway": "05",
+          "operation": "northeast",
+          "sequence": 6,
+          "fix_ident": "ORF05_VECTOR_DOWNWIND",
+          "lat": "36.86",
+          "lon": "-76.00",
+          "altitude_min": "030",
+          "altitude_max": "040",
+          "speed_max": "210",
+          "track_course": "230",
+          "expected_action": "vector_downwind",
+          "handoff_sector": "ORF_APP",
+          "notes": "Controller-created downwind/base vector; turn inbound to 047 final."
+        },
+        {
+          "flow_name": "OUTLA1_ORF05",
+          "airport_ident": "KORF",
+          "runway": "05",
+          "operation": "northeast",
+          "sequence": 7,
+          "fix_ident": "ORF05_INT",
+          "lat": "36.74",
+          "lon": "-76.37",
+          "altitude_min": "030",
+          "altitude_max": "030",
+          "speed_max": "180",
+          "track_course": "047",
+          "expected_action": "intercept_localizer",
+          "handoff_sector": "ORF_APP",
+          "notes": "12 NM final intercept gate; switch to ILS path sheet after this point."
+        }
+      ]
+    },
+    "SIDs_ORF05": {
+      "row_count": 12,
+      "rows": [
+        {
+          "sid_name": "HOLND1_ORF05",
+          "airport_ident": "KORF",
+          "runway": "05",
+          "operation": "northeast_departure",
+          "sequence": 1,
+          "fix_ident": "RW05",
+          "lat": "36.8839",
+          "lon": "-76.2083",
+          "altitude_min": "000",
+          "altitude_max": "005",
+          "speed_max": "210",
+          "heading_or_track": "047",
+          "expected_action": "takeoff",
+          "handoff_sector": "ORF_TWR",
+          "notes": "Climb runway heading 047 to 526 ft."
+        },
+        {
+          "sid_name": "HOLND1_ORF05",
+          "airport_ident": "KORF",
+          "runway": "05",
+          "operation": "northeast_departure",
+          "sequence": 2,
+          "fix_ident": "VABCH",
+          "lat": "36.98",
+          "lon": "-76.05",
+          "altitude_min": "020",
+          "altitude_max": null,
+          "speed_max": "250",
+          "heading_or_track": "047",
+          "expected_action": "radar_vector_cross",
+          "handoff_sector": "ORF_DEP",
+          "notes": "Cross VABCH at or above 2,000."
+        },
+        {
+          "sid_name": "HOLND1_ORF05",
+          "airport_ident": "KORF",
+          "runway": "05",
+          "operation": "northeast_departure",
+          "sequence": 3,
+          "fix_ident": "HOLND",
+          "lat": "37.12",
+          "lon": "-75.82",
+          "altitude_min": "040",
+          "altitude_max": "040",
+          "speed_max": "250",
+          "heading_or_track": "065",
+          "expected_action": "climb_via",
+          "handoff_sector": "ORF_DEP",
+          "notes": "Maintain 4,000; expect filed altitude 10 min after departure."
+        },
+        {
+          "sid_name": "HOLND1_ORF05",
+          "airport_ident": "KORF",
+          "runway": "05",
+          "operation": "northeast_departure",
+          "sequence": 4,
+          "fix_ident": "KALDA/ATLIC/OUTLA",
+          "lat": "37.40",
+          "lon": "-76.40",
+          "altitude_min": "040",
+          "altitude_max": null,
+          "speed_max": "280",
+          "heading_or_track": "assigned",
+          "expected_action": "resume_own_navigation",
+          "handoff_sector": "ZDC",
+          "notes": "Assigned transition; OUTLA transition for turboprops/props only."
+        },
+        {
+          "sid_name": "NUTIY1_ORF05",
+          "airport_ident": "KORF",
+          "runway": "05",
+          "operation": "northeast_departure",
+          "sequence": 1,
+          "fix_ident": "RW05",
+          "lat": "36.8839",
+          "lon": "-76.2083",
+          "altitude_min": "000",
+          "altitude_max": "005",
+          "speed_max": "210",
+          "heading_or_track": "047",
+          "expected_action": "takeoff",
+          "handoff_sector": "ORF_TWR",
+          "notes": "Climb runway heading 047 to 526 ft."
+        },
+        {
+          "sid_name": "NUTIY1_ORF05",
+          "airport_ident": "KORF",
+          "runway": "05",
+          "operation": "northeast_departure",
+          "sequence": 2,
+          "fix_ident": "SCTYP",
+          "lat": "36.77",
+          "lon": "-76.42",
+          "altitude_min": "020",
+          "altitude_max": null,
+          "speed_max": "250",
+          "heading_or_track": "047/assigned",
+          "expected_action": "radar_vector_cross",
+          "handoff_sector": "ORF_DEP",
+          "notes": "Cross SCTYP at or above 2,000."
+        },
+        {
+          "sid_name": "NUTIY1_ORF05",
+          "airport_ident": "KORF",
+          "runway": "05",
+          "operation": "northeast_departure",
+          "sequence": 3,
+          "fix_ident": "NUTIY",
+          "lat": "36.67",
+          "lon": "-77.08",
+          "altitude_min": "040",
+          "altitude_max": "040",
+          "speed_max": "250",
+          "heading_or_track": "279",
+          "expected_action": "climb_via",
+          "handoff_sector": "ORF_DEP",
+          "notes": "Maintain 4,000; expect filed altitude 10 min after departure."
+        },
+        {
+          "sid_name": "NUTIY1_ORF05",
+          "airport_ident": "KORF",
+          "runway": "05",
+          "operation": "northeast_departure",
+          "sequence": 4,
+          "fix_ident": "assigned_transition",
+          "lat": "36.50",
+          "lon": "-77.80",
+          "altitude_min": "040",
+          "altitude_max": null,
+          "speed_max": "280",
+          "heading_or_track": "assigned",
+          "expected_action": "resume_own_navigation",
+          "handoff_sector": "ZDC",
+          "notes": "Transition options include HCM/EYOBI/HYTRA/KELLE/PBCUP/RDU/SHLBK/THHMP; HCM turboprops/props only; THHMP assigned by ATC."
+        },
+        {
+          "sid_name": "SWOPE1_ORF05",
+          "airport_ident": "KORF",
+          "runway": "05",
+          "operation": "northeast_departure",
+          "sequence": 1,
+          "fix_ident": "RW05",
+          "lat": "36.8839",
+          "lon": "-76.2083",
+          "altitude_min": "000",
+          "altitude_max": "005",
+          "speed_max": "210",
+          "heading_or_track": "047",
+          "expected_action": "takeoff",
+          "handoff_sector": "ORF_TWR",
+          "notes": "Climb runway heading 047 to 526 ft."
+        },
+        {
+          "sid_name": "SWOPE1_ORF05",
+          "airport_ident": "KORF",
+          "runway": "05",
+          "operation": "northeast_departure",
+          "sequence": 2,
+          "fix_ident": "ECG/GUMPP area",
+          "lat": "36.45",
+          "lon": "-76.15",
+          "altitude_min": "020",
+          "altitude_max": "040",
+          "speed_max": "250",
+          "heading_or_track": "assigned",
+          "expected_action": "climb_via",
+          "handoff_sector": "ORF_DEP",
+          "notes": "Use for south/southeast/eastbound departures. Maintain 4,000 top altitude."
+        },
+        {
+          "sid_name": "SWOPE1_ORF05",
+          "airport_ident": "KORF",
+          "runway": "05",
+          "operation": "northeast_departure",
+          "sequence": 3,
+          "fix_ident": "SWOPE",
+          "lat": "35.90",
+          "lon": "-75.55",
+          "altitude_min": "040",
+          "altitude_max": "040",
+          "speed_max": "280",
+          "heading_or_track": "199/216/220/234",
+          "expected_action": "climb_via",
+          "handoff_sector": "ORF_DEP",
+          "notes": "RNAV1, RADAR required. Use assigned transition for routing."
+        },
+        {
+          "sid_name": "SWOPE1_ORF05",
+          "airport_ident": "KORF",
+          "runway": "05",
+          "operation": "northeast_departure",
+          "sequence": 4,
+          "fix_ident": "assigned_transition",
+          "lat": "35.50",
+          "lon": "-75.00",
+          "altitude_min": "040",
+          "altitude_max": null,
+          "speed_max": "300",
+          "heading_or_track": "assigned",
+          "expected_action": "resume_own_navigation",
+          "handoff_sector": "ZDC",
+          "notes": "Assign CHIEZ/ELLDE/JOHAR/KOOKI/PRONI/SKARP/GUMPP style route depending on exit direction."
+        }
+      ]
+    },
+    "Approach_ILS_RWY05": {
+      "row_count": 6,
+      "rows": [
+        {
+          "approach_name": "ILS_OR_LOC_RWY05",
+          "airport_ident": "KORF",
+          "runway": "05",
+          "operation": "northeast",
+          "sequence": 1,
+          "point_name": "CALEY",
+          "point_type": "IF / localizer intercept",
+          "lat": "36.740",
+          "lon": "-76.370",
+          "course": "047",
+          "altitude": "021",
+          "speed": "180",
+          "distance_nm_from_threshold": "12.6",
+          "event": "intercept_localizer",
+          "notes": "Use as first ILS capture point. Plate shows CALEY I-ORF 12.6, RADAR, 2100."
+        },
+        {
+          "approach_name": "ILS_OR_LOC_RWY05",
+          "airport_ident": "KORF",
+          "runway": "05",
+          "operation": "northeast",
+          "sequence": 2,
+          "point_name": "PEAAY",
+          "point_type": "FAF / GS intercept",
+          "lat": "36.804",
+          "lon": "-76.300",
+          "course": "047",
+          "altitude": "016",
+          "speed": "170",
+          "distance_nm_from_threshold": "6.3",
+          "event": "cleared_approach",
+          "notes": "FAF. Plate profile shows 1600 at PEAAY and FAF-to-MAP 4.8 NM."
+        },
+        {
+          "approach_name": "ILS_OR_LOC_RWY05",
+          "airport_ident": "KORF",
+          "runway": "05",
+          "operation": "northeast",
+          "sequence": 3,
+          "point_name": "ACUNO",
+          "point_type": "stepdown / check",
+          "lat": "36.838",
+          "lon": "-76.265",
+          "course": "047",
+          "altitude": "008",
+          "speed": "160",
+          "distance_nm_from_threshold": "3.9",
+          "event": "continue_descent",
+          "notes": "LOC/DME check point; use 820 ft as gate for LOC-only/check logic."
+        },
+        {
+          "approach_name": "ILS_OR_LOC_RWY05",
+          "airport_ident": "KORF",
+          "runway": "05",
+          "operation": "northeast",
+          "sequence": 4,
+          "point_name": "I-ORF_1.5",
+          "point_type": "short_final",
+          "lat": "36.870",
+          "lon": "-76.235",
+          "course": "047",
+          "altitude": "004",
+          "speed": "150",
+          "distance_nm_from_threshold": "1.5",
+          "event": "tower_handoff_gate",
+          "notes": "Use for short final stability check and tower handoff if not already switched."
+        },
+        {
+          "approach_name": "ILS_OR_LOC_RWY05",
+          "airport_ident": "KORF",
+          "runway": "05",
+          "operation": "northeast",
+          "sequence": 5,
+          "point_name": "RW05",
+          "point_type": "threshold",
+          "lat": "36.8839",
+          "lon": "-76.2083",
+          "course": "047",
+          "altitude": "000",
+          "speed": "140",
+          "distance_nm_from_threshold": "0.0",
+          "event": "land",
+          "notes": "Threshold/landing event. TDZE 26, runway landing distance listed 7809 on approach plate."
+        },
+        {
+          "approach_name": "ILS_OR_LOC_RWY05",
+          "airport_ident": "KORF",
+          "runway": "05",
+          "operation": "missed_approach",
+          "sequence": 6,
+          "point_name": "CCV",
+          "point_type": "missed_apch_fix",
+          "lat": "37.35",
+          "lon": "-75.99",
+          "course": "direct",
+          "altitude": "020",
+          "speed": "180",
+          "distance_nm_from_threshold": null,
+          "event": "missed_approach",
+          "notes": "Climb to 2000 direct Cape Charles CCV VORTAC and hold."
+        }
+      ]
+    },
+    "Visual_RWY05": {
+      "row_count": 4,
+      "rows": [
+        {
+          "visual_name": "RIVER_VISUAL_RWY05",
+          "airport_ident": "KORF",
+          "runway": "05",
+          "operation": "northeast",
+          "sequence": 1,
+          "point_name": "LAMBERTS_POINT_TERMINAL",
+          "point_type": "visual_entry",
+          "lat": "36.88",
+          "lon": "-76.32",
+          "course": "140",
+          "altitude": "025",
+          "speed": "180",
+          "distance_nm_from_threshold": "6.0",
+          "event": "radar_vectors_to_visual_entry",
+          "notes": "Radar vectors to Lamberts Point Terminal. Recommended 2500."
+        },
+        {
+          "visual_name": "RIVER_VISUAL_RWY05",
+          "airport_ident": "KORF",
+          "runway": "05",
+          "operation": "northeast",
+          "sequence": 2,
+          "point_name": "ELIZABETH_RIVER",
+          "point_type": "visual_track",
+          "lat": "36.86",
+          "lon": "-76.28",
+          "course": "140->047",
+          "altitude": "020",
+          "speed": "170",
+          "distance_nm_from_threshold": "4.5",
+          "event": "follow_river",
+          "notes": "Proceed visually along Elizabeth River to extended RWY 05 centerline."
+        },
+        {
+          "visual_name": "RIVER_VISUAL_RWY05",
+          "airport_ident": "KORF",
+          "runway": "05",
+          "operation": "northeast",
+          "sequence": 3,
+          "point_name": "EXTENDED_CENTERLINE",
+          "point_type": "visual_to_localizer",
+          "lat": "36.84",
+          "lon": "-76.25",
+          "course": "047",
+          "altitude": "016",
+          "speed": "160",
+          "distance_nm_from_threshold": "3.5",
+          "event": "join_extended_centerline",
+          "notes": "I-ORF and MALSR available for supplemental guidance."
+        },
+        {
+          "visual_name": "RIVER_VISUAL_RWY05",
+          "airport_ident": "KORF",
+          "runway": "05",
+          "operation": "northeast",
+          "sequence": 4,
+          "point_name": "RW05",
+          "point_type": "threshold",
+          "lat": "36.8839",
+          "lon": "-76.2083",
+          "course": "047",
+          "altitude": "000",
+          "speed": "140",
+          "distance_nm_from_threshold": "0.0",
+          "event": "land",
+          "notes": "Procedure not authorized at night; weather minimums 2100 ceiling and 5 miles visibility."
+        }
+      ]
+    },
+    "Approach_Menu": {
+      "row_count": 4,
+      "rows": [
+        {
+          "approach_name": "ILS OR LOC RWY 05",
+          "airport_ident": "KORF",
+          "runway": "05",
+          "operation": "northeast",
+          "type": "precision / localizer",
+          "use_in_sim": "PRIMARY instrument approach path",
+          "course": "047",
+          "vertical_guidance": "ILS GS 3.00 / TCH 56",
+          "night_allowed": "Yes",
+          "weather_minimum_note": "ILS minimums on chart; use ILS for IMC or default sim approach."
+        },
+        {
+          "approach_name": "RNAV (GPS) Z RWY 05",
+          "airport_ident": "KORF",
+          "runway": "05",
+          "operation": "northeast",
+          "type": "RNAV GPS",
+          "use_in_sim": "OPTIONAL later expansion",
+          "course": "approx 047",
+          "vertical_guidance": "LPV/LNAV if modeled",
+          "night_allowed": "Yes",
+          "weather_minimum_note": "Not included in first path; use for non-ILS expansion."
+        },
+        {
+          "approach_name": "RNAV (RNP) Y RWY 05",
+          "airport_ident": "KORF",
+          "runway": "05",
+          "operation": "northeast",
+          "type": "RNP",
+          "use_in_sim": "ADVANCED later expansion",
+          "course": "approx 047",
+          "vertical_guidance": "RNP/curved path if modeled",
+          "night_allowed": "Yes",
+          "weather_minimum_note": "Skip until core ILS works."
+        },
+        {
+          "approach_name": "River Visual RWY 05",
+          "airport_ident": "KORF",
+          "runway": "05",
+          "operation": "northeast",
+          "type": "visual",
+          "use_in_sim": "PRIMARY visual approach",
+          "course": "047 final",
+          "vertical_guidance": "visual + I-ORF/MALSR supplemental",
+          "night_allowed": "No",
+          "weather_minimum_note": "Radar required; 2100 ft ceiling and 5 SM visibility."
+        }
+      ]
+    },
+    "Sim_Logic": {
+      "row_count": 8,
+      "rows": [
+        {
+          "logic_area": "arrival_spawn",
+          "trigger_condition": "Aircraft enters KOHLS1/OUTLA1 route at first fix",
+          "aircraft_state_result": "STAR",
+          "controller_instruction": "descend via assigned STAR",
+          "game_rule": "Follow STAR sequence until expected_action = expect_vectors",
+          "notes": "Do not let sim aircraft free-roam after final STAR fix."
+        },
+        {
+          "logic_area": "vector_to_final",
+          "trigger_condition": "Aircraft reaches DRONE or MEEKA",
+          "aircraft_state_result": "VECTOR",
+          "controller_instruction": "fly heading assigned by controller",
+          "game_rule": "Use 210-220 kts; descend to 030 before intercept",
+          "notes": "Keep aircraft below 3000-4000 before localizer intercept."
+        },
+        {
+          "logic_area": "localizer_intercept",
+          "trigger_condition": "Within 12-13 NM final, assigned intercept heading within 30 degrees of 047",
+          "aircraft_state_result": "LOCALIZER_CAPTURE",
+          "controller_instruction": "join localizer runway 05",
+          "game_rule": "Snap lateral nav to ILS_OR_LOC_RWY05 path at CALEY or ORF05_INT",
+          "notes": "This fixes the running-around problem."
+        },
+        {
+          "logic_area": "approach_clearance",
+          "trigger_condition": "Aircraft inbound to CALEY/PEAAY and altitude 030 or below",
+          "aircraft_state_result": "APPROACH_CLEARED",
+          "controller_instruction": "maintain 030 until established, cleared ILS runway 05 approach",
+          "game_rule": "After established, descend on 3.00 degree slope",
+          "notes": "Glideslope altitude approx distance_nm * 300 + TDZE."
+        },
+        {
+          "logic_area": "FAF_gate",
+          "trigger_condition": "Aircraft crosses PEAAY 6.3 DME",
+          "aircraft_state_result": "GLIDESLOPE_CAPTURE",
+          "controller_instruction": "continue inbound",
+          "game_rule": "Altitude should be 016 and speed 170 or below",
+          "notes": "Stable by FAF."
+        },
+        {
+          "logic_area": "tower_handoff",
+          "trigger_condition": "Inside 5 NM final or at ACUNO/I-ORF 1.5 gate",
+          "aircraft_state_result": "TOWER",
+          "controller_instruction": "contact Norfolk Tower 120.8",
+          "game_rule": "No more approach vectors after this",
+          "notes": "Tower clears to land."
+        },
+        {
+          "logic_area": "landing",
+          "trigger_condition": "Aircraft distance 0.0 NM threshold and speed <= 150",
+          "aircraft_state_result": "LANDED",
+          "controller_instruction": "cleared to land",
+          "game_rule": "Remove target after touchdown/rollout",
+          "notes": "RWY 05 threshold event."
+        },
+        {
+          "logic_area": "departure",
+          "trigger_condition": "After takeoff RWY 05 passing 526 ft",
+          "aircraft_state_result": "DEP_CLIMB",
+          "controller_instruction": "contact Norfolk Departure 125.2",
+          "game_rule": "Use assigned SID sheet; top altitude 040",
+          "notes": "HOLND/NUTIY/SWOPE all use 4000 top altitude in current chart cycle."
+        }
+      ]
+    },
+    "Phraseology": {
+      "row_count": 7,
+      "rows": [
+        {
+          "command_type": "heading",
+          "phase": "vectoring",
+          "controller_phrase": "{callsign}, fly heading {heading}",
+          "pilot_readback": "Heading {heading}, {callsign}",
+          "required_fields": "callsign,heading",
+          "notes": "Basic vector to base/downwind/final."
+        },
+        {
+          "command_type": "altitude",
+          "phase": "vectoring",
+          "controller_phrase": "{callsign}, descend and maintain {altitude}",
+          "pilot_readback": "Descend and maintain {altitude}, {callsign}",
+          "required_fields": "callsign,altitude",
+          "notes": "Use 030 for 3000, 020 for 2000."
+        },
+        {
+          "command_type": "speed",
+          "phase": "sequencing",
+          "controller_phrase": "{callsign}, reduce speed to {speed}",
+          "pilot_readback": "Speed {speed}, {callsign}",
+          "required_fields": "callsign,speed",
+          "notes": "Use 210 downwind/base, 180 intercept, 170 FAF, 140 final."
+        },
+        {
+          "command_type": "localizer_intercept",
+          "phase": "final_vector",
+          "controller_phrase": "{callsign}, turn {turn_direction} heading {heading}, join the localizer runway 05",
+          "pilot_readback": "Heading {heading}, join localizer runway 05, {callsign}",
+          "required_fields": "callsign,turn_direction,heading",
+          "notes": "Use before approach clearance."
+        },
+        {
+          "command_type": "approach_clearance",
+          "phase": "approach",
+          "controller_phrase": "{callsign}, {distance} miles from {fix}, maintain {altitude} until established, cleared ILS runway 05 approach",
+          "pilot_readback": "Cleared ILS runway 05 approach, {callsign}",
+          "required_fields": "callsign,distance,fix,altitude",
+          "notes": "Example: 12 miles from CALEY, maintain 030 until established."
+        },
+        {
+          "command_type": "tower_handoff",
+          "phase": "tower",
+          "controller_phrase": "{callsign}, contact Norfolk Tower 120.8",
+          "pilot_readback": "Tower 120.8, {callsign}",
+          "required_fields": "callsign",
+          "notes": "Use inside 5 NM or after established inbound."
+        },
+        {
+          "command_type": "departure_handoff",
+          "phase": "departure",
+          "controller_phrase": "{callsign}, contact Norfolk Departure 125.2",
+          "pilot_readback": "Departure 125.2, {callsign}",
+          "required_fields": "callsign",
+          "notes": "After takeoff RWY 05."
+        }
+      ]
+    },
+    "Sources": {
+      "row_count": 10,
+      "rows": [
+        {
+          "source_name": "FAA d-TPP 2604 search results",
+          "url": "https://www.faa.gov/air_traffic/flight_info/aeronav/Digital_Products/dtpp/search/results/?cycle=2604&dir=asc&page=6&sort=city&state=VA",
+          "data_used": "Confirms current KORF procedures: KOHLS ONE, OUTLA ONE, HOLND ONE, NUTIY ONE, SWOPE ONE, ILS/LOC RWY 05, River Visual RWY 05, Airport Diagram."
+        },
+        {
+          "source_name": "FAA Airport Diagram KORF",
+          "url": "https://aeronav.faa.gov/d-tpp/2604/00291ad.pdf",
+          "data_used": "Runway length/width, headings, field elevation, tower/ground/ATIS, closed crosswind markings."
+        },
+        {
+          "source_name": "FAA ILS OR LOC RWY 05",
+          "url": "https://aeronav.faa.gov/d-tpp/2604/00291il5.pdf",
+          "data_used": "Localizer frequency/course, ILS path, CALEY/PEAAY/ACUNO, GS, TCH, FAF-to-MAP, missed approach, frequencies."
+        },
+        {
+          "source_name": "FAA River Visual RWY 05",
+          "url": "https://aeronav.faa.gov/d-tpp/2604/00291river_vis5.pdf",
+          "data_used": "Visual route, Lamberts Point Terminal, Elizabeth River, weather/night restrictions, frequencies."
+        },
+        {
+          "source_name": "FAA KOHLS ONE RNAV STAR",
+          "url": "https://aeronav.faa.gov/d-tpp/2604/00291kohls.pdf",
+          "data_used": "KOHLS arrival fix sequence and DRONE/vector-to-final instructions."
+        },
+        {
+          "source_name": "FAA OUTLA ONE RNAV STAR",
+          "url": "https://aeronav.faa.gov/d-tpp/2604/00291outla.pdf",
+          "data_used": "OUTLA arrival fix sequence, transition limitations, APP/ATIS information."
+        },
+        {
+          "source_name": "FAA HOLND ONE RNAV SID",
+          "url": "https://aeronav.faa.gov/d-tpp/2604/00291holnd.pdf",
+          "data_used": "RWY 05 departure heading, VABCH, HOLND, top altitude 4000, departure frequency."
+        },
+        {
+          "source_name": "FAA NUTIY ONE RNAV SID",
+          "url": "https://aeronav.faa.gov/d-tpp/2604/00291nutiy.pdf",
+          "data_used": "RWY 05 departure heading, SCTYP, NUTIY, top altitude 4000, departure frequency."
+        },
+        {
+          "source_name": "FAA SWOPE ONE RNAV SID",
+          "url": "https://aeronav.faa.gov/d-tpp/2604/00291swope.pdf",
+          "data_used": "SWOPE departure structure, top altitude 4000, departure frequency."
+        },
+        {
+          "source_name": "AirNav KORF",
+          "url": "https://www.airnav.com/airport/korf",
+          "data_used": "Cross-check of KORF communications/frequencies."
+        }
+      ]
+    },
+    "README": {
+      "row_count": 9,
+      "rows": [
+        {
+          "Purpose": "Recommended scenario",
+          "Specific, non-ambiguous sim dataset for KORF northeast operation using RWY 05.": "Arrivals: KOHLS1/OUTLA1 -> vectors -> ILS RWY 05. Departures: RWY 05 using HOLND1/NUTIY1/SWOPE1."
+        },
+        {
+          "Purpose": "Critical sim fix",
+          "Specific, non-ambiguous sim dataset for KORF northeast operation using RWY 05.": "Aircraft must transition from STAR to VECTOR to LOCALIZER_CAPTURE at CALEY/ORF05_INT. Do not use STAR points all the way to landing."
+        },
+        {
+          "Purpose": "Altitude format",
+          "Specific, non-ambiguous sim dataset for KORF northeast operation using RWY 05.": "030 = 3,000 ft; 040 = 4,000 ft; 016 = 1,600 ft."
+        },
+        {
+          "Purpose": "Coordinate note",
+          "Specific, non-ambiguous sim dataset for KORF northeast operation using RWY 05.": "Lat/lon values for runway/threshold are practical sim values; several procedure fixes are approximate for gameplay pathing. FAA source procedures govern names/courses/altitudes."
+        },
+        {
+          "Purpose": "Real-world use",
+          "Specific, non-ambiguous sim dataset for KORF northeast operation using RWY 05.": "Not for navigation. For simulation/game backend only."
+        },
+        {
+          "Purpose": "Primary path",
+          "Specific, non-ambiguous sim dataset for KORF northeast operation using RWY 05.": "Runways -> STARs_ORF05 -> Approach_ILS_RWY05 -> Phraseology -> Sim_Logic."
+        },
+        {
+          "Purpose": "Visual path",
+          "Specific, non-ambiguous sim dataset for KORF northeast operation using RWY 05.": "Visual_RWY05 may replace Approach_ILS_RWY05 only under VMC/day visual conditions."
+        },
+        {
+          "Purpose": "Departure path",
+          "Specific, non-ambiguous sim dataset for KORF northeast operation using RWY 05.": "Runways -> SIDs_ORF05 -> Frequencies. Tower 120.8 then Departure 125.2."
+        },
+        {
+          "Purpose": "Cycle referenced",
+          "Specific, non-ambiguous sim dataset for KORF northeast operation using RWY 05.": "FAA d-TPP 2604, effective 16 APR 2026 to 14 MAY 2026 as shown on PDFs."
+        }
+      ]
+    }
+  },
+  "overview": {
+    "airport_ident": "KORF",
+    "airport_name": "Norfolk International Airport",
+    "operation_mode": "NORTHEAST OPS - RWY 05 arrivals and RWY 05 departures",
+    "primary_arrival_runway": "05",
+    "primary_departure_runway": "05",
+    "runway_05_magnetic_heading": "048.7 airport diagram / 047 ILS course",
+    "ils_course": "047",
+    "localizer_frequency": "109.1 I-ORF Chan 28",
+    "glideslope": "3.00 degrees; TCH 56",
+    "sim_note": "Use the Approach_ILS_RWY05 sheet as the hard path. Use STAR/SID sheets only to feed aircraft toward vectors, then force localizer capture at CALEY/PEAAY/ORF05_INT gates."
+  },
+  "frequencies": [
+    {
+      "facility": "ATIS",
+      "frequency": "127.15",
+      "use_in_sim": "weather/arrival info",
+      "when_to_use": "Before clearance and approach setup",
+      "source_url": null
+    },
+    {
+      "facility": "Clearance Delivery",
+      "frequency": "118.5",
+      "use_in_sim": "IFR release/SID assignment",
+      "when_to_use": "Before taxi/departure",
+      "source_url": null
+    },
+    {
+      "facility": "Ground Control",
+      "frequency": "121.9",
+      "use_in_sim": "taxi/runway crossing",
+      "when_to_use": "Taxi to RWY 05 / after landing",
+      "source_url": null
+    },
+    {
+      "facility": "Norfolk Tower",
+      "frequency": "120.8",
+      "use_in_sim": "takeoff/landing clearance",
+      "when_to_use": "Runway 05 takeoff, landing, short final handoff",
+      "source_url": null
+    },
+    {
+      "facility": "Norfolk Tower UHF",
+      "frequency": "257.8",
+      "use_in_sim": "military tower backup",
+      "when_to_use": "Military traffic",
+      "source_url": null
+    },
+    {
+      "facility": "Norfolk Departure Control(DR1)",
+      "frequency": "125.2",
+      "use_in_sim": "departure initial control",
+      "when_to_use": "After tower handoff on SID",
+      "source_url": null
+    },
+    {
+      "facility": "Norfolk Departure UHF",
+      "frequency": "363.125",
+      "use_in_sim": "military departure backup",
+      "when_to_use": "Military departures",
+      "source_url": null
+    }
+  ],
+  "runways": [
+    {
+      "airport_ident": "KORF",
+      "airport_name": "Norfolk Intl",
+      "runway": "05",
+      "operation": "northeast",
+      "lat": "36.8839",
+      "lon": "-76.2083",
+      "mag_heading": "048.7",
+      "ils_course": "047",
+      "active_arrival": true,
+      "active_departure": true,
+      "tower_freq": "120.8",
+      "departure_freq": "125.2",
+      "notes": "PRIMARY NE ops runway. Use for arrivals, departures, ILS,"
+    }
+  ],
+  "stars": [
+    {
+      "flow_name": "KOHLS1_ORF05",
+      "airport_ident": "KORF",
+      "runway": "05",
+      "operation": "northeast",
+      "sequence": 1,
+      "fix_ident": "NUTZE",
+      "lat": "36.03",
+      "lon": "-76.85",
+      "altitude_min": "090",
+      "altitude_max": null,
+      "speed_max": "250",
+      "track_course": "060",
+      "expected_action": "descend_via",
+      "handoff_sector": "ZDC_TO_ORF_APP",
+      "notes": "Use NUTZE transition only when spawned from southwest/south."
+    },
+    {
+      "flow_name": "KOHLS1_ORF05",
+      "airport_ident": "KORF",
+      "runway": "05",
+      "operation": "northeast",
+      "sequence": 2,
+      "fix_ident": "DEENE",
+      "lat": "36.18",
+      "lon": "-76.29",
+      "altitude_min": "090",
+      "altitude_max": null,
+      "speed_max": "250",
+      "track_course": "069",
+      "expected_action": "descend_via",
+      "handoff_sector": "ORF_APP",
+      "notes": "Hold aircraft above 9,000 until KOHLS stream is established; then descend for sequencing."
+    },
+    {
+      "flow_name": "KOHLS1_ORF05",
+      "airport_ident": "KORF",
+      "runway": "05",
+      "operation": "northeast",
+      "sequence": 3,
+      "fix_ident": "KOHLS",
+      "lat": "36.41",
+      "lon": "-75.72",
+      "altitude_min": "090",
+      "altitude_max": null,
+      "speed_max": "250",
+      "track_course": "055",
+      "expected_action": "merge",
+      "handoff_sector": "ORF_APP",
+      "notes": "Primary arrival merge fix for KOHLS ONE."
+    },
+    {
+      "flow_name": "KOHLS1_ORF05",
+      "airport_ident": "KORF",
+      "runway": "05",
+      "operation": "northeast",
+      "sequence": 4,
+      "fix_ident": "DRONE",
+      "lat": "36.75",
+      "lon": "-76.23",
+      "altitude_min": "040",
+      "altitude_max": "060",
+      "speed_max": "220",
+      "track_course": "055",
+      "expected_action": "expect_vectors",
+      "handoff_sector": "ORF_APP",
+      "notes": "After DRONE, give radar vectors to RWY 05 final."
+    },
+    {
+      "flow_name": "KOHLS1_ORF05",
+      "airport_ident": "KORF",
+      "runway": "05",
+      "operation": "northeast",
+      "sequence": 5,
+      "fix_ident": "ORF05_VECTOR_BASE",
+      "lat": "36.78",
+      "lon": "-76.35",
+      "altitude_min": "030",
+      "altitude_max": "040",
+      "speed_max": "210",
+      "track_course": "090-140",
+      "expected_action": "vector_base",
+      "handoff_sector": "ORF_APP",
+      "notes": "Controller-created base leg. Turn aircraft southeast/east to intercept 047 localizer."
+    },
+    {
+      "flow_name": "KOHLS1_ORF05",
+      "airport_ident": "KORF",
+      "runway": "05",
+      "operation": "northeast",
+      "sequence": 6,
+      "fix_ident": "ORF05_INT",
+      "lat": "36.74",
+      "lon": "-76.37",
+      "altitude_min": "030",
+      "altitude_max": "030",
+      "speed_max": "180",
+      "track_course": "047",
+      "expected_action": "intercept_localizer",
+      "handoff_sector": "ORF_APP",
+      "notes": "12 NM final intercept gate; switch to ILS path sheet after this point."
+    },
+    {
+      "flow_name": "OUTLA1_ORF05",
+      "airport_ident": "KORF",
+      "runway": "05",
+      "operation": "northeast",
+      "sequence": 1,
+      "fix_ident": "HCM",
+      "lat": "36.76",
+      "lon": "-76.74",
+      "altitude_min": "050",
+      "altitude_max": "100",
+      "speed_max": "250",
+      "track_course": "226",
+      "expected_action": "descend_via",
+      "handoff_sector": "ZDC_TO_ORF_APP",
+      "notes": "Harcum transition stream from west/northwest."
+    },
+    {
+      "flow_name": "OUTLA1_ORF05",
+      "airport_ident": "KORF",
+      "runway": "05",
+      "operation": "northeast",
+      "sequence": 2,
+      "fix_ident": "TERKS",
+      "lat": "36.67",
+      "lon": "-76.42",
+      "altitude_min": "030",
+      "altitude_max": "080",
+      "speed_max": "240",
+      "track_course": "220",
+      "expected_action": "descend_via",
+      "handoff_sector": "ORF_APP",
+      "notes": "Reduce and descend for terminal merge."
+    },
+    {
+      "flow_name": "OUTLA1_ORF05",
+      "airport_ident": "KORF",
+      "runway": "05",
+      "operation": "northeast",
+      "sequence": 3,
+      "fix_ident": "STEIN",
+      "lat": "36.54",
+      "lon": "-76.09",
+      "altitude_min": "030",
+      "altitude_max": "050",
+      "speed_max": "230",
+      "track_course": "220",
+      "expected_action": "descend_via",
+      "handoff_sector": "ORF_APP",
+      "notes": "Set up east side vectoring."
+    },
+    {
+      "flow_name": "OUTLA1_ORF05",
+      "airport_ident": "KORF",
+      "runway": "05",
+      "operation": "northeast",
+      "sequence": 4,
+      "fix_ident": "OUTLA",
+      "lat": "36.74",
+      "lon": "-75.72",
+      "altitude_min": "030",
+      "altitude_max": "050",
+      "speed_max": "220",
+      "track_course": "291/142",
+      "expected_action": "merge",
+      "handoff_sector": "ORF_APP",
+      "notes": "OUTLA ONE merge fix; start sequencing to RWY 05."
+    },
+    {
+      "flow_name": "OUTLA1_ORF05",
+      "airport_ident": "KORF",
+      "runway": "05",
+      "operation": "northeast",
+      "sequence": 5,
+      "fix_ident": "MEEKA",
+      "lat": "36.72",
+      "lon": "-75.30",
+      "altitude_min": "030",
+      "altitude_max": "050",
+      "speed_max": "210",
+      "track_course": "142",
+      "expected_action": "expect_vectors",
+      "handoff_sector": "ORF_APP",
+      "notes": "Use this as east/northeast vector staging for RWY 05."
+    },
+    {
+      "flow_name": "OUTLA1_ORF05",
+      "airport_ident": "KORF",
+      "runway": "05",
+      "operation": "northeast",
+      "sequence": 6,
+      "fix_ident": "ORF05_VECTOR_DOWNWIND",
+      "lat": "36.86",
+      "lon": "-76.00",
+      "altitude_min": "030",
+      "altitude_max": "040",
+      "speed_max": "210",
+      "track_course": "230",
+      "expected_action": "vector_downwind",
+      "handoff_sector": "ORF_APP",
+      "notes": "Controller-created downwind/base vector; turn inbound to 047 final."
+    },
+    {
+      "flow_name": "OUTLA1_ORF05",
+      "airport_ident": "KORF",
+      "runway": "05",
+      "operation": "northeast",
+      "sequence": 7,
+      "fix_ident": "ORF05_INT",
+      "lat": "36.74",
+      "lon": "-76.37",
+      "altitude_min": "030",
+      "altitude_max": "030",
+      "speed_max": "180",
+      "track_course": "047",
+      "expected_action": "intercept_localizer",
+      "handoff_sector": "ORF_APP",
+      "notes": "12 NM final intercept gate; switch to ILS path sheet after this point."
+    }
+  ],
+  "sids": [
+    {
+      "sid_name": "HOLND1_ORF05",
+      "airport_ident": "KORF",
+      "runway": "05",
+      "operation": "northeast_departure",
+      "sequence": 1,
+      "fix_ident": "RW05",
+      "lat": "36.8839",
+      "lon": "-76.2083",
+      "altitude_min": "000",
+      "altitude_max": "005",
+      "speed_max": "210",
+      "heading_or_track": "047",
+      "expected_action": "takeoff",
+      "handoff_sector": "ORF_TWR",
+      "notes": "Climb runway heading 047 to 526 ft."
+    },
+    {
+      "sid_name": "HOLND1_ORF05",
+      "airport_ident": "KORF",
+      "runway": "05",
+      "operation": "northeast_departure",
+      "sequence": 2,
+      "fix_ident": "VABCH",
+      "lat": "36.98",
+      "lon": "-76.05",
+      "altitude_min": "020",
+      "altitude_max": null,
+      "speed_max": "250",
+      "heading_or_track": "047",
+      "expected_action": "radar_vector_cross",
+      "handoff_sector": "ORF_DEP",
+      "notes": "Cross VABCH at or above 2,000."
+    },
+    {
+      "sid_name": "HOLND1_ORF05",
+      "airport_ident": "KORF",
+      "runway": "05",
+      "operation": "northeast_departure",
+      "sequence": 3,
+      "fix_ident": "HOLND",
+      "lat": "37.12",
+      "lon": "-75.82",
+      "altitude_min": "040",
+      "altitude_max": "040",
+      "speed_max": "250",
+      "heading_or_track": "065",
+      "expected_action": "climb_via",
+      "handoff_sector": "ORF_DEP",
+      "notes": "Maintain 4,000; expect filed altitude 10 min after departure."
+    },
+    {
+      "sid_name": "HOLND1_ORF05",
+      "airport_ident": "KORF",
+      "runway": "05",
+      "operation": "northeast_departure",
+      "sequence": 4,
+      "fix_ident": "KALDA/ATLIC/OUTLA",
+      "lat": "37.40",
+      "lon": "-76.40",
+      "altitude_min": "040",
+      "altitude_max": null,
+      "speed_max": "280",
+      "heading_or_track": "assigned",
+      "expected_action": "resume_own_navigation",
+      "handoff_sector": "ZDC",
+      "notes": "Assigned transition; OUTLA transition for turboprops/props only."
+    },
+    {
+      "sid_name": "NUTIY1_ORF05",
+      "airport_ident": "KORF",
+      "runway": "05",
+      "operation": "northeast_departure",
+      "sequence": 1,
+      "fix_ident": "RW05",
+      "lat": "36.8839",
+      "lon": "-76.2083",
+      "altitude_min": "000",
+      "altitude_max": "005",
+      "speed_max": "210",
+      "heading_or_track": "047",
+      "expected_action": "takeoff",
+      "handoff_sector": "ORF_TWR",
+      "notes": "Climb runway heading 047 to 526 ft."
+    },
+    {
+      "sid_name": "NUTIY1_ORF05",
+      "airport_ident": "KORF",
+      "runway": "05",
+      "operation": "northeast_departure",
+      "sequence": 2,
+      "fix_ident": "SCTYP",
+      "lat": "36.77",
+      "lon": "-76.42",
+      "altitude_min": "020",
+      "altitude_max": null,
+      "speed_max": "250",
+      "heading_or_track": "047/assigned",
+      "expected_action": "radar_vector_cross",
+      "handoff_sector": "ORF_DEP",
+      "notes": "Cross SCTYP at or above 2,000."
+    },
+    {
+      "sid_name": "NUTIY1_ORF05",
+      "airport_ident": "KORF",
+      "runway": "05",
+      "operation": "northeast_departure",
+      "sequence": 3,
+      "fix_ident": "NUTIY",
+      "lat": "36.67",
+      "lon": "-77.08",
+      "altitude_min": "040",
+      "altitude_max": "040",
+      "speed_max": "250",
+      "heading_or_track": "279",
+      "expected_action": "climb_via",
+      "handoff_sector": "ORF_DEP",
+      "notes": "Maintain 4,000; expect filed altitude 10 min after departure."
+    },
+    {
+      "sid_name": "NUTIY1_ORF05",
+      "airport_ident": "KORF",
+      "runway": "05",
+      "operation": "northeast_departure",
+      "sequence": 4,
+      "fix_ident": "assigned_transition",
+      "lat": "36.50",
+      "lon": "-77.80",
+      "altitude_min": "040",
+      "altitude_max": null,
+      "speed_max": "280",
+      "heading_or_track": "assigned",
+      "expected_action": "resume_own_navigation",
+      "handoff_sector": "ZDC",
+      "notes": "Transition options include HCM/EYOBI/HYTRA/KELLE/PBCUP/RDU/SHLBK/THHMP; HCM turboprops/props only; THHMP assigned by ATC."
+    },
+    {
+      "sid_name": "SWOPE1_ORF05",
+      "airport_ident": "KORF",
+      "runway": "05",
+      "operation": "northeast_departure",
+      "sequence": 1,
+      "fix_ident": "RW05",
+      "lat": "36.8839",
+      "lon": "-76.2083",
+      "altitude_min": "000",
+      "altitude_max": "005",
+      "speed_max": "210",
+      "heading_or_track": "047",
+      "expected_action": "takeoff",
+      "handoff_sector": "ORF_TWR",
+      "notes": "Climb runway heading 047 to 526 ft."
+    },
+    {
+      "sid_name": "SWOPE1_ORF05",
+      "airport_ident": "KORF",
+      "runway": "05",
+      "operation": "northeast_departure",
+      "sequence": 2,
+      "fix_ident": "ECG/GUMPP area",
+      "lat": "36.45",
+      "lon": "-76.15",
+      "altitude_min": "020",
+      "altitude_max": "040",
+      "speed_max": "250",
+      "heading_or_track": "assigned",
+      "expected_action": "climb_via",
+      "handoff_sector": "ORF_DEP",
+      "notes": "Use for south/southeast/eastbound departures. Maintain 4,000 top altitude."
+    },
+    {
+      "sid_name": "SWOPE1_ORF05",
+      "airport_ident": "KORF",
+      "runway": "05",
+      "operation": "northeast_departure",
+      "sequence": 3,
+      "fix_ident": "SWOPE",
+      "lat": "35.90",
+      "lon": "-75.55",
+      "altitude_min": "040",
+      "altitude_max": "040",
+      "speed_max": "280",
+      "heading_or_track": "199/216/220/234",
+      "expected_action": "climb_via",
+      "handoff_sector": "ORF_DEP",
+      "notes": "RNAV1, RADAR required. Use assigned transition for routing."
+    },
+    {
+      "sid_name": "SWOPE1_ORF05",
+      "airport_ident": "KORF",
+      "runway": "05",
+      "operation": "northeast_departure",
+      "sequence": 4,
+      "fix_ident": "assigned_transition",
+      "lat": "35.50",
+      "lon": "-75.00",
+      "altitude_min": "040",
+      "altitude_max": null,
+      "speed_max": "300",
+      "heading_or_track": "assigned",
+      "expected_action": "resume_own_navigation",
+      "handoff_sector": "ZDC",
+      "notes": "Assign CHIEZ/ELLDE/JOHAR/KOOKI/PRONI/SKARP/GUMPP style route depending on exit direction."
+    }
+  ],
+  "approaches": [
+    {
+      "approach_name": "ILS_OR_LOC_RWY05",
+      "airport_ident": "KORF",
+      "runway": "05",
+      "operation": "northeast",
+      "sequence": 1,
+      "point_name": "CALEY",
+      "point_type": "IF / localizer intercept",
+      "lat": "36.740",
+      "lon": "-76.370",
+      "course": "047",
+      "altitude": "021",
+      "speed": "180",
+      "distance_nm_from_threshold": "12.6",
+      "event": "intercept_localizer",
+      "notes": "Use as first ILS capture point. Plate shows CALEY I-ORF 12.6, RADAR, 2100."
+    },
+    {
+      "approach_name": "ILS_OR_LOC_RWY05",
+      "airport_ident": "KORF",
+      "runway": "05",
+      "operation": "northeast",
+      "sequence": 2,
+      "point_name": "PEAAY",
+      "point_type": "FAF / GS intercept",
+      "lat": "36.804",
+      "lon": "-76.300",
+      "course": "047",
+      "altitude": "016",
+      "speed": "170",
+      "distance_nm_from_threshold": "6.3",
+      "event": "cleared_approach",
+      "notes": "FAF. Plate profile shows 1600 at PEAAY and FAF-to-MAP 4.8 NM."
+    },
+    {
+      "approach_name": "ILS_OR_LOC_RWY05",
+      "airport_ident": "KORF",
+      "runway": "05",
+      "operation": "northeast",
+      "sequence": 3,
+      "point_name": "ACUNO",
+      "point_type": "stepdown / check",
+      "lat": "36.838",
+      "lon": "-76.265",
+      "course": "047",
+      "altitude": "008",
+      "speed": "160",
+      "distance_nm_from_threshold": "3.9",
+      "event": "continue_descent",
+      "notes": "LOC/DME check point; use 820 ft as gate for LOC-only/check logic."
+    },
+    {
+      "approach_name": "ILS_OR_LOC_RWY05",
+      "airport_ident": "KORF",
+      "runway": "05",
+      "operation": "northeast",
+      "sequence": 4,
+      "point_name": "I-ORF_1.5",
+      "point_type": "short_final",
+      "lat": "36.870",
+      "lon": "-76.235",
+      "course": "047",
+      "altitude": "004",
+      "speed": "150",
+      "distance_nm_from_threshold": "1.5",
+      "event": "tower_handoff_gate",
+      "notes": "Use for short final stability check and tower handoff if not already switched."
+    },
+    {
+      "approach_name": "ILS_OR_LOC_RWY05",
+      "airport_ident": "KORF",
+      "runway": "05",
+      "operation": "northeast",
+      "sequence": 5,
+      "point_name": "RW05",
+      "point_type": "threshold",
+      "lat": "36.8839",
+      "lon": "-76.2083",
+      "course": "047",
+      "altitude": "000",
+      "speed": "140",
+      "distance_nm_from_threshold": "0.0",
+      "event": "land",
+      "notes": "Threshold/landing event. TDZE 26, runway landing distance listed 7809 on approach plate."
+    },
+    {
+      "approach_name": "ILS_OR_LOC_RWY05",
+      "airport_ident": "KORF",
+      "runway": "05",
+      "operation": "missed_approach",
+      "sequence": 6,
+      "point_name": "CCV",
+      "point_type": "missed_apch_fix",
+      "lat": "37.35",
+      "lon": "-75.99",
+      "course": "direct",
+      "altitude": "020",
+      "speed": "180",
+      "distance_nm_from_threshold": null,
+      "event": "missed_approach",
+      "notes": "Climb to 2000 direct Cape Charles CCV VORTAC and hold."
+    }
+  ],
+  "visuals": [
+    {
+      "visual_name": "RIVER_VISUAL_RWY05",
+      "airport_ident": "KORF",
+      "runway": "05",
+      "operation": "northeast",
+      "sequence": 1,
+      "point_name": "LAMBERTS_POINT_TERMINAL",
+      "point_type": "visual_entry",
+      "lat": "36.88",
+      "lon": "-76.32",
+      "course": "140",
+      "altitude": "025",
+      "speed": "180",
+      "distance_nm_from_threshold": "6.0",
+      "event": "radar_vectors_to_visual_entry",
+      "notes": "Radar vectors to Lamberts Point Terminal. Recommended 2500."
+    },
+    {
+      "visual_name": "RIVER_VISUAL_RWY05",
+      "airport_ident": "KORF",
+      "runway": "05",
+      "operation": "northeast",
+      "sequence": 2,
+      "point_name": "ELIZABETH_RIVER",
+      "point_type": "visual_track",
+      "lat": "36.86",
+      "lon": "-76.28",
+      "course": "140->047",
+      "altitude": "020",
+      "speed": "170",
+      "distance_nm_from_threshold": "4.5",
+      "event": "follow_river",
+      "notes": "Proceed visually along Elizabeth River to extended RWY 05 centerline."
+    },
+    {
+      "visual_name": "RIVER_VISUAL_RWY05",
+      "airport_ident": "KORF",
+      "runway": "05",
+      "operation": "northeast",
+      "sequence": 3,
+      "point_name": "EXTENDED_CENTERLINE",
+      "point_type": "visual_to_localizer",
+      "lat": "36.84",
+      "lon": "-76.25",
+      "course": "047",
+      "altitude": "016",
+      "speed": "160",
+      "distance_nm_from_threshold": "3.5",
+      "event": "join_extended_centerline",
+      "notes": "I-ORF and MALSR available for supplemental guidance."
+    },
+    {
+      "visual_name": "RIVER_VISUAL_RWY05",
+      "airport_ident": "KORF",
+      "runway": "05",
+      "operation": "northeast",
+      "sequence": 4,
+      "point_name": "RW05",
+      "point_type": "threshold",
+      "lat": "36.8839",
+      "lon": "-76.2083",
+      "course": "047",
+      "altitude": "000",
+      "speed": "140",
+      "distance_nm_from_threshold": "0.0",
+      "event": "land",
+      "notes": "Procedure not authorized at night; weather minimums 2100 ceiling and 5 miles visibility."
+    }
+  ],
+  "approach_menu": [
+    {
+      "approach_name": "ILS OR LOC RWY 05",
+      "airport_ident": "KORF",
+      "runway": "05",
+      "operation": "northeast",
+      "type": "precision / localizer",
+      "use_in_sim": "PRIMARY instrument approach path",
+      "course": "047",
+      "vertical_guidance": "ILS GS 3.00 / TCH 56",
+      "night_allowed": "Yes",
+      "weather_minimum_note": "ILS minimums on chart; use ILS for IMC or default sim approach."
+    },
+    {
+      "approach_name": "RNAV (GPS) Z RWY 05",
+      "airport_ident": "KORF",
+      "runway": "05",
+      "operation": "northeast",
+      "type": "RNAV GPS",
+      "use_in_sim": "OPTIONAL later expansion",
+      "course": "approx 047",
+      "vertical_guidance": "LPV/LNAV if modeled",
+      "night_allowed": "Yes",
+      "weather_minimum_note": "Not included in first path; use for non-ILS expansion."
+    },
+    {
+      "approach_name": "RNAV (RNP) Y RWY 05",
+      "airport_ident": "KORF",
+      "runway": "05",
+      "operation": "northeast",
+      "type": "RNP",
+      "use_in_sim": "ADVANCED later expansion",
+      "course": "approx 047",
+      "vertical_guidance": "RNP/curved path if modeled",
+      "night_allowed": "Yes",
+      "weather_minimum_note": "Skip until core ILS works."
+    },
+    {
+      "approach_name": "River Visual RWY 05",
+      "airport_ident": "KORF",
+      "runway": "05",
+      "operation": "northeast",
+      "type": "visual",
+      "use_in_sim": "PRIMARY visual approach",
+      "course": "047 final",
+      "vertical_guidance": "visual + I-ORF/MALSR supplemental",
+      "night_allowed": "No",
+      "weather_minimum_note": "Radar required; 2100 ft ceiling and 5 SM visibility."
+    }
+  ],
+  "sim_logic": [
+    {
+      "logic_area": "arrival_spawn",
+      "trigger_condition": "Aircraft enters KOHLS1/OUTLA1 route at first fix",
+      "aircraft_state_result": "STAR",
+      "controller_instruction": "descend via assigned STAR",
+      "game_rule": "Follow STAR sequence until expected_action = expect_vectors",
+      "notes": "Do not let sim aircraft free-roam after final STAR fix."
+    },
+    {
+      "logic_area": "vector_to_final",
+      "trigger_condition": "Aircraft reaches DRONE or MEEKA",
+      "aircraft_state_result": "VECTOR",
+      "controller_instruction": "fly heading assigned by controller",
+      "game_rule": "Use 210-220 kts; descend to 030 before intercept",
+      "notes": "Keep aircraft below 3000-4000 before localizer intercept."
+    },
+    {
+      "logic_area": "localizer_intercept",
+      "trigger_condition": "Within 12-13 NM final, assigned intercept heading within 30 degrees of 047",
+      "aircraft_state_result": "LOCALIZER_CAPTURE",
+      "controller_instruction": "join localizer runway 05",
+      "game_rule": "Snap lateral nav to ILS_OR_LOC_RWY05 path at CALEY or ORF05_INT",
+      "notes": "This fixes the running-around problem."
+    },
+    {
+      "logic_area": "approach_clearance",
+      "trigger_condition": "Aircraft inbound to CALEY/PEAAY and altitude 030 or below",
+      "aircraft_state_result": "APPROACH_CLEARED",
+      "controller_instruction": "maintain 030 until established, cleared ILS runway 05 approach",
+      "game_rule": "After established, descend on 3.00 degree slope",
+      "notes": "Glideslope altitude approx distance_nm * 300 + TDZE."
+    },
+    {
+      "logic_area": "FAF_gate",
+      "trigger_condition": "Aircraft crosses PEAAY 6.3 DME",
+      "aircraft_state_result": "GLIDESLOPE_CAPTURE",
+      "controller_instruction": "continue inbound",
+      "game_rule": "Altitude should be 016 and speed 170 or below",
+      "notes": "Stable by FAF."
+    },
+    {
+      "logic_area": "tower_handoff",
+      "trigger_condition": "Inside 5 NM final or at ACUNO/I-ORF 1.5 gate",
+      "aircraft_state_result": "TOWER",
+      "controller_instruction": "contact Norfolk Tower 120.8",
+      "game_rule": "No more approach vectors after this",
+      "notes": "Tower clears to land."
+    },
+    {
+      "logic_area": "landing",
+      "trigger_condition": "Aircraft distance 0.0 NM threshold and speed <= 150",
+      "aircraft_state_result": "LANDED",
+      "controller_instruction": "cleared to land",
+      "game_rule": "Remove target after touchdown/rollout",
+      "notes": "RWY 05 threshold event."
+    },
+    {
+      "logic_area": "departure",
+      "trigger_condition": "After takeoff RWY 05 passing 526 ft",
+      "aircraft_state_result": "DEP_CLIMB",
+      "controller_instruction": "contact Norfolk Departure 125.2",
+      "game_rule": "Use assigned SID sheet; top altitude 040",
+      "notes": "HOLND/NUTIY/SWOPE all use 4000 top altitude in current chart cycle."
+    }
+  ],
+  "phraseology": [
+    {
+      "command_type": "heading",
+      "phase": "vectoring",
+      "controller_phrase": "{callsign}, fly heading {heading}",
+      "pilot_readback": "Heading {heading}, {callsign}",
+      "required_fields": "callsign,heading",
+      "notes": "Basic vector to base/downwind/final."
+    },
+    {
+      "command_type": "altitude",
+      "phase": "vectoring",
+      "controller_phrase": "{callsign}, descend and maintain {altitude}",
+      "pilot_readback": "Descend and maintain {altitude}, {callsign}",
+      "required_fields": "callsign,altitude",
+      "notes": "Use 030 for 3000, 020 for 2000."
+    },
+    {
+      "command_type": "speed",
+      "phase": "sequencing",
+      "controller_phrase": "{callsign}, reduce speed to {speed}",
+      "pilot_readback": "Speed {speed}, {callsign}",
+      "required_fields": "callsign,speed",
+      "notes": "Use 210 downwind/base, 180 intercept, 170 FAF, 140 final."
+    },
+    {
+      "command_type": "localizer_intercept",
+      "phase": "final_vector",
+      "controller_phrase": "{callsign}, turn {turn_direction} heading {heading}, join the localizer runway 05",
+      "pilot_readback": "Heading {heading}, join localizer runway 05, {callsign}",
+      "required_fields": "callsign,turn_direction,heading",
+      "notes": "Use before approach clearance."
+    },
+    {
+      "command_type": "approach_clearance",
+      "phase": "approach",
+      "controller_phrase": "{callsign}, {distance} miles from {fix}, maintain {altitude} until established, cleared ILS runway 05 approach",
+      "pilot_readback": "Cleared ILS runway 05 approach, {callsign}",
+      "required_fields": "callsign,distance,fix,altitude",
+      "notes": "Example: 12 miles from CALEY, maintain 030 until established."
+    },
+    {
+      "command_type": "tower_handoff",
+      "phase": "tower",
+      "controller_phrase": "{callsign}, contact Norfolk Tower 120.8",
+      "pilot_readback": "Tower 120.8, {callsign}",
+      "required_fields": "callsign",
+      "notes": "Use inside 5 NM or after established inbound."
+    },
+    {
+      "command_type": "departure_handoff",
+      "phase": "departure",
+      "controller_phrase": "{callsign}, contact Norfolk Departure 125.2",
+      "pilot_readback": "Departure 125.2, {callsign}",
+      "required_fields": "callsign",
+      "notes": "After takeoff RWY 05."
+    }
+  ],
+  "sources": [
+    {
+      "source_name": "FAA d-TPP 2604 search results",
+      "url": "https://www.faa.gov/air_traffic/flight_info/aeronav/Digital_Products/dtpp/search/results/?cycle=2604&dir=asc&page=6&sort=city&state=VA",
+      "data_used": "Confirms current KORF procedures: KOHLS ONE, OUTLA ONE, HOLND ONE, NUTIY ONE, SWOPE ONE, ILS/LOC RWY 05, River Visual RWY 05, Airport Diagram."
+    },
+    {
+      "source_name": "FAA Airport Diagram KORF",
+      "url": "https://aeronav.faa.gov/d-tpp/2604/00291ad.pdf",
+      "data_used": "Runway length/width, headings, field elevation, tower/ground/ATIS, closed crosswind markings."
+    },
+    {
+      "source_name": "FAA ILS OR LOC RWY 05",
+      "url": "https://aeronav.faa.gov/d-tpp/2604/00291il5.pdf",
+      "data_used": "Localizer frequency/course, ILS path, CALEY/PEAAY/ACUNO, GS, TCH, FAF-to-MAP, missed approach, frequencies."
+    },
+    {
+      "source_name": "FAA River Visual RWY 05",
+      "url": "https://aeronav.faa.gov/d-tpp/2604/00291river_vis5.pdf",
+      "data_used": "Visual route, Lamberts Point Terminal, Elizabeth River, weather/night restrictions, frequencies."
+    },
+    {
+      "source_name": "FAA KOHLS ONE RNAV STAR",
+      "url": "https://aeronav.faa.gov/d-tpp/2604/00291kohls.pdf",
+      "data_used": "KOHLS arrival fix sequence and DRONE/vector-to-final instructions."
+    },
+    {
+      "source_name": "FAA OUTLA ONE RNAV STAR",
+      "url": "https://aeronav.faa.gov/d-tpp/2604/00291outla.pdf",
+      "data_used": "OUTLA arrival fix sequence, transition limitations, APP/ATIS information."
+    },
+    {
+      "source_name": "FAA HOLND ONE RNAV SID",
+      "url": "https://aeronav.faa.gov/d-tpp/2604/00291holnd.pdf",
+      "data_used": "RWY 05 departure heading, VABCH, HOLND, top altitude 4000, departure frequency."
+    },
+    {
+      "source_name": "FAA NUTIY ONE RNAV SID",
+      "url": "https://aeronav.faa.gov/d-tpp/2604/00291nutiy.pdf",
+      "data_used": "RWY 05 departure heading, SCTYP, NUTIY, top altitude 4000, departure frequency."
+    },
+    {
+      "source_name": "FAA SWOPE ONE RNAV SID",
+      "url": "https://aeronav.faa.gov/d-tpp/2604/00291swope.pdf",
+      "data_used": "SWOPE departure structure, top altitude 4000, departure frequency."
+    },
+    {
+      "source_name": "AirNav KORF",
+      "url": "https://www.airnav.com/airport/korf",
+      "data_used": "Cross-check of KORF communications/frequencies."
+    }
+  ]
+}

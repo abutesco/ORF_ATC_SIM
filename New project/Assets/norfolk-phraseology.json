@@ -1,0 +1,494 @@
+{
+  "source": "Norfolk_ATC_Sim_Phraseology (1).xlsx",
+  "row_count": 61,
+  "rows": [
+    {
+      "command_type": "heading",
+      "phase": "vectoring",
+      "controller_phrase": "{callsign}, fly heading {heading}",
+      "pilot_readback": "Heading {heading}, {callsign}",
+      "required_fields": "callsign,heading",
+      "notes": "Basic radar vector heading assignment."
+    },
+    {
+      "command_type": "turn_heading",
+      "phase": "vectoring",
+      "controller_phrase": "{callsign}, turn {turn_direction} heading {heading}",
+      "pilot_readback": "{turn_direction} heading {heading}, {callsign}",
+      "required_fields": "callsign,turn_direction,heading",
+      "notes": "Use when issuing a turn direction and assigned heading."
+    },
+    {
+      "command_type": "present_heading",
+      "phase": "vectoring",
+      "controller_phrase": "{callsign}, fly present heading",
+      "pilot_readback": "Present heading, {callsign}",
+      "required_fields": "callsign",
+      "notes": "Useful when freezing aircraft track."
+    },
+    {
+      "command_type": "resume_own_navigation",
+      "phase": "route",
+      "controller_phrase": "{callsign}, resume own navigation direct {fix}",
+      "pilot_readback": "Resume own navigation direct {fix}, {callsign}",
+      "required_fields": "callsign,fix",
+      "notes": "Release aircraft from vectors to a fix/route."
+    },
+    {
+      "command_type": "direct_fix",
+      "phase": "route",
+      "controller_phrase": "{callsign}, proceed direct {fix}",
+      "pilot_readback": "Direct {fix}, {callsign}",
+      "required_fields": "callsign,fix",
+      "notes": "Direct routing command for IFR aircraft."
+    },
+    {
+      "command_type": "altitude_climb",
+      "phase": "climb",
+      "controller_phrase": "{callsign}, climb and maintain {altitude}",
+      "pilot_readback": "Climb and maintain {altitude}, {callsign}",
+      "required_fields": "callsign,altitude",
+      "notes": "Basic climb instruction."
+    },
+    {
+      "command_type": "altitude_descend",
+      "phase": "descent",
+      "controller_phrase": "{callsign}, descend and maintain {altitude}",
+      "pilot_readback": "Descend and maintain {altitude}, {callsign}",
+      "required_fields": "callsign,altitude",
+      "notes": "Basic descent instruction."
+    },
+    {
+      "command_type": "altitude_maintain",
+      "phase": "enroute",
+      "controller_phrase": "{callsign}, maintain {altitude}",
+      "pilot_readback": "Maintain {altitude}, {callsign}",
+      "required_fields": "callsign,altitude",
+      "notes": "Basic altitude assignment."
+    },
+    {
+      "command_type": "pilot_discretion_descent",
+      "phase": "descent",
+      "controller_phrase": "{callsign}, descend at pilot's discretion, maintain {altitude}",
+      "pilot_readback": "Descend at pilot's discretion, maintain {altitude}, {callsign}",
+      "required_fields": "callsign,altitude",
+      "notes": "Sim optional; lets aircraft delay descent until user/pilot logic triggers."
+    },
+    {
+      "command_type": "expedite_climb",
+      "phase": "climb",
+      "controller_phrase": "{callsign}, expedite climb through {altitude}",
+      "pilot_readback": "Expedite climb through {altitude}, {callsign}",
+      "required_fields": "callsign,altitude",
+      "notes": "For conflict logic or required climb urgency."
+    },
+    {
+      "command_type": "expedite_descent",
+      "phase": "descent",
+      "controller_phrase": "{callsign}, expedite descent through {altitude}",
+      "pilot_readback": "Expedite descent through {altitude}, {callsign}",
+      "required_fields": "callsign,altitude",
+      "notes": "For conflict logic or required descent urgency."
+    },
+    {
+      "command_type": "speed_reduce",
+      "phase": "speed",
+      "controller_phrase": "{callsign}, reduce speed to {speed}",
+      "pilot_readback": "Reduce speed to {speed}, {callsign}",
+      "required_fields": "callsign,speed",
+      "notes": "Speed control in knots."
+    },
+    {
+      "command_type": "speed_increase",
+      "phase": "speed",
+      "controller_phrase": "{callsign}, increase speed to {speed}",
+      "pilot_readback": "Increase speed to {speed}, {callsign}",
+      "required_fields": "callsign,speed",
+      "notes": "Speed control in knots."
+    },
+    {
+      "command_type": "maintain_speed",
+      "phase": "speed",
+      "controller_phrase": "{callsign}, maintain {speed} knots",
+      "pilot_readback": "Maintain {speed} knots, {callsign}",
+      "required_fields": "callsign,speed",
+      "notes": "Assigned speed instruction."
+    },
+    {
+      "command_type": "delete_speed",
+      "phase": "speed",
+      "controller_phrase": "{callsign}, resume normal speed",
+      "pilot_readback": "Resume normal speed, {callsign}",
+      "required_fields": "callsign",
+      "notes": "Cancel assigned speed restriction."
+    },
+    {
+      "command_type": "minimum_speed",
+      "phase": "speed",
+      "controller_phrase": "{callsign}, maintain maximum forward speed",
+      "pilot_readback": "Maximum forward speed, {callsign}",
+      "required_fields": "callsign",
+      "notes": "Useful for departure or sequence compression."
+    },
+    {
+      "command_type": "traffic_advisory",
+      "phase": "separation",
+      "controller_phrase": "{callsign}, traffic {clock_position} o'clock, {distance} miles, {direction}, {aircraft_type}, {altitude}",
+      "pilot_readback": "Traffic in sight, {callsign}",
+      "required_fields": "callsign,clock_position,distance,direction,aircraft_type,altitude",
+      "notes": "Basic traffic call; readback may also be 'negative contact'."
+    },
+    {
+      "command_type": "traffic_no_factor",
+      "phase": "separation",
+      "controller_phrase": "{callsign}, traffic no factor",
+      "pilot_readback": "Traffic no factor, {callsign}",
+      "required_fields": "callsign",
+      "notes": "Terminates traffic advisory relevance."
+    },
+    {
+      "command_type": "visual_separation",
+      "phase": "separation",
+      "controller_phrase": "{callsign}, maintain visual separation from that traffic",
+      "pilot_readback": "Maintain visual separation, {callsign}",
+      "required_fields": "callsign",
+      "notes": "Use after pilot reports traffic in sight."
+    },
+    {
+      "command_type": "localizer_intercept",
+      "phase": "final_vector",
+      "controller_phrase": "{callsign}, turn {turn_direction} heading {heading}, join the localizer runway {runway}",
+      "pilot_readback": "Heading {heading}, join localizer runway {runway}, {callsign}",
+      "required_fields": "callsign,turn_direction,heading,runway",
+      "notes": "Vector to intercept localizer."
+    },
+    {
+      "command_type": "final_vector",
+      "phase": "final_vector",
+      "controller_phrase": "{callsign}, {distance} miles from {fix}, turn {turn_direction} heading {heading}, maintain {altitude} until established on the localizer, cleared ILS runway {runway} approach",
+      "pilot_readback": "{turn_direction} heading {heading}, maintain {altitude} until established, cleared ILS runway {runway} approach, {callsign}",
+      "required_fields": "callsign,distance,fix,turn_direction,heading,altitude,runway",
+      "notes": "Full final vector + approach clearance pattern."
+    },
+    {
+      "command_type": "approach_clearance",
+      "phase": "approach",
+      "controller_phrase": "{callsign}, {distance} miles from {fix}, maintain {altitude} until established, cleared ILS runway {runway} approach",
+      "pilot_readback": "Cleared ILS runway {runway} approach, {callsign}",
+      "required_fields": "callsign,distance,fix,altitude,runway",
+      "notes": "Approach clearance after aircraft can intercept final approach course."
+    },
+    {
+      "command_type": "visual_approach_clearance",
+      "phase": "approach",
+      "controller_phrase": "{callsign}, cleared visual approach runway {runway}",
+      "pilot_readback": "Cleared visual approach runway {runway}, {callsign}",
+      "required_fields": "callsign,runway",
+      "notes": "Visual approach clearance."
+    },
+    {
+      "command_type": "contact_tower_after_faf",
+      "phase": "approach",
+      "controller_phrase": "{callsign}, contact tower {frequency}",
+      "pilot_readback": "Tower {frequency}, {callsign}",
+      "required_fields": "callsign,frequency",
+      "notes": "Tower handoff during/after approach sequence."
+    },
+    {
+      "command_type": "tower_handoff",
+      "phase": "tower",
+      "controller_phrase": "{callsign}, contact tower {frequency}",
+      "pilot_readback": "Tower {frequency}, {callsign}",
+      "required_fields": "callsign,frequency",
+      "notes": "Generic approach-to-tower handoff."
+    },
+    {
+      "command_type": "contact_approach",
+      "phase": "handoff",
+      "controller_phrase": "{callsign}, contact approach {frequency}",
+      "pilot_readback": "Approach {frequency}, {callsign}",
+      "required_fields": "callsign,frequency",
+      "notes": "Radar handoff to approach control."
+    },
+    {
+      "command_type": "contact_departure",
+      "phase": "handoff",
+      "controller_phrase": "{callsign}, contact departure {frequency}",
+      "pilot_readback": "Departure {frequency}, {callsign}",
+      "required_fields": "callsign,frequency",
+      "notes": "Tower-to-departure handoff."
+    },
+    {
+      "command_type": "contact_center",
+      "phase": "handoff",
+      "controller_phrase": "{callsign}, contact center {frequency}",
+      "pilot_readback": "Center {frequency}, {callsign}",
+      "required_fields": "callsign,frequency",
+      "notes": "Approach-to-center handoff."
+    },
+    {
+      "command_type": "frequency_change_approved",
+      "phase": "handoff",
+      "controller_phrase": "{callsign}, frequency change approved",
+      "pilot_readback": "Frequency change approved, {callsign}",
+      "required_fields": "callsign",
+      "notes": "Cancel ATC comm requirement in VFR/sim free-flight context."
+    },
+    {
+      "command_type": "radar_contact",
+      "phase": "radar_identification",
+      "controller_phrase": "{callsign}, radar contact",
+      "pilot_readback": "Radar contact, {callsign}",
+      "required_fields": "callsign",
+      "notes": "Used when radar identification is established."
+    },
+    {
+      "command_type": "radar_contact_position",
+      "phase": "radar_identification",
+      "controller_phrase": "{callsign}, radar contact {position}",
+      "pilot_readback": "Radar contact {position}, {callsign}",
+      "required_fields": "callsign,position",
+      "notes": "Example position: 'five miles east of Norfolk'."
+    },
+    {
+      "command_type": "ident",
+      "phase": "radar_identification",
+      "controller_phrase": "{callsign}, ident",
+      "pilot_readback": "Ident, {callsign}",
+      "required_fields": "callsign",
+      "notes": "Squawk ident instruction."
+    },
+    {
+      "command_type": "squawk",
+      "phase": "beacon",
+      "controller_phrase": "{callsign}, squawk {code}",
+      "pilot_readback": "Squawk {code}, {callsign}",
+      "required_fields": "callsign,code",
+      "notes": "Assign transponder code."
+    },
+    {
+      "command_type": "squawk_altitude",
+      "phase": "beacon",
+      "controller_phrase": "{callsign}, squawk altitude",
+      "pilot_readback": "Squawk altitude, {callsign}",
+      "required_fields": "callsign",
+      "notes": "Mode C altitude reporting instruction."
+    },
+    {
+      "command_type": "altimeter",
+      "phase": "weather",
+      "controller_phrase": "{callsign}, altimeter {altimeter}",
+      "pilot_readback": "Altimeter {altimeter}, {callsign}",
+      "required_fields": "callsign,altimeter",
+      "notes": "Altimeter setting assignment."
+    },
+    {
+      "command_type": "atis",
+      "phase": "weather",
+      "controller_phrase": "{callsign}, information {atis_code} current",
+      "pilot_readback": "Information {atis_code} current, {callsign}",
+      "required_fields": "callsign,atis_code",
+      "notes": "Good for arrival/departure weather logic."
+    },
+    {
+      "command_type": "expect_runway",
+      "phase": "arrival",
+      "controller_phrase": "{callsign}, expect runway {runway}",
+      "pilot_readback": "Expect runway {runway}, {callsign}",
+      "required_fields": "callsign,runway",
+      "notes": "Used before vectors/approach setup."
+    },
+    {
+      "command_type": "expect_approach",
+      "phase": "arrival",
+      "controller_phrase": "{callsign}, expect {approach_type} runway {runway} approach",
+      "pilot_readback": "Expect {approach_type} runway {runway} approach, {callsign}",
+      "required_fields": "callsign,approach_type,runway",
+      "notes": "Assign expected approach type."
+    },
+    {
+      "command_type": "descend_via",
+      "phase": "arrival",
+      "controller_phrase": "{callsign}, descend via the {arrival_name} arrival",
+      "pilot_readback": "Descend via the {arrival_name} arrival, {callsign}",
+      "required_fields": "callsign,arrival_name",
+      "notes": "Arrival procedure descent clearance."
+    },
+    {
+      "command_type": "descend_via_except",
+      "phase": "arrival",
+      "controller_phrase": "{callsign}, descend via the {arrival_name} arrival, except maintain {altitude}",
+      "pilot_readback": "Descend via the {arrival_name} arrival, except maintain {altitude}, {callsign}",
+      "required_fields": "callsign,arrival_name,altitude",
+      "notes": "Use when overriding a published bottom altitude."
+    },
+    {
+      "command_type": "cleared_star",
+      "phase": "arrival",
+      "controller_phrase": "{callsign}, cleared {arrival_name} arrival",
+      "pilot_readback": "Cleared {arrival_name} arrival, {callsign}",
+      "required_fields": "callsign,arrival_name",
+      "notes": "STAR assignment/clearance for sim routing."
+    },
+    {
+      "command_type": "cross_fix_altitude",
+      "phase": "descent",
+      "controller_phrase": "{callsign}, cross {fix} at and maintain {altitude}",
+      "pilot_readback": "Cross {fix} at and maintain {altitude}, {callsign}",
+      "required_fields": "callsign,fix,altitude",
+      "notes": "Crossing restriction."
+    },
+    {
+      "command_type": "cross_fix_at_or_above",
+      "phase": "descent",
+      "controller_phrase": "{callsign}, cross {fix} at or above {altitude}",
+      "pilot_readback": "Cross {fix} at or above {altitude}, {callsign}",
+      "required_fields": "callsign,fix,altitude",
+      "notes": "Minimum crossing altitude."
+    },
+    {
+      "command_type": "cross_fix_at_or_below",
+      "phase": "descent",
+      "controller_phrase": "{callsign}, cross {fix} at or below {altitude}",
+      "pilot_readback": "Cross {fix} at or below {altitude}, {callsign}",
+      "required_fields": "callsign,fix,altitude",
+      "notes": "Maximum crossing altitude."
+    },
+    {
+      "command_type": "hold",
+      "phase": "holding",
+      "controller_phrase": "{callsign}, hold {direction} of {fix} on the {radial} radial, {leg_length}, maintain {altitude}, expect further clearance {efc_time}",
+      "pilot_readback": "Hold {direction} of {fix} on the {radial} radial, {leg_length}, maintain {altitude}, expect further clearance {efc_time}, {callsign}",
+      "required_fields": "callsign,direction,fix,radial,leg_length,altitude,efc_time",
+      "notes": "Basic holding instruction template."
+    },
+    {
+      "command_type": "hold_as_published",
+      "phase": "holding",
+      "controller_phrase": "{callsign}, hold as published over {fix}, maintain {altitude}, expect further clearance {efc_time}",
+      "pilot_readback": "Hold as published over {fix}, maintain {altitude}, expect further clearance {efc_time}, {callsign}",
+      "required_fields": "callsign,fix,altitude,efc_time",
+      "notes": "Published holding pattern."
+    },
+    {
+      "command_type": "cleared_takeoff",
+      "phase": "tower",
+      "controller_phrase": "{callsign}, runway {runway}, cleared for takeoff",
+      "pilot_readback": "Runway {runway}, cleared for takeoff, {callsign}",
+      "required_fields": "callsign,runway",
+      "notes": "Tower takeoff clearance."
+    },
+    {
+      "command_type": "line_up_wait",
+      "phase": "tower",
+      "controller_phrase": "{callsign}, runway {runway}, line up and wait",
+      "pilot_readback": "Runway {runway}, line up and wait, {callsign}",
+      "required_fields": "callsign,runway",
+      "notes": "Runway lineup instruction."
+    },
+    {
+      "command_type": "cleared_to_land",
+      "phase": "tower",
+      "controller_phrase": "{callsign}, runway {runway}, cleared to land",
+      "pilot_readback": "Runway {runway}, cleared to land, {callsign}",
+      "required_fields": "callsign,runway",
+      "notes": "Landing clearance."
+    },
+    {
+      "command_type": "go_around",
+      "phase": "tower",
+      "controller_phrase": "{callsign}, go around",
+      "pilot_readback": "Going around, {callsign}",
+      "required_fields": "callsign",
+      "notes": "Initiate missed approach/go-around."
+    },
+    {
+      "command_type": "cancel_landing_clearance",
+      "phase": "tower",
+      "controller_phrase": "{callsign}, cancel landing clearance",
+      "pilot_readback": "Landing clearance canceled, {callsign}",
+      "required_fields": "callsign",
+      "notes": "Use when runway unsafe/occupied."
+    },
+    {
+      "command_type": "taxi_to_runway",
+      "phase": "ground",
+      "controller_phrase": "{callsign}, taxi to runway {runway} via {taxi_route}",
+      "pilot_readback": "Taxi to runway {runway} via {taxi_route}, {callsign}",
+      "required_fields": "callsign,runway,taxi_route",
+      "notes": "Basic taxi clearance."
+    },
+    {
+      "command_type": "hold_short",
+      "phase": "ground",
+      "controller_phrase": "{callsign}, hold short of runway {runway}",
+      "pilot_readback": "Hold short of runway {runway}, {callsign}",
+      "required_fields": "callsign,runway",
+      "notes": "Runway hold short instruction requires readback."
+    },
+    {
+      "command_type": "cross_runway",
+      "phase": "ground",
+      "controller_phrase": "{callsign}, cross runway {runway}",
+      "pilot_readback": "Cross runway {runway}, {callsign}",
+      "required_fields": "callsign,runway",
+      "notes": "Runway crossing clearance."
+    },
+    {
+      "command_type": "taxi_parking",
+      "phase": "ground",
+      "controller_phrase": "{callsign}, taxi to parking via {taxi_route}",
+      "pilot_readback": "Taxi to parking via {taxi_route}, {callsign}",
+      "required_fields": "callsign,taxi_route",
+      "notes": "Taxi-in command."
+    },
+    {
+      "command_type": "unable",
+      "phase": "general",
+      "controller_phrase": "{callsign}, unable",
+      "pilot_readback": "Unable, {callsign}",
+      "required_fields": "callsign",
+      "notes": "Controller/pilot unable response pattern."
+    },
+    {
+      "command_type": "say_again",
+      "phase": "general",
+      "controller_phrase": "{callsign}, say again",
+      "pilot_readback": "Say again, {callsign}",
+      "required_fields": "callsign",
+      "notes": "Repeat request."
+    },
+    {
+      "command_type": "roger",
+      "phase": "general",
+      "controller_phrase": "{callsign}, roger",
+      "pilot_readback": "Roger, {callsign}",
+      "required_fields": "callsign",
+      "notes": "Acknowledgement only."
+    },
+    {
+      "command_type": "standby",
+      "phase": "general",
+      "controller_phrase": "{callsign}, standby",
+      "pilot_readback": "Standing by, {callsign}",
+      "required_fields": "callsign",
+      "notes": "Delay response/action."
+    },
+    {
+      "command_type": "verify_altitude",
+      "phase": "general",
+      "controller_phrase": "{callsign}, verify assigned altitude {altitude}",
+      "pilot_readback": "Assigned altitude {altitude}, {callsign}",
+      "required_fields": "callsign,altitude",
+      "notes": "Useful for training/sim validation."
+    },
+    {
+      "command_type": "verify_heading",
+      "phase": "general",
+      "controller_phrase": "{callsign}, verify heading {heading}",
+      "pilot_readback": "Heading {heading}, {callsign}",
+      "required_fields": "callsign,heading",
+      "notes": "Useful for training/sim validation."
+    }
+  ]
+}

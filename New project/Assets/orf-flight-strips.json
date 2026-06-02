@@ -1,0 +1,620 @@
+{
+  "source": "ORF_Flight_Strips_Departures_Overflights.xlsx",
+  "generated_at": "2026-05-30T00:32:28.809568+00:00",
+  "departures": [
+    {
+      "destination_airport": "ATL",
+      "destination_name": "Atlanta Hartsfield",
+      "sid_transition": "NUTIY1.EYOBI",
+      "jets_final_alt": "FL330",
+      "turboprops_final_alt": "FL250",
+      "props_final_alt": "110",
+      "route": "ORF..COUPN..BEETN..JIMAR..EYOBI..CEELY.Q172.YUTEE..SKWKR.SITTH2.KATL",
+      "strip_format": "ATL | JETS FL330 | TP FL250 | PROPS 110 | NUTIY1.EYOBI | route",
+      "notes": "Southwest stream; airline jet-heavy"
+    },
+    {
+      "destination_airport": "ATL",
+      "destination_name": "Atlanta Hartsfield",
+      "sid_transition": "NUTIY1.EYOBI",
+      "jets_final_alt": "FL330",
+      "turboprops_final_alt": "FL250",
+      "props_final_alt": "110",
+      "route": "ORF..COUPN..BEETN..JIMAR..EYOBI..CEELY.Q172.YUTEE..SKWKR.JJEDI3.KATL",
+      "strip_format": "ATL | JETS FL330 | TP FL250 | PROPS 110 | NUTIY1.EYOBI | route",
+      "notes": "Alternate ATL arrival route"
+    },
+    {
+      "destination_airport": "CLT",
+      "destination_name": "Charlotte Douglas",
+      "sid_transition": "NUTIY1.COUPN",
+      "jets_final_alt": "FL280",
+      "turboprops_final_alt": "FL210",
+      "props_final_alt": "090",
+      "route": "ORF..COUPN.CHSLY6.KCLT",
+      "strip_format": "CLT | JETS FL280 | TP FL210 | PROPS 090 | NUTIY1.COUPN | route",
+      "notes": "Southwest departure stream"
+    },
+    {
+      "destination_airport": "BWI",
+      "destination_name": "Baltimore/Washington",
+      "sid_transition": "NUTIY1.THHMP",
+      "jets_final_alt": "FL230",
+      "turboprops_final_alt": "170",
+      "props_final_alt": "090",
+      "route": "ORF..HPW..THHMP.RAVNN7.KBWI",
+      "strip_format": "BWI | JETS FL230 | TP 170 | PROPS 090 | NUTIY1.THHMP | route",
+      "notes": "Northwest short-haul route"
+    },
+    {
+      "destination_airport": "BWI",
+      "destination_name": "Baltimore/Washington",
+      "sid_transition": "NUTIY1.RIC",
+      "jets_final_alt": "FL210",
+      "turboprops_final_alt": "150",
+      "props_final_alt": "090",
+      "route": "ORF..HPW..RIC.RAVNN6.BWI",
+      "strip_format": "BWI | JETS FL210 | TP 150 | PROPS 090 | NUTIY1.RIC | route",
+      "notes": "Non-RNAV/legacy style route"
+    },
+    {
+      "destination_airport": "DCA",
+      "destination_name": "Washington National",
+      "sid_transition": "NUTIY1.THHMP",
+      "jets_final_alt": "170",
+      "turboprops_final_alt": "130",
+      "props_final_alt": "080",
+      "route": "ORF..HPW..THHMP.CAPSS2.DCA",
+      "strip_format": "DCA | JETS 170 | TP 130 | PROPS 080 | NUTIY1.THHMP | route",
+      "notes": "Short-haul jet route"
+    },
+    {
+      "destination_airport": "DCA",
+      "destination_name": "Washington National",
+      "sid_transition": "NUTIY1.RIC",
+      "jets_final_alt": "150",
+      "turboprops_final_alt": "110",
+      "props_final_alt": "080",
+      "route": "ORF..HPW..RIC.IRONS5.DCA",
+      "strip_format": "DCA | JETS 150 | TP 110 | PROPS 080 | NUTIY1.RIC | route",
+      "notes": "Prop/non-RNAV style route"
+    },
+    {
+      "destination_airport": "IAD",
+      "destination_name": "Washington Dulles",
+      "sid_transition": "NUTIY1.THHMP",
+      "jets_final_alt": "190",
+      "turboprops_final_alt": "150",
+      "props_final_alt": "090",
+      "route": "ORF..HPW..THHMP.CAVLR3.IAD",
+      "strip_format": "IAD | JETS 190 | TP 150 | PROPS 090 | NUTIY1.THHMP | route",
+      "notes": "Short-haul northwest departure"
+    },
+    {
+      "destination_airport": "ADW",
+      "destination_name": "Joint Base Andrews",
+      "sid_transition": "NUTIY1.THHMP",
+      "jets_final_alt": "170",
+      "turboprops_final_alt": "130",
+      "props_final_alt": "090",
+      "route": "ORF..HOUKY..THHMP.VUDOO2.KADW",
+      "strip_format": "ADW | JETS 170 | TP 130 | PROPS 090 | NUTIY1.THHMP | route",
+      "notes": "Military/government destination"
+    },
+    {
+      "destination_airport": "ADW",
+      "destination_name": "Joint Base Andrews",
+      "sid_transition": "NUTIY1.HCM",
+      "jets_final_alt": "150",
+      "turboprops_final_alt": "110",
+      "props_final_alt": "070/090",
+      "route": "ORF..HCM..COLIN..KADW",
+      "strip_format": "ADW | JETS 150 | TP 110 | PROPS 070/090 | NUTIY1.HCM | route",
+      "notes": "Harcum transition; props route"
+    },
+    {
+      "destination_airport": "EWR",
+      "destination_name": "Newark Liberty",
+      "sid_transition": "NUTIY1.PXT",
+      "jets_final_alt": "FL270",
+      "turboprops_final_alt": "FL190",
+      "props_final_alt": "110",
+      "route": "ORF..HPW.V213.PXT.PHILB03.EWR",
+      "strip_format": "EWR | JETS FL270 | TP FL190 | PROPS 110 | NUTIY1.PXT | route",
+      "notes": "Northeast metro route"
+    },
+    {
+      "destination_airport": "JFK",
+      "destination_name": "New York JFK",
+      "sid_transition": "HOLND1.SCHOL",
+      "jets_final_alt": "FL290",
+      "turboprops_final_alt": "FL210",
+      "props_final_alt": "110",
+      "route": "ORF..SCHOL.SBY200.J121.SIE.CAMRN4.JFK",
+      "strip_format": "JFK | JETS FL290 | TP FL210 | PROPS 110 | HOLND1.SCHOL | route",
+      "notes": "Northeast corridor route"
+    },
+    {
+      "destination_airport": "LGA",
+      "destination_name": "New York LaGuardia",
+      "sid_transition": "NUTIY1.PXT",
+      "jets_final_alt": "FL270",
+      "turboprops_final_alt": "FL190",
+      "props_final_alt": "110",
+      "route": "ORF..HPW..VIPKE.J14.PXT.KORRY3.LGA",
+      "strip_format": "LGA | JETS FL270 | TP FL190 | PROPS 110 | NUTIY1.PXT | route",
+      "notes": "Jets route"
+    },
+    {
+      "destination_airport": "LGA",
+      "destination_name": "New York LaGuardia",
+      "sid_transition": "NUTIY1.PXT",
+      "jets_final_alt": "FL230",
+      "turboprops_final_alt": "170",
+      "props_final_alt": "AOA 110",
+      "route": "ORF..HPW.V213.PXT.GATBY1.LGA",
+      "strip_format": "LGA | JETS FL230 | TP 170 | PROPS AOA110 | NUTIY1.PXT | route",
+      "notes": "Props route with AOA 110 note"
+    },
+    {
+      "destination_airport": "TEB",
+      "destination_name": "Teterboro",
+      "sid_transition": "HOLND1.SCHOL",
+      "jets_final_alt": "FL270",
+      "turboprops_final_alt": "FL190",
+      "props_final_alt": "110",
+      "route": "ORF..SCHOL..DUNFE.SBY.V29.MXE.V3.SBJ..TEB",
+      "strip_format": "TEB | JETS FL270 | TP FL190 | PROPS 110 | HOLND1.SCHOL | route",
+      "notes": "Jets northeast route"
+    },
+    {
+      "destination_airport": "TEB",
+      "destination_name": "Teterboro",
+      "sid_transition": "NUTIY1.PXT",
+      "jets_final_alt": "FL230",
+      "turboprops_final_alt": "170",
+      "props_final_alt": "110",
+      "route": "ORF..HPW.HPW025..J14.PXT.JAKIE3.TEB",
+      "strip_format": "TEB | JETS FL230 | TP 170 | PROPS 110 | NUTIY1.PXT | route",
+      "notes": "Props route"
+    },
+    {
+      "destination_airport": "TEB",
+      "destination_name": "Teterboro",
+      "sid_transition": "NUTIY1.PXT",
+      "jets_final_alt": "FL230",
+      "turboprops_final_alt": "170",
+      "props_final_alt": "110",
+      "route": "ORF..HPW.V213TAPPA..PXT.MAZIE2.TEB",
+      "strip_format": "TEB | JETS FL230 | TP 170 | PROPS 110 | NUTIY1.PXT | route",
+      "notes": "Alternate props route"
+    },
+    {
+      "destination_airport": "HPN",
+      "destination_name": "Westchester County",
+      "sid_transition": "HOLND1.SCHOL",
+      "jets_final_alt": "FL270",
+      "turboprops_final_alt": "FL190",
+      "props_final_alt": "110",
+      "route": "ORF..SCHOL.SBY200.J121.SIE.BOUNO4.HPN",
+      "strip_format": "HPN | JETS FL270 | TP FL190 | PROPS 110 | HOLND1.SCHOL | route",
+      "notes": "Jets route"
+    },
+    {
+      "destination_airport": "HPN",
+      "destination_name": "Westchester County",
+      "sid_transition": "HOLND1.SCHOL",
+      "jets_final_alt": "FL230",
+      "turboprops_final_alt": "170",
+      "props_final_alt": "110",
+      "route": "ORF..SCHOL.SBY200.V139.RICED.RICED4.HPN",
+      "strip_format": "HPN | JETS FL230 | TP 170 | PROPS 110 | HOLND1.SCHOL | route",
+      "notes": "Props route"
+    },
+    {
+      "destination_airport": "PHL",
+      "destination_name": "Philadelphia",
+      "sid_transition": "HOLND1.SCHOL",
+      "jets_final_alt": "FL230",
+      "turboprops_final_alt": "170",
+      "props_final_alt": "090",
+      "route": "ORF..SCHOL..DUNFE.J121.JIIME3.PHL",
+      "strip_format": "PHL | JETS FL230 | TP 170 | PROPS 090 | HOLND1.SCHOL | route",
+      "notes": "Northeast corridor"
+    },
+    {
+      "destination_airport": "BOS",
+      "destination_name": "Boston Logan",
+      "sid_transition": "HOLND1.KALDA",
+      "jets_final_alt": "FL350",
+      "turboprops_final_alt": "FL250",
+      "props_final_alt": "130",
+      "route": "ORF..SCHOL.KALDA.Q133.JFK.ROBUC3.KBOS",
+      "strip_format": "BOS | JETS FL350 | TP FL250 | PROPS 130 | HOLND1.KALDA | route",
+      "notes": "Longer northeast route"
+    },
+    {
+      "destination_airport": "DTW",
+      "destination_name": "Detroit Metro",
+      "sid_transition": "NUTIY1.KELLE",
+      "jets_final_alt": "FL340",
+      "turboprops_final_alt": "FL250",
+      "props_final_alt": "120",
+      "route": "ORF..WAIKS.ORF290.KELLE.MOL130.MOL.GEMNI3.DTW",
+      "strip_format": "DTW | JETS FL340 | TP FL250 | PROPS 120 | NUTIY1.KELLE | route",
+      "notes": "Northwest/west route"
+    },
+    {
+      "destination_airport": "ORD",
+      "destination_name": "Chicago O'Hare",
+      "sid_transition": "NUTIY1.KELLE",
+      "jets_final_alt": "FL360",
+      "turboprops_final_alt": "FL270",
+      "props_final_alt": "130",
+      "route": "ORF..WAIKS.ORF290.KELLE.MOL130.MOL..GEFFS.J179.FWA.WATSN2.ORD",
+      "strip_format": "ORD | JETS FL360 | TP FL270 | PROPS 130 | NUTIY1.KELLE | route",
+      "notes": "Long-haul northwest route"
+    },
+    {
+      "destination_airport": "STL",
+      "destination_name": "St. Louis",
+      "sid_transition": "NUTIY1.KELLE",
+      "jets_final_alt": "FL360",
+      "turboprops_final_alt": "FL270",
+      "props_final_alt": "130",
+      "route": "ORF..WAIKS.ORF290.KELLE.MOL130.MOL.J24.HVQ.J78.PXV.QBALL6.STL",
+      "strip_format": "STL | JETS FL360 | TP FL270 | PROPS 130 | NUTIY1.KELLE | route",
+      "notes": "Westbound route"
+    },
+    {
+      "destination_airport": "IAH",
+      "destination_name": "Houston Intercontinental",
+      "sid_transition": "NUTIY1.KELLE",
+      "jets_final_alt": "FL380",
+      "turboprops_final_alt": "FL270",
+      "props_final_alt": "130",
+      "route": "ORF..WAIKS.ORF290.KELLE..PSK.J22.VUZ..MISLE.Q40.AEX.DOOBI.IAH",
+      "strip_format": "IAH | JETS FL380 | TP FL270 | PROPS 130 | NUTIY1.KELLE | route",
+      "notes": "Long-haul southwest/west route"
+    },
+    {
+      "destination_airport": "MCO",
+      "destination_name": "Orlando International",
+      "sid_transition": "SWOPE1.CHS",
+      "jets_final_alt": "FL340",
+      "turboprops_final_alt": "FL250",
+      "props_final_alt": "110",
+      "route": "ORF.J174.CHS.J79.OMN.CWRLD4.MCO",
+      "strip_format": "MCO | JETS FL340 | TP FL250 | PROPS 110 | SWOPE1.CHS | route",
+      "notes": "South/coastal route"
+    },
+    {
+      "destination_airport": "FXE",
+      "destination_name": "Fort Lauderdale Executive",
+      "sid_transition": "SWOPE1.CHS",
+      "jets_final_alt": "FL370",
+      "turboprops_final_alt": "FL270",
+      "props_final_alt": "130",
+      "route": "ORF.J174.CHS..MILIE.J79.VRB.FISEL6.FXE",
+      "strip_format": "FXE | JETS FL370 | TP FL270 | PROPS 130 | SWOPE1.CHS | route",
+      "notes": "South Florida route"
+    },
+    {
+      "destination_airport": "APF/FMY/MKY/RSW",
+      "destination_name": "Southwest Florida Group",
+      "sid_transition": "NUTIY1.EYOBI",
+      "jets_final_alt": "FL370",
+      "turboprops_final_alt": "FL270",
+      "props_final_alt": "130",
+      "route": "ORF..COUPN..BEETN..JIMAR..DEEEZ.Q409.PUPYY.Q103.CYNTA.SHFTY6.KAPF",
+      "strip_format": "APF/FMY/MKY/RSW | JETS FL370 | TP FL270 | PROPS 130 | NUTIY1.EYOBI | route",
+      "notes": "Florida southwest group"
+    },
+    {
+      "destination_airport": "MRH",
+      "destination_name": "Beaufort/Morehead City",
+      "sid_transition": "SWOPE1.EWN",
+      "jets_final_alt": "150",
+      "turboprops_final_alt": "110",
+      "props_final_alt": "070",
+      "route": "ORF.V139.EWN..MRH",
+      "strip_format": "MRH | JETS 150 | TP 110 | PROPS 070 | SWOPE1.EWN | route",
+      "notes": "Short south/coastal prop route"
+    },
+    {
+      "destination_airport": "GSO",
+      "destination_name": "Greensboro",
+      "sid_transition": "NUTIY1.FKN",
+      "jets_final_alt": "FL230",
+      "turboprops_final_alt": "170",
+      "props_final_alt": "090",
+      "route": "ORF..FKN.V66.ARGAL..GSO",
+      "strip_format": "GSO | JETS FL230 | TP 170 | PROPS 090 | NUTIY1.FKN | route",
+      "notes": "Southwest regional route"
+    },
+    {
+      "destination_airport": "HEF",
+      "destination_name": "Manassas Regional",
+      "sid_transition": "NUTIY1.RIC",
+      "jets_final_alt": "150",
+      "turboprops_final_alt": "110",
+      "props_final_alt": "090",
+      "route": "ORF..HPW..RIC.V38.ROOKY..CSN..HEF",
+      "strip_format": "HEF | JETS 150 | TP 110 | PROPS 090 | NUTIY1.RIC | route",
+      "notes": "Northern Virginia GA/business route"
+    },
+    {
+      "destination_airport": "LNS",
+      "destination_name": "Lancaster",
+      "sid_transition": "NUTIY1.PXT",
+      "jets_final_alt": "170",
+      "turboprops_final_alt": "130",
+      "props_final_alt": "AOA 100",
+      "route": "ORF..HPW.V213.PXT.V93.GRACO..BWI..LNS",
+      "strip_format": "LNS | JETS 170 | TP 130 | PROPS AOA100 | NUTIY1.PXT | route",
+      "notes": "Prop/GA route"
+    },
+    {
+      "destination_airport": "LNS",
+      "destination_name": "Lancaster",
+      "sid_transition": "NUTIY1.HCM",
+      "jets_final_alt": "150",
+      "turboprops_final_alt": "110",
+      "props_final_alt": "070/090",
+      "route": "ORF..HCM.V33.COLIN.V213.PXT.V93.GRACO..BWI..LNS",
+      "strip_format": "LNS | JETS 150 | TP 110 | PROPS 070/090 | NUTIY1.HCM | route",
+      "notes": "Harcum transition route"
+    },
+    {
+      "destination_airport": "LNS",
+      "destination_name": "Lancaster",
+      "sid_transition": "HOLND1.SCHOL",
+      "jets_final_alt": "170",
+      "turboprops_final_alt": "130",
+      "props_final_alt": "090",
+      "route": "ORF..SCHOL.SBY200.SBY.V29.DQO..LRP..LNS",
+      "strip_format": "LNS | JETS 170 | TP 130 | PROPS 090 | HOLND1.SCHOL | route",
+      "notes": "Eastern/northeast route"
+    },
+    {
+      "destination_airport": "MTN",
+      "destination_name": "Martin State",
+      "sid_transition": "NUTIY1.HCM",
+      "jets_final_alt": "150",
+      "turboprops_final_alt": "110",
+      "props_final_alt": "070/090",
+      "route": "ORF..HCM.V33.COLIN.V213.PXT.V93.GRACO..MTN",
+      "strip_format": "MTN | JETS 150 | TP 110 | PROPS 070/090 | NUTIY1.HCM | route",
+      "notes": "Harcum transition route"
+    },
+    {
+      "destination_airport": "MTN",
+      "destination_name": "Martin State",
+      "sid_transition": "NUTIY1.PXT",
+      "jets_final_alt": "170",
+      "turboprops_final_alt": "130",
+      "props_final_alt": "090",
+      "route": "ORF..HPW.V213.PXT.V93.GRACO..MTN",
+      "strip_format": "MTN | JETS 170 | TP 130 | PROPS 090 | NUTIY1.PXT | route",
+      "notes": "PXT transition route"
+    },
+    {
+      "destination_airport": "NHK",
+      "destination_name": "Patuxent River NAS",
+      "sid_transition": "NUTIY1.HPW",
+      "jets_final_alt": "130",
+      "turboprops_final_alt": "110",
+      "props_final_alt": "AOA 100",
+      "route": "ORF..HPW.V213.NHK",
+      "strip_format": "NHK | JETS 130 | TP 110 | PROPS AOA100 | NUTIY1.HPW | route",
+      "notes": "Military/short route"
+    },
+    {
+      "destination_airport": "NHK",
+      "destination_name": "Patuxent River NAS",
+      "sid_transition": "NUTIY1.HCM",
+      "jets_final_alt": "130",
+      "turboprops_final_alt": "110",
+      "props_final_alt": "070/090",
+      "route": "ORF..HCM.V33.COLIN.V213.NHK",
+      "strip_format": "NHK | JETS 130 | TP 110 | PROPS 070/090 | NUTIY1.HCM | route",
+      "notes": "Harcum transition route"
+    },
+    {
+      "destination_airport": "NQX",
+      "destination_name": "Key West NAS",
+      "sid_transition": "SWOPE1.CHS",
+      "jets_final_alt": "FL370",
+      "turboprops_final_alt": "FL270",
+      "props_final_alt": "130",
+      "route": "NGU.J174..CHS..CRG..ORL..THUMP..NQX",
+      "strip_format": "NQX | JETS FL370 | TP FL270 | PROPS 130 | SWOPE1.CHS | route",
+      "notes": "Southside departures"
+    },
+    {
+      "destination_airport": "NQX",
+      "destination_name": "Key West NAS",
+      "sid_transition": "SWOPE1.FKN",
+      "jets_final_alt": "FL370",
+      "turboprops_final_alt": "FL270",
+      "props_final_alt": "130",
+      "route": "LFI..FKN.FKN196.WEAVR.J121.CHS..CRG..ORL..THUMP..NQX",
+      "strip_format": "NQX | JETS FL370 | TP FL270 | PROPS 130 | SWOPE1.FKN | route",
+      "notes": "From Peninsula"
+    }
+  ],
+  "overflights": [
+    {
+      "overflight_id": "OVF001",
+      "direction": "NW_TO_SE",
+      "aircraft_class": "JET",
+      "sample_callsign": "AAL452",
+      "entry_fix": "PXT",
+      "exit_fix": "ECG",
+      "assigned_altitude": "FL310",
+      "route_segment": "PXT..ORF..ECG",
+      "strip_format": "AAL452 | JET | PXT->ECG | FL310 | overflight",
+      "notes": "High-altitude overflight through east side"
+    },
+    {
+      "overflight_id": "OVF002",
+      "direction": "SE_TO_NW",
+      "aircraft_class": "JET",
+      "sample_callsign": "DAL883",
+      "entry_fix": "ECG",
+      "exit_fix": "PXT",
+      "assigned_altitude": "FL320",
+      "route_segment": "ECG..ORF..PXT",
+      "strip_format": "DAL883 | JET | ECG->PXT | FL320 | overflight",
+      "notes": "Opposite-direction overflight"
+    },
+    {
+      "overflight_id": "OVF003",
+      "direction": "W_TO_E",
+      "aircraft_class": "TURBOPROP",
+      "sample_callsign": "N721PC",
+      "entry_fix": "RIC",
+      "exit_fix": "OUTLA",
+      "assigned_altitude": "170",
+      "route_segment": "RIC..ORF..OUTLA",
+      "strip_format": "N721PC | TP | RIC->OUTLA | 170 | overflight",
+      "notes": "Turboprop eastbound"
+    },
+    {
+      "overflight_id": "OVF004",
+      "direction": "E_TO_W",
+      "aircraft_class": "TURBOPROP",
+      "sample_callsign": "N315KA",
+      "entry_fix": "OUTLA",
+      "exit_fix": "RIC",
+      "assigned_altitude": "160",
+      "route_segment": "OUTLA..ORF..RIC",
+      "strip_format": "N315KA | TP | OUTLA->RIC | 160 | overflight",
+      "notes": "Turboprop westbound"
+    },
+    {
+      "overflight_id": "OVF005",
+      "direction": "N_TO_S",
+      "aircraft_class": "PROP",
+      "sample_callsign": "N435SR",
+      "entry_fix": "SBY",
+      "exit_fix": "ECG",
+      "assigned_altitude": "090",
+      "route_segment": "SBY..ORF..ECG",
+      "strip_format": "N435SR | PROP | SBY->ECG | 090 | overflight",
+      "notes": "Low altitude GA overflight"
+    },
+    {
+      "overflight_id": "OVF006",
+      "direction": "S_TO_N",
+      "aircraft_class": "PROP",
+      "sample_callsign": "N822VA",
+      "entry_fix": "ECG",
+      "exit_fix": "SBY",
+      "assigned_altitude": "100",
+      "route_segment": "ECG..ORF..SBY",
+      "strip_format": "N822VA | PROP | ECG->SBY | 100 | overflight",
+      "notes": "Northbound GA overflight"
+    },
+    {
+      "overflight_id": "OVF007",
+      "direction": "MIL_EAST",
+      "aircraft_class": "MILITARY",
+      "sample_callsign": "VV301",
+      "entry_fix": "NGU",
+      "exit_fix": "ATLIC",
+      "assigned_altitude": "080",
+      "route_segment": "NGU..ATLIC",
+      "strip_format": "VV301 | MIL | NGU->ATLIC | 080 | overflight",
+      "notes": "Military offshore transition"
+    },
+    {
+      "overflight_id": "OVF008",
+      "direction": "MIL_WEST",
+      "aircraft_class": "MILITARY",
+      "sample_callsign": "RAPTOR11",
+      "entry_fix": "LFI",
+      "exit_fix": "HCM",
+      "assigned_altitude": "120",
+      "route_segment": "LFI..HCM",
+      "strip_format": "RAPTOR11 | MIL | LFI->HCM | 120 | overflight",
+      "notes": "Langley westbound transition"
+    },
+    {
+      "overflight_id": "OVF009",
+      "direction": "COASTAL",
+      "aircraft_class": "JET",
+      "sample_callsign": "JBU721",
+      "entry_fix": "SIE",
+      "exit_fix": "CHS",
+      "assigned_altitude": "FL340",
+      "route_segment": "SIE..ORF..CHS",
+      "strip_format": "JBU721 | JET | SIE->CHS | FL340 | overflight",
+      "notes": "Coastal north-south airline"
+    },
+    {
+      "overflight_id": "OVF010",
+      "direction": "COASTAL",
+      "aircraft_class": "JET",
+      "sample_callsign": "UAL1826",
+      "entry_fix": "CHS",
+      "exit_fix": "SIE",
+      "assigned_altitude": "FL350",
+      "route_segment": "CHS..ORF..SIE",
+      "strip_format": "UAL1826 | JET | CHS->SIE | FL350 | overflight",
+      "notes": "Coastal south-north airline"
+    }
+  ],
+  "altitude_rules": [
+    {
+      "aircraft_class": "JETS",
+      "short_range": "130-190 or FL190-FL230",
+      "medium_range": "FL240-FL310",
+      "long_range": "FL330-FL390",
+      "notes": "Use IFR cruising direction logic later if desired."
+    },
+    {
+      "aircraft_class": "TURBOPROPS",
+      "short_range": "090-170",
+      "medium_range": "FL180-FL250",
+      "long_range": "FL250-FL270",
+      "notes": "PC12/BE20/C208 style aircraft."
+    },
+    {
+      "aircraft_class": "PROPS",
+      "short_range": "050-110",
+      "medium_range": "090-130",
+      "long_range": "110-150",
+      "notes": "Light GA generally lower and slower."
+    },
+    {
+      "aircraft_class": "MILITARY",
+      "short_range": "080-FL180",
+      "medium_range": "FL190-FL300",
+      "long_range": "FL300+",
+      "notes": "Depends on aircraft type and mission."
+    }
+  ],
+  "aircraft_class_key": [
+    {
+      "class": "JETS",
+      "aircraft_examples": "A320, A321, B737, B738, E175, CRJ7, CRJ9, B752",
+      "sim_use": "Airline/regional/business jet IFR departures"
+    },
+    {
+      "class": "TURBOPROPS",
+      "aircraft_examples": "BE20, PC12, C208, BE58",
+      "sim_use": "Business turboprops, commuter, utility"
+    },
+    {
+      "class": "PROPS",
+      "aircraft_examples": "C172, PA28, C182, SR22, BE36",
+      "sim_use": "GA and local IFR/VFR departures"
+    },
+    {
+      "class": "MILITARY",
+      "aircraft_examples": "F22, FA18E/F, C130, C40, MH60, P8",
+      "sim_use": "Military base traffic and overflights"
+    }
+  ]
+}

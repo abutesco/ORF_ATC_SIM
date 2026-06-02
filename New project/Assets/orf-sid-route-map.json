@@ -1,0 +1,551 @@
+{
+  "routes": [
+    {
+      "aircraft_type": "",
+      "alt": "",
+      "destinations": [
+        "ADW"
+      ],
+      "meaning": "NUTIY ONE departure via THHMP transition",
+      "notes": "THHMP transition",
+      "route": "ORF..HOUKY..THHMP.VUDOO2.KADW",
+      "sid": "NUTIY1",
+      "sid_transition": "NUTIY1.THHMP",
+      "transition": "THHMP"
+    },
+    {
+      "aircraft_type": "Props",
+      "alt": "070/090",
+      "destinations": [
+        "ADW"
+      ],
+      "meaning": "NUTIY ONE departure via Harcum/HCM transition",
+      "notes": "Harcum transition",
+      "route": "ORF..HCM..COLIN..KADW",
+      "sid": "NUTIY1",
+      "sid_transition": "NUTIY1.HCM",
+      "transition": "HCM"
+    },
+    {
+      "aircraft_type": "",
+      "alt": "",
+      "destinations": [
+        "APF",
+        "FMY",
+        "MKY",
+        "RSW"
+      ],
+      "meaning": "NUTIY ONE departure via EYOBI transition",
+      "notes": "Southwest stream; mapped to EYOBI/NUTIY family",
+      "route": "ORF..COUPN..BEETN..JIMAR..DEEEZ.Q409.PUPYY.Q103.CYNTA.SHFTY6.KAPF",
+      "sid": "NUTIY1",
+      "sid_transition": "NUTIY1.EYOBI",
+      "transition": "EYOBI"
+    },
+    {
+      "aircraft_type": "",
+      "alt": "",
+      "destinations": [
+        "ATL"
+      ],
+      "meaning": "NUTIY ONE departure via EYOBI transition",
+      "notes": "EYOBI transition",
+      "route": "ORF..COUPN..BEETN..JIMAR..EYOBI..CEELY.Q172.YUTEE..SKWKR.SITTH2.KATL",
+      "sid": "NUTIY1",
+      "sid_transition": "NUTIY1.EYOBI",
+      "transition": "EYOBI"
+    },
+    {
+      "aircraft_type": "",
+      "alt": "",
+      "destinations": [
+        "ATL"
+      ],
+      "meaning": "NUTIY ONE departure via EYOBI transition",
+      "notes": "EYOBI transition",
+      "route": "ORF..COUPN..BEETN..JIMAR..EYOBI..CEELY.Q172.YUTEE..SKWKR.JJEDI3.KATL",
+      "sid": "NUTIY1",
+      "sid_transition": "NUTIY1.EYOBI",
+      "transition": "EYOBI"
+    },
+    {
+      "aircraft_type": "",
+      "alt": "",
+      "destinations": [
+        "BOS"
+      ],
+      "meaning": "HOLND ONE departure via KALDA transition",
+      "notes": "KALDA transition",
+      "route": "ORF..SCHOL.KALDA.Q133.JFK.ROBUC3.KBOS",
+      "sid": "HOLND1",
+      "sid_transition": "HOLND1.KALDA",
+      "transition": "KALDA"
+    },
+    {
+      "aircraft_type": "",
+      "alt": "",
+      "destinations": [
+        "ZDC"
+      ],
+      "meaning": "HOLND ONE departure via ATLIIC transition",
+      "notes": "ATLIC/ATLIIC transition; after HOLND heading 118 over ATLIIC then outbound",
+      "route": "ORF..HOLND..ATLIIC..ZDC",
+      "sid": "HOLND1",
+      "sid_transition": "HOLND1.ATLIC",
+      "transition": "ATLIC"
+    },
+    {
+      "aircraft_type": "",
+      "alt": "",
+      "destinations": [
+        "BWI"
+      ],
+      "meaning": "NUTIY ONE departure via THHMP transition",
+      "notes": "THHMP transition",
+      "route": "ORF..HPW..THHMP.RAVNN7.KBWI",
+      "sid": "NUTIY1",
+      "sid_transition": "NUTIY1.THHMP",
+      "transition": "THHMP"
+    },
+    {
+      "aircraft_type": "",
+      "alt": "",
+      "destinations": [
+        "BWI"
+      ],
+      "meaning": "",
+      "notes": "RIC transition / best sim mapping",
+      "route": "ORF..HPW..RIC.RAVNN6.BWI",
+      "sid": "NUTIY1",
+      "sid_transition": "NUTIY1.RIC",
+      "transition": "RIC"
+    },
+    {
+      "aircraft_type": "",
+      "alt": "",
+      "destinations": [
+        "CLT"
+      ],
+      "meaning": "",
+      "notes": "COUPN transition / southwest stream",
+      "route": "ORF..COUPN.CHSLY6.KCLT",
+      "sid": "NUTIY1",
+      "sid_transition": "NUTIY1.COUPN",
+      "transition": "COUPN"
+    },
+    {
+      "aircraft_type": "Jets",
+      "alt": "",
+      "destinations": [
+        "DCA"
+      ],
+      "meaning": "NUTIY ONE departure via THHMP transition",
+      "notes": "THHMP transition",
+      "route": "ORF..HPW..THHMP.CAPSS2.DCA",
+      "sid": "NUTIY1",
+      "sid_transition": "NUTIY1.THHMP",
+      "transition": "THHMP"
+    },
+    {
+      "aircraft_type": "Props (Non-RNAV)",
+      "alt": "080",
+      "destinations": [
+        "DCA"
+      ],
+      "meaning": "",
+      "notes": "RIC transition / best sim mapping",
+      "route": "ORF..HPW..RIC.IRONS5.DCA",
+      "sid": "NUTIY1",
+      "sid_transition": "NUTIY1.RIC",
+      "transition": "RIC"
+    },
+    {
+      "aircraft_type": "",
+      "alt": "",
+      "destinations": [
+        "EWR"
+      ],
+      "meaning": "",
+      "notes": "PXT transition / best sim mapping",
+      "route": "ORF..HPW.V213.PXT.PHILB03.EWR",
+      "sid": "NUTIY1",
+      "sid_transition": "NUTIY1.PXT",
+      "transition": "PXT"
+    },
+    {
+      "aircraft_type": "",
+      "alt": "",
+      "destinations": [
+        "DTW"
+      ],
+      "meaning": "NUTIY ONE departure via KELLE transition",
+      "notes": "KELLE transition",
+      "route": "ORF..WAIKS.ORF290.KELLE.MOL130.MOL.GEMNI3.DTW",
+      "sid": "NUTIY1",
+      "sid_transition": "NUTIY1.KELLE",
+      "transition": "KELLE"
+    },
+    {
+      "aircraft_type": "",
+      "alt": "",
+      "destinations": [
+        "FXE"
+      ],
+      "meaning": "SWOPE ONE departure via CHS/coastal transition",
+      "notes": "CHS coastal transition",
+      "route": "ORF.J174.CHS..MILIE.J79.VRB.FISEL6.FXE",
+      "sid": "SWOPE1",
+      "sid_transition": "SWOPE1.CHS",
+      "transition": "CHS"
+    },
+    {
+      "aircraft_type": "",
+      "alt": "",
+      "destinations": [
+        "GSO"
+      ],
+      "meaning": "",
+      "notes": "FKN transition / best sim mapping",
+      "route": "ORF..FKN.V66.ARGAL..GSO",
+      "sid": "NUTIY1",
+      "sid_transition": "NUTIY1.FKN",
+      "transition": "FKN"
+    },
+    {
+      "aircraft_type": "",
+      "alt": "",
+      "destinations": [
+        "HEF"
+      ],
+      "meaning": "",
+      "notes": "RIC transition / best sim mapping",
+      "route": "ORF..HPW..RIC.V38.ROOKY..CSN..HEF",
+      "sid": "NUTIY1",
+      "sid_transition": "NUTIY1.RIC",
+      "transition": "RIC"
+    },
+    {
+      "aircraft_type": "Jets",
+      "alt": "",
+      "destinations": [
+        "HPN"
+      ],
+      "meaning": "HOLND ONE departure via SCHOL transition",
+      "notes": "SCHOL transition",
+      "route": "ORF..SCHOL.SBY200.J121.SIE.BOUNO4.HPN",
+      "sid": "HOLND1",
+      "sid_transition": "HOLND1.SCHOL",
+      "transition": "SCHOL"
+    },
+    {
+      "aircraft_type": "Props",
+      "alt": "",
+      "destinations": [
+        "HPN"
+      ],
+      "meaning": "HOLND ONE departure via SCHOL transition",
+      "notes": "SCHOL transition",
+      "route": "ORF..SCHOL.SBY200.V139.RICED.RICED4.HPN",
+      "sid": "HOLND1",
+      "sid_transition": "HOLND1.SCHOL",
+      "transition": "SCHOL"
+    },
+    {
+      "aircraft_type": "",
+      "alt": "",
+      "destinations": [
+        "IAD"
+      ],
+      "meaning": "NUTIY ONE departure via THHMP transition",
+      "notes": "THHMP transition",
+      "route": "ORF..HPW..THHMP.CAVLR3.IAD",
+      "sid": "NUTIY1",
+      "sid_transition": "NUTIY1.THHMP",
+      "transition": "THHMP"
+    },
+    {
+      "aircraft_type": "",
+      "alt": "",
+      "destinations": [
+        "IAH"
+      ],
+      "meaning": "NUTIY ONE departure via KELLE transition",
+      "notes": "KELLE transition",
+      "route": "ORF..WAIKS.ORF290.KELLE..PSK.J22.VUZ..MISLE.Q40.AEX.DOOBI.IAH",
+      "sid": "NUTIY1",
+      "sid_transition": "NUTIY1.KELLE",
+      "transition": "KELLE"
+    },
+    {
+      "aircraft_type": "",
+      "alt": "",
+      "destinations": [
+        "JFK"
+      ],
+      "meaning": "HOLND ONE departure via SCHOL transition",
+      "notes": "SCHOL transition",
+      "route": "ORF..SCHOL.SBY200.J121.SIE.CAMRN4.JFK",
+      "sid": "HOLND1",
+      "sid_transition": "HOLND1.SCHOL",
+      "transition": "SCHOL"
+    },
+    {
+      "aircraft_type": "Jets",
+      "alt": "",
+      "destinations": [
+        "LGA"
+      ],
+      "meaning": "",
+      "notes": "PXT transition / best sim mapping",
+      "route": "ORF..HPW..VIPKE.J14.PXT.KORRY3.LGA",
+      "sid": "NUTIY1",
+      "sid_transition": "NUTIY1.PXT",
+      "transition": "PXT"
+    },
+    {
+      "aircraft_type": "Props",
+      "alt": "AOA 110",
+      "destinations": [
+        "LGA"
+      ],
+      "meaning": "",
+      "notes": "PXT transition / best sim mapping",
+      "route": "ORF..HPW.V213.PXT.GATBY1.LGA",
+      "sid": "NUTIY1",
+      "sid_transition": "NUTIY1.PXT",
+      "transition": "PXT"
+    },
+    {
+      "aircraft_type": "",
+      "alt": "AOA 100",
+      "destinations": [
+        "LNS"
+      ],
+      "meaning": "",
+      "notes": "PXT transition / best sim mapping",
+      "route": "ORF..HPW.V213.PXT.V93.GRACO..BWI..LNS",
+      "sid": "NUTIY1",
+      "sid_transition": "NUTIY1.PXT",
+      "transition": "PXT"
+    },
+    {
+      "aircraft_type": "",
+      "alt": "070 or 090",
+      "destinations": [
+        "LNS"
+      ],
+      "meaning": "NUTIY ONE departure via Harcum/HCM transition",
+      "notes": "Harcum transition",
+      "route": "ORF..HCM.V33.COLIN.V213.PXT.V93.GRACO..BWI..LNS",
+      "sid": "NUTIY1",
+      "sid_transition": "NUTIY1.HCM",
+      "transition": "HCM"
+    },
+    {
+      "aircraft_type": "",
+      "alt": "",
+      "destinations": [
+        "LNS"
+      ],
+      "meaning": "HOLND ONE departure via SCHOL transition",
+      "notes": "SCHOL transition",
+      "route": "ORF..SCHOL.SBY200.SBY.V29.DQO..LRP..LNS",
+      "sid": "HOLND1",
+      "sid_transition": "HOLND1.SCHOL",
+      "transition": "SCHOL"
+    },
+    {
+      "aircraft_type": "",
+      "alt": "",
+      "destinations": [
+        "MCO"
+      ],
+      "meaning": "SWOPE ONE departure via CHS/coastal transition",
+      "notes": "CHS coastal transition",
+      "route": "ORF.J174.CHS.J79.OMN.CWRLD4.MCO",
+      "sid": "SWOPE1",
+      "sid_transition": "SWOPE1.CHS",
+      "transition": "CHS"
+    },
+    {
+      "aircraft_type": "",
+      "alt": "",
+      "destinations": [
+        "MRH"
+      ],
+      "meaning": "",
+      "notes": "EWN coastal transition / best sim mapping",
+      "route": "ORF.V139.EWN..MRH",
+      "sid": "SWOPE1",
+      "sid_transition": "SWOPE1.EWN",
+      "transition": "EWN"
+    },
+    {
+      "aircraft_type": "",
+      "alt": "070 or 090",
+      "destinations": [
+        "MTN"
+      ],
+      "meaning": "NUTIY ONE departure via Harcum/HCM transition",
+      "notes": "Harcum transition",
+      "route": "ORF..HCM.V33.COLIN.V213.PXT.V93.GRACO..MTN",
+      "sid": "NUTIY1",
+      "sid_transition": "NUTIY1.HCM",
+      "transition": "HCM"
+    },
+    {
+      "aircraft_type": "",
+      "alt": "",
+      "destinations": [
+        "MTN"
+      ],
+      "meaning": "",
+      "notes": "PXT transition / best sim mapping",
+      "route": "ORF..HPW.V213.PXT.V93.GRACO..MTN",
+      "sid": "NUTIY1",
+      "sid_transition": "NUTIY1.PXT",
+      "transition": "PXT"
+    },
+    {
+      "aircraft_type": "",
+      "alt": "AOA 100",
+      "destinations": [
+        "NHK"
+      ],
+      "meaning": "",
+      "notes": "HPW transition / best sim mapping",
+      "route": "ORF..HPW.V213.NHK",
+      "sid": "NUTIY1",
+      "sid_transition": "NUTIY1.HPW",
+      "transition": "HPW"
+    },
+    {
+      "aircraft_type": "",
+      "alt": "070 or 090",
+      "destinations": [
+        "NHK"
+      ],
+      "meaning": "NUTIY ONE departure via Harcum/HCM transition",
+      "notes": "Harcum transition",
+      "route": "ORF..HCM.V33.COLIN.V213.NHK",
+      "sid": "NUTIY1",
+      "sid_transition": "NUTIY1.HCM",
+      "transition": "HCM"
+    },
+    {
+      "aircraft_type": "Southside Departures",
+      "alt": "",
+      "destinations": [
+        "NQX"
+      ],
+      "meaning": "SWOPE ONE departure via CHS/coastal transition",
+      "notes": "CHS coastal transition",
+      "route": "NGU.J174..CHS..CRG..ORL..THUMP..NQX",
+      "sid": "SWOPE1",
+      "sid_transition": "SWOPE1.CHS",
+      "transition": "CHS"
+    },
+    {
+      "aircraft_type": "From Peninsula",
+      "alt": "",
+      "destinations": [
+        "NQX"
+      ],
+      "meaning": "",
+      "notes": "FKN-to-CHS stream / best sim mapping",
+      "route": "LFI..FKN.FKN196.WEAVR.J121.CHS..CRG..ORL..THUMP..NQX",
+      "sid": "SWOPE1",
+      "sid_transition": "SWOPE1.FKN",
+      "transition": "FKN"
+    },
+    {
+      "aircraft_type": "",
+      "alt": "",
+      "destinations": [
+        "ORD"
+      ],
+      "meaning": "NUTIY ONE departure via KELLE transition",
+      "notes": "KELLE transition",
+      "route": "ORF..WAIKS.ORF290.KELLE.MOL130.MOL..GEFFS.J179.FWA.WATSN2.ORD",
+      "sid": "NUTIY1",
+      "sid_transition": "NUTIY1.KELLE",
+      "transition": "KELLE"
+    },
+    {
+      "aircraft_type": "",
+      "alt": "",
+      "destinations": [
+        "PHL"
+      ],
+      "meaning": "HOLND ONE departure via SCHOL transition",
+      "notes": "SCHOL transition",
+      "route": "ORF..SCHOL..DUNFE.J121.JIIME3.PHL",
+      "sid": "HOLND1",
+      "sid_transition": "HOLND1.SCHOL",
+      "transition": "SCHOL"
+    },
+    {
+      "aircraft_type": "",
+      "alt": "",
+      "destinations": [
+        "STL"
+      ],
+      "meaning": "NUTIY ONE departure via KELLE transition",
+      "notes": "KELLE transition",
+      "route": "ORF..WAIKS.ORF290.KELLE.MOL130.MOL.J24.HVQ.J78.PXV.QBALL6.STL",
+      "sid": "NUTIY1",
+      "sid_transition": "NUTIY1.KELLE",
+      "transition": "KELLE"
+    },
+    {
+      "aircraft_type": "Jets",
+      "alt": "",
+      "destinations": [
+        "TEB"
+      ],
+      "meaning": "HOLND ONE departure via SCHOL transition",
+      "notes": "SCHOL transition",
+      "route": "ORF..SCHOL..DUNFE.SBY.V29.MXE.V3.SBJ..TEB",
+      "sid": "HOLND1",
+      "sid_transition": "HOLND1.SCHOL",
+      "transition": "SCHOL"
+    },
+    {
+      "aircraft_type": "Props",
+      "alt": "",
+      "destinations": [
+        "TEB"
+      ],
+      "meaning": "",
+      "notes": "PXT transition / best sim mapping",
+      "route": "ORF..HPW.HPW025..J14.PXT.JAKIE3.TEB",
+      "sid": "NUTIY1",
+      "sid_transition": "NUTIY1.PXT",
+      "transition": "PXT"
+    },
+    {
+      "aircraft_type": "Props",
+      "alt": "",
+      "destinations": [
+        "TEB"
+      ],
+      "meaning": "",
+      "notes": "PXT transition / best sim mapping",
+      "route": "ORF..HPW.V213TAPPA..PXT.MAZIE2.TEB",
+      "sid": "NUTIY1",
+      "sid_transition": "NUTIY1.PXT",
+      "transition": "PXT"
+    }
+  ],
+  "source": "ORF_Destination_SID_Transition_Route_Map.xlsx",
+  "transition_key": {
+    "HOLND1.ATLIC": "HOLND ONE departure via ATLIIC transition",
+    "HOLND1.KALDA": "HOLND ONE departure via KALDA transition",
+    "HOLND1.SCHOL": "HOLND ONE departure via SCHOL transition",
+    "NUTIY1.EYOBI": "NUTIY ONE departure via EYOBI transition",
+    "NUTIY1.HCM": "NUTIY ONE departure via Harcum/HCM transition",
+    "NUTIY1.KELLE": "NUTIY ONE departure via KELLE transition",
+    "NUTIY1.THHMP": "NUTIY ONE departure via THHMP transition",
+    "SWOPE1.CHS": "SWOPE ONE departure via CHS/coastal transition"
+  }
+}

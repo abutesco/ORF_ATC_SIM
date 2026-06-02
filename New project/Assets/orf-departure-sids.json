@@ -1,0 +1,1295 @@
+[
+  {
+    "sid_id": "NUTIY1",
+    "type": "departure_sid",
+    "airport_ident": "KORF",
+    "runway": "05",
+    "operation": "northeast",
+    "notes": "NUTIY ONE departure. RWY course captures departure end/runway heading; each transition captures the charted path after controller vectors/direct-to.",
+    "route_map_source": "ORF_Destination_SID_Transition_Route_Map.xlsx",
+    "transition_aliases": {
+      "EYOBI": "COUPN",
+      "FKN": "COUPN",
+      "THHMP": "HPW",
+      "THMMP": "HPW",
+      "RIC": "HPW2",
+      "PXT": "HPW2"
+    },
+    "runway_course": [
+      {
+        "sequence": 1,
+        "point_name": "ORF05",
+        "name": "ORF05",
+        "role": "DEPARTURE_END",
+        "point_type": "DEPARTURE_END",
+        "leg_type": "RUNWAY_HEADING",
+        "x": 0.1,
+        "y": -0.1,
+        "altitude_min": 20,
+        "altitude_max": null,
+        "altitude_restriction": "at_or_above",
+        "speed": null,
+        "heading": null,
+        "controller_required": true
+      },
+      {
+        "sequence": 2,
+        "point_name": "INTH05",
+        "name": "INTH05",
+        "role": "INITIAL_HEADING",
+        "point_type": "INITIAL_HEADING",
+        "leg_type": "RUNWAY_HEADING",
+        "x": 9.5,
+        "y": 12,
+        "altitude_min": 20,
+        "altitude_max": null,
+        "altitude_restriction": "at_or_above",
+        "speed": null,
+        "heading": null,
+        "controller_required": true
+      }
+    ],
+    "runway_legs": [
+      {
+        "sequence": 1,
+        "from": "ORF05",
+        "to": "INTH05",
+        "leg_type": "RUNWAY_HEADING",
+        "heading": null,
+        "controller_required": true
+      }
+    ],
+    "transitions": [
+      {
+        "transition": "HCM",
+        "sid_transition": "NUTIY1.HCM",
+        "destinations": [
+          "ADW",
+          "LNS",
+          "MTN",
+          "NHK"
+        ],
+        "route_examples": [
+          "ORF..HCM..COLIN..KADW",
+          "ORF..HCM.V33.COLIN.V213.PXT.V93.GRACO..BWI..LNS",
+          "ORF..HCM.V33.COLIN.V213.PXT.V93.GRACO..MTN",
+          "ORF..HCM.V33.COLIN.V213.NHK"
+        ],
+        "notes": "NUTIY ONE departure via Harcum/HCM transition",
+        "points": [
+          {
+            "sequence": 1,
+            "point_name": "NUTIY",
+            "name": "NUTIY",
+            "role": "TRANSITION_FIX",
+            "point_type": "TRANSITION_FIX",
+            "leg_type": "TRACK",
+            "x": -16.8,
+            "y": 3.1,
+            "altitude_min": 20,
+            "altitude_max": null,
+            "altitude_restriction": "at_or_above",
+            "speed": null,
+            "heading": null,
+            "controller_required": false
+          },
+          {
+            "sequence": 2,
+            "point_name": "HCM",
+            "name": "HCM",
+            "role": "TRANSITION_FIX",
+            "point_type": "TRANSITION_FIX",
+            "leg_type": "TRACK",
+            "x": -24.6,
+            "y": 33.4,
+            "altitude_min": 20,
+            "altitude_max": null,
+            "altitude_restriction": "at_or_above",
+            "speed": null,
+            "heading": 355,
+            "controller_required": false
+          },
+          {
+            "sequence": 3,
+            "point_name": "ENROUTE",
+            "name": "ENROUTE",
+            "role": "ENROUTE_FIX",
+            "point_type": "ENROUTE_FIX",
+            "leg_type": "TRACK",
+            "x": -42,
+            "y": 80.4,
+            "altitude_min": 20,
+            "altitude_max": null,
+            "altitude_restriction": "at_or_above",
+            "speed": null,
+            "heading": 346,
+            "controller_required": false
+          }
+        ],
+        "legs": [
+          {
+            "sequence": 1,
+            "from": "NUTIY",
+            "to": "HCM",
+            "leg_type": "TRACK",
+            "heading": 355,
+            "controller_required": false
+          },
+          {
+            "sequence": 2,
+            "from": "HCM",
+            "to": "ENROUTE",
+            "leg_type": "TRACK",
+            "heading": 346,
+            "controller_required": false
+          }
+        ]
+      },
+      {
+        "transition": "COUPN",
+        "sid_transition": "NUTIY1.COUPN",
+        "destinations": [
+          "CLT"
+        ],
+        "route_examples": [
+          "ORF..COUPN.CHSLY6.KCLT"
+        ],
+        "notes": "COUPN transition / southwest stream. Used as sim path for EYOBI and FKN until those branches are separately traced.",
+        "points": [
+          {
+            "sequence": 1,
+            "point_name": "NUTIY",
+            "name": "NUTIY",
+            "role": "TRANSITION_FIX",
+            "point_type": "TRANSITION_FIX",
+            "leg_type": "TRACK",
+            "x": -16.8,
+            "y": 3.1,
+            "altitude_min": 20,
+            "altitude_max": null,
+            "altitude_restriction": "at_or_above",
+            "speed": null,
+            "heading": null,
+            "controller_required": false
+          },
+          {
+            "sequence": 2,
+            "point_name": "COUPN",
+            "name": "COUPN",
+            "role": "TRANSITION_FIX",
+            "point_type": "TRANSITION_FIX",
+            "leg_type": "TRACK",
+            "x": -39.7,
+            "y": -10.6,
+            "altitude_min": 20,
+            "altitude_max": null,
+            "altitude_restriction": "at_or_above",
+            "speed": null,
+            "heading": 247,
+            "controller_required": false
+          },
+          {
+            "sequence": 3,
+            "point_name": "ENROUTE",
+            "name": "ENROUTE",
+            "role": "ENROUTE_FIX",
+            "point_type": "ENROUTE_FIX",
+            "leg_type": "TRACK",
+            "x": -76.2,
+            "y": -43.8,
+            "altitude_min": 20,
+            "altitude_max": null,
+            "altitude_restriction": "at_or_above",
+            "speed": null,
+            "heading": 250,
+            "controller_required": false
+          }
+        ],
+        "legs": [
+          {
+            "sequence": 1,
+            "from": "NUTIY",
+            "to": "COUPN",
+            "leg_type": "TRACK",
+            "heading": 247,
+            "controller_required": false
+          },
+          {
+            "sequence": 2,
+            "from": "COUPN",
+            "to": "ENROUTE",
+            "leg_type": "TRACK",
+            "heading": 250,
+            "controller_required": false
+          }
+        ]
+      },
+      {
+        "transition": "KELLE",
+        "sid_transition": "NUTIY1.KELLE",
+        "destinations": [
+          "DTW",
+          "IAH",
+          "ORD",
+          "STL"
+        ],
+        "route_examples": [
+          "ORF..WAIKS.ORF290.KELLE.MOL130.MOL.GEMNI3.DTW",
+          "ORF..WAIKS.ORF290.KELLE..PSK.J22.VUZ..MISLE.Q40.AEX.DOOBI.IAH",
+          "ORF..WAIKS.ORF290.KELLE.MOL130.MOL..GEFFS.J179.FWA.WATSN2.ORD",
+          "ORF..WAIKS.ORF290.KELLE.MOL130.MOL.J24.HVQ.J78.PXV.QBALL6.STL"
+        ],
+        "notes": "NUTIY ONE departure via KELLE transition",
+        "points": [
+          {
+            "sequence": 1,
+            "point_name": "NUTIY",
+            "name": "NUTIY",
+            "role": "TRANSITION_FIX",
+            "point_type": "TRANSITION_FIX",
+            "leg_type": "TRACK",
+            "x": -16.7,
+            "y": 3.1,
+            "altitude_min": 20,
+            "altitude_max": null,
+            "altitude_restriction": "at_or_above",
+            "speed": null,
+            "heading": 340,
+            "controller_required": false
+          },
+          {
+            "sequence": 2,
+            "point_name": "MIDRE",
+            "name": "MIDRE",
+            "role": "TRANSITION_FIX",
+            "point_type": "TRANSITION_FIX",
+            "leg_type": "TRACK",
+            "x": -27.8,
+            "y": 5.2,
+            "altitude_min": 20,
+            "altitude_max": null,
+            "altitude_restriction": "at_or_above",
+            "speed": null,
+            "heading": 290,
+            "controller_required": false
+          },
+          {
+            "sequence": 3,
+            "point_name": "WAIKS",
+            "name": "WAIKS",
+            "role": "TRANSITION_FIX",
+            "point_type": "TRANSITION_FIX",
+            "leg_type": "TRACK",
+            "x": -42,
+            "y": 9.5,
+            "altitude_min": 20,
+            "altitude_max": null,
+            "altitude_restriction": "at_or_above",
+            "speed": null,
+            "heading": 296,
+            "controller_required": false
+          },
+          {
+            "sequence": 4,
+            "point_name": "KELLE",
+            "name": "KELLE",
+            "role": "ENROUTE_FIX",
+            "point_type": "ENROUTE_FIX",
+            "leg_type": "TRACK",
+            "x": -89.8,
+            "y": 27.5,
+            "altitude_min": 20,
+            "altitude_max": null,
+            "altitude_restriction": "at_or_above",
+            "speed": null,
+            "heading": 292,
+            "controller_required": true
+          }
+        ],
+        "legs": [
+          {
+            "sequence": 1,
+            "from": "NUTIY",
+            "to": "MIDRE",
+            "leg_type": "TRACK",
+            "heading": 290,
+            "controller_required": false
+          },
+          {
+            "sequence": 2,
+            "from": "MIDRE",
+            "to": "WAIKS",
+            "leg_type": "TRACK",
+            "heading": 296,
+            "controller_required": false
+          },
+          {
+            "sequence": 3,
+            "from": "WAIKS",
+            "to": "KELLE",
+            "leg_type": "TRACK",
+            "heading": 292,
+            "controller_required": true
+          }
+        ]
+      },
+      {
+        "transition": "HPW",
+        "sid_transition": "NUTIY1.HPW",
+        "destinations": [
+          "NHK",
+          "ADW",
+          "BWI",
+          "DCA",
+          "IAD"
+        ],
+        "route_examples": [
+          "ORF..HPW.V213.NHK",
+          "ORF..HOUKY..THHMP.VUDOO2.KADW"
+        ],
+        "notes": "HPW transition / best sim mapping. Used as sim path for THHMP.",
+        "points": [
+          {
+            "sequence": 1,
+            "point_name": "NUTIY",
+            "name": "NUTIY",
+            "role": "TRANSITION_FIX",
+            "point_type": "TRANSITION_FIX",
+            "leg_type": "TRACK",
+            "x": -16.8,
+            "y": 3.1,
+            "altitude_min": 20,
+            "altitude_max": null,
+            "altitude_restriction": "at_or_above",
+            "speed": null,
+            "heading": null,
+            "controller_required": false
+          },
+          {
+            "sequence": 2,
+            "point_name": "HOUKY",
+            "name": "HOUKY",
+            "role": "TRANSITION_FIX",
+            "point_type": "TRANSITION_FIX",
+            "leg_type": "TRACK",
+            "x": -44.6,
+            "y": 26.7,
+            "altitude_min": 20,
+            "altitude_max": null,
+            "altitude_restriction": "at_or_above",
+            "speed": null,
+            "heading": null,
+            "controller_required": false
+          },
+          {
+            "sequence": 3,
+            "point_name": "ENROUTE",
+            "name": "ENROUTE",
+            "role": "ENROUTE_FIX",
+            "point_type": "ENROUTE_FIX",
+            "leg_type": "TRACK",
+            "x": -88.7,
+            "y": 67.5,
+            "altitude_min": 20,
+            "altitude_max": null,
+            "altitude_restriction": "at_or_above",
+            "speed": null,
+            "heading": 310,
+            "controller_required": false
+          }
+        ],
+        "legs": [
+          {
+            "sequence": 1,
+            "from": "NUTIY",
+            "to": "HOUKY",
+            "leg_type": "TRACK",
+            "heading": null,
+            "controller_required": false
+          },
+          {
+            "sequence": 2,
+            "from": "HOUKY",
+            "to": "ENROUTE",
+            "leg_type": "TRACK",
+            "heading": 310,
+            "controller_required": false
+          }
+        ]
+      },
+      {
+        "transition": "HPW2",
+        "sid_transition": "NUTIY1.HPW2",
+        "destinations": [
+          "RIC",
+          "PXT"
+        ],
+        "route_examples": [
+          "After HOUKY, heading 029 direct TAPPA"
+        ],
+        "notes": "Temporary branch for RIC/PXT. TAPPA is represented by projected coordinates until the fix is added to the fix list.",
+        "points": [
+          {
+            "sequence": 1,
+            "point_name": "NUTIY",
+            "name": "NUTIY",
+            "role": "TRANSITION_FIX",
+            "point_type": "TRANSITION_FIX",
+            "leg_type": "TRACK",
+            "x": -16.8,
+            "y": 3.1,
+            "altitude_min": 20,
+            "altitude_max": null,
+            "altitude_restriction": "at_or_above",
+            "speed": null,
+            "heading": null,
+            "controller_required": false
+          },
+          {
+            "sequence": 2,
+            "point_name": "HOUKY",
+            "name": "HOUKY",
+            "role": "TRANSITION_FIX",
+            "point_type": "TRANSITION_FIX",
+            "leg_type": "TRACK",
+            "x": -44.6,
+            "y": 26.7,
+            "altitude_min": 20,
+            "altitude_max": null,
+            "altitude_restriction": "at_or_above",
+            "speed": null,
+            "heading": null,
+            "controller_required": false
+          },
+          {
+            "sequence": 3,
+            "point_name": "TAPPA",
+            "name": "TAPPA",
+            "role": "ENROUTE_FIX",
+            "point_type": "ENROUTE_FIX",
+            "leg_type": "TRACK",
+            "x": -20.4,
+            "y": 70.4,
+            "altitude_min": 20,
+            "altitude_max": null,
+            "altitude_restriction": "at_or_above",
+            "speed": null,
+            "heading": 29,
+            "controller_required": false
+          }
+        ],
+        "legs": [
+          {
+            "sequence": 1,
+            "from": "NUTIY",
+            "to": "HOUKY",
+            "leg_type": "TRACK",
+            "heading": null,
+            "controller_required": false
+          },
+          {
+            "sequence": 2,
+            "from": "HOUKY",
+            "to": "TAPPA",
+            "leg_type": "TRACK",
+            "heading": 29,
+            "controller_required": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "sid_id": "HOLND1",
+    "type": "departure_sid",
+    "airport_ident": "KORF",
+    "runway": "05",
+    "operation": "northeast",
+    "notes": "HOLND ONE departure. RWY course captures departure end/runway heading; transitions are sourced from the destination SID transition workbook.",
+    "route_map_source": "ORF_Destination_SID_Transition_Route_Map.xlsx",
+    "transition_aliases": {
+      "ATLIC": "ATLIIC"
+    },
+    "runway_course": [
+      {
+        "sequence": 1,
+        "point_name": "ORF05",
+        "name": "ORF05",
+        "role": "DEPARTURE_END",
+        "point_type": "DEPARTURE_END",
+        "leg_type": "RUNWAY_HEADING",
+        "x": 0.1,
+        "y": -0.1,
+        "altitude_min": 20,
+        "altitude_max": null,
+        "altitude_restriction": "at_or_above",
+        "speed": null,
+        "heading": null,
+        "controller_required": true
+      },
+      {
+        "sequence": 2,
+        "point_name": "INTH05",
+        "name": "INTH05",
+        "role": "INITIAL_HEADING",
+        "point_type": "INITIAL_HEADING",
+        "leg_type": "RUNWAY_HEADING",
+        "x": 9.5,
+        "y": 12,
+        "altitude_min": 20,
+        "altitude_max": null,
+        "altitude_restriction": "at_or_above",
+        "speed": null,
+        "heading": null,
+        "controller_required": true
+      }
+    ],
+    "runway_legs": [
+      {
+        "sequence": 1,
+        "from": "ORF05",
+        "to": "INTH05",
+        "leg_type": "RUNWAY_HEADING",
+        "heading": null,
+        "controller_required": true
+      }
+    ],
+    "transitions": [
+      {
+        "transition": "SCHOL",
+        "sid_transition": "HOLND1.SCHOL",
+        "destinations": [
+          "HPN",
+          "JFK",
+          "LNS",
+          "PHL",
+          "TEB"
+        ],
+        "route_examples": [
+          "ORF..SCHOL.SBY200.J121.SIE.BOUNO4.HPN",
+          "ORF..SCHOL.SBY200.V139.RICED.RICED4.HPN",
+          "ORF..SCHOL.SBY200.J121.SIE.CAMRN4.JFK",
+          "ORF..SCHOL.SBY200.SBY.V29.DQO..LRP..LNS",
+          "ORF..SCHOL..DUNFE.J121.JIIME3.PHL",
+          "ORF..SCHOL..DUNFE.SBY.V29.MXE.V3.SBJ..TEB"
+        ],
+        "notes": "HOLND ONE departure via SCHOL transition",
+        "points": [
+          {
+            "sequence": 1,
+            "point_name": "SCHOL",
+            "name": "SCHOL",
+            "role": "TRANSITION_FIX",
+            "point_type": "TRANSITION_FIX",
+            "leg_type": "TRACK",
+            "x": 23.3,
+            "y": 17.3,
+            "altitude_min": 20,
+            "altitude_max": null,
+            "altitude_restriction": "at_or_above",
+            "speed": null,
+            "heading": 53,
+            "controller_required": false
+          },
+          {
+            "sequence": 2,
+            "point_name": "ENROUTE",
+            "name": "ENROUTE",
+            "role": "ENROUTE_FIX",
+            "point_type": "ENROUTE_FIX",
+            "leg_type": "TRACK",
+            "x": 58.4,
+            "y": 44.1,
+            "altitude_min": 20,
+            "altitude_max": null,
+            "altitude_restriction": "at_or_above",
+            "speed": null,
+            "heading": 53,
+            "controller_required": false
+          }
+        ],
+        "legs": [
+          {
+            "sequence": 1,
+            "from": "SCHOL",
+            "to": "ENROUTE",
+            "leg_type": "TRACK",
+            "heading": 53,
+            "controller_required": false
+          }
+        ]
+      },
+      {
+        "transition": "KALDA",
+        "sid_transition": "HOLND1.KALDA",
+        "destinations": [
+          "BOS"
+        ],
+        "route_examples": [
+          "ORF..SCHOL.KALDA.Q133.JFK.ROBUC3.KBOS"
+        ],
+        "notes": "HOLND ONE departure via KALDA transition",
+        "points": [
+          {
+            "sequence": 1,
+            "point_name": "SCHOL",
+            "name": "SCHOL",
+            "role": "TRANSITION_FIX",
+            "point_type": "TRANSITION_FIX",
+            "leg_type": "TRACK",
+            "x": 23.3,
+            "y": 17.3,
+            "altitude_min": 20,
+            "altitude_max": null,
+            "altitude_restriction": "at_or_above",
+            "speed": null,
+            "heading": 53,
+            "controller_required": false
+          },
+          {
+            "sequence": 2,
+            "point_name": "KALDA",
+            "name": "KALDA",
+            "role": "TRANSITION_FIX",
+            "point_type": "TRANSITION_FIX",
+            "leg_type": "TRACK",
+            "x": 27.6,
+            "y": 56.8,
+            "altitude_min": 20,
+            "altitude_max": null,
+            "altitude_restriction": "at_or_above",
+            "speed": null,
+            "heading": 6,
+            "controller_required": false
+          },
+          {
+            "sequence": 3,
+            "point_name": "ENROUTE",
+            "name": "ENROUTE",
+            "role": "ENROUTE_FIX",
+            "point_type": "ENROUTE_FIX",
+            "leg_type": "TRACK",
+            "x": 32.4,
+            "y": 101.6,
+            "altitude_min": 20,
+            "altitude_max": null,
+            "altitude_restriction": "at_or_above",
+            "speed": null,
+            "heading": 6,
+            "controller_required": false
+          }
+        ],
+        "legs": [
+          {
+            "sequence": 1,
+            "from": "SCHOL",
+            "to": "KALDA",
+            "leg_type": "TRACK",
+            "heading": 6,
+            "controller_required": false
+          },
+          {
+            "sequence": 2,
+            "from": "KALDA",
+            "to": "ENROUTE",
+            "leg_type": "TRACK",
+            "heading": 6,
+            "controller_required": false
+          }
+        ]
+      },
+      {
+        "transition": "ATLIIC",
+        "sid_transition": "HOLND1.ATLIIC",
+        "destinations": [
+          "ATLIC"
+        ],
+        "route_examples": [
+          "After HOLND, heading 118 over ATLIIC then outbound to ZDC"
+        ],
+        "notes": "HOLND ONE departure via ATLIIC/ATLIC southeast transition. Aircraft cross HOLND, then ATLIIC, then continue outbound heading 118 outside ORF airspace.",
+        "points": [
+          {
+            "sequence": 1,
+            "point_name": "HOLND",
+            "name": "HOLND",
+            "role": "TRANSITION_FIX",
+            "point_type": "TRANSITION_FIX",
+            "leg_type": "TRACK",
+            "x": 14.9,
+            "y": 12.7,
+            "altitude_min": 20,
+            "altitude_max": null,
+            "altitude_restriction": "at_or_above",
+            "speed": null,
+            "heading": 54,
+            "controller_required": false
+          },
+          {
+            "sequence": 2,
+            "point_name": "ATLIIC",
+            "name": "ATLIIC",
+            "role": "TRANSITION_FIX",
+            "point_type": "TRANSITION_FIX",
+            "leg_type": "TRACK",
+            "x": 47.4,
+            "y": 1.4,
+            "altitude_min": 20,
+            "altitude_max": null,
+            "altitude_restriction": "at_or_above",
+            "speed": null,
+            "heading": 109,
+            "controller_required": false
+          },
+          {
+            "sequence": 3,
+            "point_name": "ENROUTE",
+            "name": "ENROUTE",
+            "role": "ENROUTE_FIX",
+            "point_type": "ENROUTE_FIX",
+            "leg_type": "TRACK",
+            "x": 100.4,
+            "y": -26.8,
+            "altitude_min": 20,
+            "altitude_max": null,
+            "altitude_restriction": "at_or_above",
+            "speed": null,
+            "heading": 118,
+            "controller_required": false
+          }
+        ],
+        "legs": [
+          {
+            "sequence": 1,
+            "from": "HOLND",
+            "to": "ATLIIC",
+            "leg_type": "TRACK",
+            "heading": 109,
+            "controller_required": false
+          },
+          {
+            "sequence": 2,
+            "from": "ATLIIC",
+            "to": "ENROUTE",
+            "leg_type": "TRACK",
+            "heading": 118,
+            "controller_required": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "sid_id": "SWOPE1",
+    "type": "departure_sid",
+    "airport_ident": "KORF",
+    "runway": "05",
+    "operation": "northeast",
+    "notes": "SWOPE ONE departure. RWY course captures departure end/runway heading; transition labels come from the destination SID transition workbook.",
+    "route_map_source": "ORF_Destination_SID_Transition_Route_Map.xlsx",
+    "transition_aliases": {},
+    "runway_course": [
+      {
+        "sequence": 1,
+        "point_name": "ORF05",
+        "name": "ORF05",
+        "role": "DEPARTURE_END",
+        "point_type": "DEPARTURE_END",
+        "leg_type": "RUNWAY_HEADING",
+        "x": 0.1,
+        "y": -0.1,
+        "altitude_min": 20,
+        "altitude_max": null,
+        "altitude_restriction": "at_or_above",
+        "speed": null,
+        "heading": null,
+        "controller_required": true
+      },
+      {
+        "sequence": 2,
+        "point_name": "INTH05",
+        "name": "INTH05",
+        "role": "INITIAL_HEADING",
+        "point_type": "INITIAL_HEADING",
+        "leg_type": "RUNWAY_HEADING",
+        "x": 9.5,
+        "y": 12,
+        "altitude_min": 20,
+        "altitude_max": null,
+        "altitude_restriction": "at_or_above",
+        "speed": null,
+        "heading": null,
+        "controller_required": true
+      }
+    ],
+    "runway_legs": [
+      {
+        "sequence": 1,
+        "from": "ORF05",
+        "to": "INTH05",
+        "leg_type": "RUNWAY_HEADING",
+        "heading": null,
+        "controller_required": true
+      }
+    ],
+    "transitions": [
+      {
+        "transition": "CHS",
+        "sid_transition": "SWOPE1.CHS",
+        "destinations": [
+          "FXE",
+          "MCO",
+          "NQX"
+        ],
+        "route_examples": [
+          "ORF.J174.CHS..MILIE.J79.VRB.FISEL6.FXE",
+          "ORF.J174.CHS.J79.OMN.CWRLD4.MCO",
+          "NGU.J174..CHS..CRG..ORL..THUMP..NQX"
+        ],
+        "notes": "SWOPE ONE departure via CHS/coastal transition. CHS is outside the current local fix list, represented by projected enroute points.",
+        "points": [
+          {
+            "sequence": 1,
+            "point_name": "SWOPE",
+            "name": "SWOPE",
+            "role": "TRANSITION_FIX",
+            "point_type": "TRANSITION_FIX",
+            "leg_type": "TRACK",
+            "x": -26,
+            "y": -22,
+            "altitude_min": 20,
+            "altitude_max": null,
+            "altitude_restriction": "at_or_above",
+            "speed": null,
+            "heading": 219,
+            "controller_required": false
+          },
+          {
+            "sequence": 2,
+            "point_name": "CHS",
+            "name": "CHS",
+            "role": "ENROUTE_FIX",
+            "point_type": "ENROUTE_FIX",
+            "leg_type": "TRACK",
+            "x": -70,
+            "y": -72,
+            "altitude_min": 20,
+            "altitude_max": null,
+            "altitude_restriction": "at_or_above",
+            "speed": null,
+            "heading": 221,
+            "controller_required": false
+          },
+          {
+            "sequence": 3,
+            "point_name": "ENROUTE",
+            "name": "ENROUTE",
+            "role": "ENROUTE_FIX",
+            "point_type": "ENROUTE_FIX",
+            "leg_type": "TRACK",
+            "x": -118,
+            "y": -128,
+            "altitude_min": 20,
+            "altitude_max": null,
+            "altitude_restriction": "at_or_above",
+            "speed": null,
+            "heading": 221,
+            "controller_required": false
+          }
+        ],
+        "legs": [
+          {
+            "sequence": 1,
+            "from": "SWOPE",
+            "to": "CHS",
+            "leg_type": "TRACK",
+            "heading": 221,
+            "controller_required": false
+          },
+          {
+            "sequence": 2,
+            "from": "CHS",
+            "to": "ENROUTE",
+            "leg_type": "TRACK",
+            "heading": 221,
+            "controller_required": false
+          }
+        ]
+      },
+      {
+        "transition": "EWN",
+        "sid_transition": "SWOPE1.EWN",
+        "destinations": [
+          "MRH"
+        ],
+        "route_examples": [
+          "ORF.V139.EWN..MRH"
+        ],
+        "notes": "SWOPE ONE departure via EWN coastal transition. EWN is outside the current local fix list, represented by projected enroute points.",
+        "points": [
+          {
+            "sequence": 1,
+            "point_name": "SWOPE",
+            "name": "SWOPE",
+            "role": "TRANSITION_FIX",
+            "point_type": "TRANSITION_FIX",
+            "leg_type": "TRACK",
+            "x": -24,
+            "y": -24,
+            "altitude_min": 20,
+            "altitude_max": null,
+            "altitude_restriction": "at_or_above",
+            "speed": null,
+            "heading": 197,
+            "controller_required": false
+          },
+          {
+            "sequence": 2,
+            "point_name": "EWN",
+            "name": "EWN",
+            "role": "ENROUTE_FIX",
+            "point_type": "ENROUTE_FIX",
+            "leg_type": "TRACK",
+            "x": -40.4,
+            "y": -109.3,
+            "altitude_min": 20,
+            "altitude_max": null,
+            "altitude_restriction": "at_or_above",
+            "speed": null,
+            "heading": 191,
+            "controller_required": false
+          },
+          {
+            "sequence": 3,
+            "point_name": "ENROUTE",
+            "name": "ENROUTE",
+            "role": "ENROUTE_FIX",
+            "point_type": "ENROUTE_FIX",
+            "leg_type": "TRACK",
+            "x": -50,
+            "y": -150,
+            "altitude_min": 20,
+            "altitude_max": null,
+            "altitude_restriction": "at_or_above",
+            "speed": null,
+            "heading": 193,
+            "controller_required": false
+          }
+        ],
+        "legs": [
+          {
+            "sequence": 1,
+            "from": "SWOPE",
+            "to": "EWN",
+            "leg_type": "TRACK",
+            "heading": 191,
+            "controller_required": false
+          },
+          {
+            "sequence": 2,
+            "from": "EWN",
+            "to": "ENROUTE",
+            "leg_type": "TRACK",
+            "heading": 193,
+            "controller_required": false
+          }
+        ]
+      },
+      {
+        "transition": "FKN",
+        "sid_transition": "SWOPE1.FKN",
+        "destinations": [
+          "NQX"
+        ],
+        "route_examples": [
+          "LFI..FKN.FKN196.WEAVR.J121.CHS..CRG..ORL..THUMP..NQX"
+        ],
+        "notes": "SWOPE ONE FKN-to-CHS stream / best sim mapping. FKN uses local airport coordinates.",
+        "points": [
+          {
+            "sequence": 1,
+            "point_name": "FKN",
+            "name": "FKN",
+            "role": "TRANSITION_FIX",
+            "point_type": "TRANSITION_FIX",
+            "leg_type": "TRACK",
+            "x": -33.6,
+            "y": -11.7,
+            "altitude_min": 20,
+            "altitude_max": null,
+            "altitude_restriction": "at_or_above",
+            "speed": null,
+            "heading": 247,
+            "controller_required": false
+          },
+          {
+            "sequence": 2,
+            "point_name": "WEAVR",
+            "name": "WEAVR",
+            "role": "ENROUTE_FIX",
+            "point_type": "ENROUTE_FIX",
+            "leg_type": "TRACK",
+            "x": -82,
+            "y": -29.6,
+            "altitude_min": 20,
+            "altitude_max": null,
+            "altitude_restriction": "at_or_above",
+            "speed": null,
+            "heading": 250,
+            "controller_required": false
+          },
+          {
+            "sequence": 3,
+            "point_name": "ENROUTE",
+            "name": "ENROUTE",
+            "role": "ENROUTE_FIX",
+            "point_type": "ENROUTE_FIX",
+            "leg_type": "TRACK",
+            "x": -130,
+            "y": -50,
+            "altitude_min": 20,
+            "altitude_max": null,
+            "altitude_restriction": "at_or_above",
+            "speed": null,
+            "heading": 250,
+            "controller_required": false
+          }
+        ],
+        "legs": [
+          {
+            "sequence": 1,
+            "from": "FKN",
+            "to": "WEAVR",
+            "leg_type": "TRACK",
+            "heading": 250,
+            "controller_required": false
+          },
+          {
+            "sequence": 2,
+            "from": "WEAVR",
+            "to": "ENROUTE",
+            "leg_type": "TRACK",
+            "heading": 250,
+            "controller_required": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "sid_id": "NGU_RWY10",
+    "type": "runway_heading",
+    "airport_ident": "KNGU",
+    "runway": "10",
+    "operation": "northeast",
+    "notes": "NGU runway 10 departure. Sim flow turns left immediately heading 280, climbing 020, expecting further climb.",
+    "route_map_source": "ORF_Destination_SID_Transition_Route_Map.xlsx",
+    "runway_course": [
+      {
+        "sequence": 1,
+        "point_name": "RW10",
+        "name": "RW10",
+        "role": "DEPARTURE_END",
+        "point_type": "DEPARTURE_END",
+        "leg_type": "RUNWAY_HEADING",
+        "x": -4.7,
+        "y": 2,
+        "altitude_min": 20,
+        "altitude_max": null,
+        "altitude_restriction": "at_or_above",
+        "speed": null,
+        "heading": 280,
+        "controller_required": true
+      },
+      {
+        "sequence": 2,
+        "point_name": "HDG280",
+        "name": "HDG280",
+        "role": "INITIAL_HEADING",
+        "point_type": "INITIAL_HEADING",
+        "leg_type": "VECTOR",
+        "x": -16.5,
+        "y": 4.1,
+        "altitude_min": 20,
+        "altitude_max": null,
+        "altitude_restriction": "at_or_above",
+        "speed": null,
+        "heading": 280,
+        "controller_required": true
+      }
+    ],
+    "runway_legs": [
+      {
+        "sequence": 1,
+        "from": "RW10",
+        "to": "HDG280",
+        "leg_type": "VECTOR",
+        "heading": 280,
+        "controller_required": true
+      }
+    ],
+    "transitions": []
+  },
+  {
+    "sid_id": "LFI_RWY08",
+    "type": "runway_heading",
+    "airport_ident": "KLFI",
+    "runway": "08",
+    "operation": "northeast",
+    "notes": "LFI runway heading departure. RWY course captures departure end/runway heading for controller vectors/direct-to.",
+    "route_map_source": "ORF_Destination_SID_Transition_Route_Map.xlsx",
+    "runway_course": [
+      {
+        "sequence": 1,
+        "point_name": "LFI08",
+        "name": "LFI08",
+        "role": "DEPARTURE_END",
+        "point_type": "DEPARTURE_END",
+        "leg_type": "RUNWAY_HEADING",
+        "x": -8.3,
+        "y": 10.9,
+        "altitude_min": 20,
+        "altitude_max": null,
+        "altitude_restriction": "at_or_above",
+        "speed": null,
+        "heading": 111,
+        "controller_required": false
+      },
+      {
+        "sequence": 2,
+        "point_name": "INTH08",
+        "name": "INTH08",
+        "role": "INITIAL_HEADING",
+        "point_type": "INITIAL_HEADING",
+        "leg_type": "RUNWAY_HEADING",
+        "x": 5.6,
+        "y": 16.3,
+        "altitude_min": 20,
+        "altitude_max": null,
+        "altitude_restriction": "at_or_above",
+        "speed": null,
+        "heading": 111,
+        "controller_required": true
+      }
+    ],
+    "runway_legs": [
+      {
+        "sequence": 1,
+        "from": "LFI08",
+        "to": "INTH08",
+        "leg_type": "RUNWAY_HEADING",
+        "heading": 111,
+        "controller_required": true
+      }
+    ],
+    "transitions": []
+  },
+  {
+    "sid_id": "PHF_RWY07",
+    "type": "runway_heading",
+    "airport_ident": "KPHF",
+    "runway": "07",
+    "operation": "northeast",
+    "notes": "PHF runway heading departure. RWY course captures departure end/runway heading for controller vectors/direct-to.",
+    "route_map_source": "ORF_Destination_SID_Transition_Route_Map.xlsx",
+    "runway_course": [
+      {
+        "sequence": 1,
+        "point_name": "PHF07",
+        "name": "PHF07",
+        "role": "DEPARTURE_END",
+        "point_type": "DEPARTURE_END",
+        "leg_type": "RUNWAY_HEADING",
+        "x": -13.9,
+        "y": 14.3,
+        "altitude_min": 20,
+        "altitude_max": null,
+        "altitude_restriction": "at_or_above",
+        "speed": null,
+        "heading": 121,
+        "controller_required": false
+      },
+      {
+        "sequence": 2,
+        "point_name": "INTH07",
+        "name": "INTH07",
+        "role": "INITIAL_HEADING",
+        "point_type": "INITIAL_HEADING",
+        "leg_type": "VECTOR",
+        "x": -1.6,
+        "y": 21.8,
+        "altitude_min": 20,
+        "altitude_max": null,
+        "altitude_restriction": "at_or_above",
+        "speed": null,
+        "heading": 121,
+        "controller_required": true
+      }
+    ],
+    "runway_legs": [
+      {
+        "sequence": 1,
+        "from": "PHF07",
+        "to": "INTH07",
+        "leg_type": "VECTOR",
+        "heading": 121,
+        "controller_required": true
+      }
+    ],
+    "transitions": []
+  },
+  {
+    "sid_id": "ECG_RWY10",
+    "type": "runway_heading",
+    "airport_ident": "KECG",
+    "runway": "10",
+    "operation": "northeast",
+    "notes": "ECG runway heading departure. RWY course captures departure end/runway heading for controller vectors/direct-to.",
+    "route_map_source": "ORF_Destination_SID_Transition_Route_Map.xlsx",
+    "runway_course": [
+      {
+        "sequence": 1,
+        "point_name": "ECG10",
+        "name": "ECG10",
+        "role": "DEPARTURE_END",
+        "point_type": "DEPARTURE_END",
+        "leg_type": "RUNWAY_HEADING",
+        "x": 1.6,
+        "y": -38.7,
+        "altitude_min": 20,
+        "altitude_max": null,
+        "altitude_restriction": "at_or_above",
+        "speed": null,
+        "heading": 96,
+        "controller_required": false
+      },
+      {
+        "sequence": 2,
+        "point_name": "INTH10",
+        "name": "INTH10",
+        "role": "INITIAL_HEADING",
+        "point_type": "INITIAL_HEADING",
+        "leg_type": "VECTOR",
+        "x": 11.8,
+        "y": -37.7,
+        "altitude_min": 20,
+        "altitude_max": null,
+        "altitude_restriction": "at_or_above",
+        "speed": null,
+        "heading": 96,
+        "controller_required": true
+      }
+    ],
+    "runway_legs": [
+      {
+        "sequence": 1,
+        "from": "ECG10",
+        "to": "INTH10",
+        "leg_type": "VECTOR",
+        "heading": 96,
+        "controller_required": true
+      }
+    ],
+    "transitions": []
+  }
+]

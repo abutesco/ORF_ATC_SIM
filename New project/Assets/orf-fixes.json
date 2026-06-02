@@ -1,0 +1,1160 @@
+[
+  {
+    "ident": "JAMIE",
+    "type": "FIX",
+    "lat": 37.6057167,
+    "lon": -75.9635583,
+    "identifier": "JAM"
+  },
+  {
+    "ident": "EWOOD",
+    "type": "FIX",
+    "lat": 37.5195972,
+    "lon": -75.8692389
+  },
+  {
+    "ident": "JASSI",
+    "type": "FIX",
+    "lat": 37.2816667,
+    "lon": -76.2
+  },
+  {
+    "ident": "WEVUX",
+    "type": "FIX",
+    "lat": 37.1595611,
+    "lon": -76.1270306
+  },
+  {
+    "ident": "JIMMY",
+    "type": "FIX",
+    "lat": 37.0551972,
+    "lon": -76.0628222
+  },
+  {
+    "ident": "JHALL",
+    "type": "FIX",
+    "lat": 37.048125,
+    "lon": -76.0512389
+  },
+  {
+    "ident": "INLYT",
+    "type": "FIX",
+    "lat": 36.9108889,
+    "lon": -76.0726167
+  },
+  {
+    "ident": "SKOUT",
+    "type": "FIX",
+    "lat": 36.9319806,
+    "lon": -75.8520528,
+    "identifier": "SKO"
+  },
+  {
+    "ident": "TURET",
+    "type": "FIX",
+    "lat": 37.0030278,
+    "lon": -75.7856528,
+    "identifier": "TUR"
+  },
+  {
+    "ident": "SCHOL",
+    "type": "FIX",
+    "lat": 37.1831944,
+    "lon": -75.7155528,
+    "identifier": "SCH"
+  },
+  {
+    "ident": "RAPTR",
+    "type": "FIX",
+    "lat": 37.1680556,
+    "lon": -75.5,
+    "identifier": "RAP"
+  },
+  {
+    "ident": "DARTT",
+    "type": "FIX",
+    "lat": 37.2933333,
+    "lon": -75.5,
+    "identifier": "DAR"
+  },
+  {
+    "ident": "HEELS",
+    "type": "FIX",
+    "lat": 37.4316667,
+    "lon": -75.5,
+    "identifier": "HEE"
+  },
+  {
+    "ident": "ATLIIC",
+    "type": "FIX",
+    "lat": 36.9177333,
+    "lon": -75.2130917,
+    "identifier": "ATL"
+  },
+  {
+    "ident": "GRAIT",
+    "type": "FIX",
+    "lat": 36.6561889,
+    "lon": -76.1724222,
+    "identifier": "GRA"
+  },
+  {
+    "ident": "TABUE",
+    "type": "FIX",
+    "lat": 36.3408944,
+    "lon": -76.0683583,
+    "identifier": "TAB"
+  },
+  {
+    "ident": "ZAGIV",
+    "type": "FIX",
+    "lat": 36.2797361,
+    "lon": -75.9505667,
+    "identifier": "ZAG"
+  },
+  {
+    "ident": "SOFIE",
+    "type": "FIX",
+    "lat": 36.2677139,
+    "lon": -76.0733417,
+    "identifier": "SOF"
+  },
+  {
+    "ident": "DRIVE",
+    "type": "FIX",
+    "lat": 36.9029556,
+    "lon": -76.5683944,
+    "identifier": "DRI"
+  },
+  {
+    "ident": "PEAAY",
+    "type": "FIX",
+    "lat": 36.8249556,
+    "lon": -76.267025,
+    "identifier": "PEA"
+  },
+  {
+    "ident": "DEEMS",
+    "type": "FIX",
+    "lat": 36.7420944,
+    "lon": -76.3955111,
+    "identifier": "DEE"
+  },
+  {
+    "ident": "CALEY",
+    "type": "FIX",
+    "lat": 36.7409,
+    "lon": -76.3478778,
+    "identifier": "CAL"
+  },
+  {
+    "ident": "TAVAE",
+    "type": "FIX",
+    "lat": 36.5907917,
+    "lon": -76.3903167,
+    "identifier": "TAV"
+  },
+  {
+    "ident": "NALDE",
+    "type": "FIX",
+    "lat": 36.5100194,
+    "lon": -76.4653139,
+    "identifier": "NAL"
+  },
+  {
+    "ident": "SWOPE",
+    "type": "FIX",
+    "lat": 36.5185694,
+    "lon": -76.3156333,
+    "identifier": "SWO"
+  },
+  {
+    "ident": "EDDYS",
+    "type": "FIX",
+    "lat": 36.4404417,
+    "lon": -76.4501083,
+    "identifier": "EDD"
+  },
+  {
+    "ident": "MOTUE",
+    "type": "FIX",
+    "lat": 36.2646722,
+    "lon": -76.2832222,
+    "identifier": "MOT"
+  },
+  {
+    "ident": "WINAL",
+    "type": "FIX",
+    "lat": 36.1532944,
+    "lon": -76.4273333,
+    "identifier": "WIN"
+  },
+  {
+    "ident": "ISUBE",
+    "type": "FIX",
+    "lat": 36.2687333,
+    "lon": -76.4074,
+    "identifier": "ISU"
+  },
+  {
+    "ident": "SUNNS",
+    "type": "FIX",
+    "lat": 36.4402056,
+    "lon": -76.5078361,
+    "identifier": "SUN"
+  },
+  {
+    "ident": "ZAXIB",
+    "type": "FIX",
+    "lat": 36.5904139,
+    "lon": -76.6638111,
+    "identifier": "ZAX"
+  },
+  {
+    "ident": "DRONE",
+    "type": "FIX",
+    "lat": 36.5292306,
+    "lon": -76.6708472,
+    "identifier": "DRO"
+  },
+  {
+    "ident": "OLUCE",
+    "type": "FIX",
+    "lat": 36.489175,
+    "lon": -76.7360639,
+    "identifier": "OLU"
+  },
+  {
+    "ident": "STEIN",
+    "type": "FIX",
+    "lat": 37.5866389,
+    "lon": -76.3201222
+  },
+  {
+    "ident": "TERKS",
+    "type": "FIX",
+    "lat": 37.4141444,
+    "lon": -76.4640361,
+    "identifier": "TER"
+  },
+  {
+    "ident": "PANLE",
+    "type": "FIX",
+    "lat": 37.32205,
+    "lon": -76.4431444,
+    "identifier": "PAN"
+  },
+  {
+    "ident": "HASBA",
+    "type": "FIX",
+    "lat": 37.2423167,
+    "lon": -76.2679444,
+    "identifier": "HAS"
+  },
+  {
+    "ident": "STEVE",
+    "type": "FIX",
+    "lat": 37.1898639,
+    "lon": -76.3725222
+  },
+  {
+    "ident": "NONNU",
+    "type": "FIX",
+    "lat": 36.9372639,
+    "lon": -76.4920083,
+    "identifier": "NON"
+  },
+  {
+    "ident": "JAWES",
+    "type": "FIX",
+    "lat": 37.0181028,
+    "lon": -76.7127111,
+    "identifier": "JAW"
+  },
+  {
+    "ident": "WAIKS",
+    "type": "FIX",
+    "lat": 37.0504778,
+    "lon": -77.0688,
+    "identifier": "WAI"
+  },
+  {
+    "ident": "JETIT",
+    "type": "FIX",
+    "lat": 37.0717833,
+    "lon": -76.6067556,
+    "identifier": "JET"
+  },
+  {
+    "ident": "RACOT",
+    "type": "FIX",
+    "lat": 37.224425,
+    "lon": -76.4709722,
+    "identifier": "RAC"
+  },
+  {
+    "ident": "HOUKY",
+    "type": "FIX",
+    "lat": 37.3322167,
+    "lon": -77.132675,
+    "identifier": "HOU"
+  },
+  {
+    "ident": "OUTLA",
+    "type": "FIX",
+    "lat": 37.3459667,
+    "lon": -75.9983556,
+    "identifier": "OUT"
+  },
+  {
+    "ident": "TAFYI",
+    "type": "FIX",
+    "lat": 39.2372833,
+    "lon": -75.2235083,
+    "identifier": "TAF"
+  },
+  {
+    "ident": "LUFSY",
+    "type": "FIX",
+    "lat": 36.9687167,
+    "lon": -76.1282111,
+    "identifier": "LUF"
+  },
+  {
+    "ident": "KOOKI",
+    "type": "FIX",
+    "lat": 35.9060306,
+    "lon": -76.69895,
+    "identifier": "KOO"
+  },
+  {
+    "ident": "KALDA",
+    "type": "FIX",
+    "lat": 37.8419611,
+    "lon": -75.6264833,
+    "identifier": "KAL"
+  },
+  {
+    "ident": "ZJAAY",
+    "type": "FIX",
+    "lat": 38.0527639,
+    "lon": -75.4428528,
+    "identifier": "ZJA"
+  },
+  {
+    "ident": "GUMPP",
+    "type": "FIX",
+    "lat": 36.7469278,
+    "lon": -76.26455
+  },
+  {
+    "ident": "PRONI",
+    "type": "FIX",
+    "lat": 34.5612861,
+    "lon": -77.6744139,
+    "identifier": "PRO"
+  },
+  {
+    "ident": "JOHAR",
+    "type": "FIX",
+    "lat": 34.3281528,
+    "lon": -78.5936556,
+    "identifier": "JOH"
+  },
+  {
+    "ident": "KOHLS",
+    "type": "FIX",
+    "lat": 36.3716,
+    "lon": -76.8726333,
+    "identifier": "KOH"
+  },
+  {
+    "ident": "NUTZE",
+    "type": "FIX",
+    "lat": 35.8445639,
+    "lon": -77.6824222,
+    "identifier": "NUT"
+  },
+  {
+    "ident": "RREGG",
+    "type": "FIX",
+    "lat": 35.1387444,
+    "lon": -77.5433944,
+    "identifier": "RRE"
+  },
+  {
+    "ident": "TRPOD",
+    "type": "FIX",
+    "lat": 38.3389806,
+    "lon": -75.5338472,
+    "identifier": "TRP"
+  },
+  {
+    "ident": "ARICE",
+    "type": "FIX",
+    "lat": 37.6887917,
+    "lon": -75.742325,
+    "identifier": "ARI"
+  },
+  {
+    "ident": "CORET",
+    "type": "FIX",
+    "lat": 37.7302333,
+    "lon": -76.5153278,
+    "identifier": "COR"
+  },
+  {
+    "ident": "RUSSL",
+    "type": "FIX",
+    "lat": 37.4969861,
+    "lon": -77.3690694,
+    "identifier": "RUS"
+  },
+  {
+    "ident": "MEEKA",
+    "type": "FIX",
+    "lat": 37.2652333,
+    "lon": -75.9825833,
+    "identifier": "MEE"
+  },
+  {
+    "ident": "WOPAT",
+    "type": "FIX",
+    "lat": 36.9686972,
+    "lon": -76.7045417,
+    "identifier": "WOP"
+  },
+  {
+    "ident": "WUBUT",
+    "type": "FIX",
+    "lat": 37.0071,
+    "lon": -76.5892639,
+    "identifier": "WUB"
+  },
+  {
+    "ident": "BIMLE",
+    "type": "FIX",
+    "lat": 37.0446278,
+    "lon": -76.4760889,
+    "identifier": "BIM"
+  },
+  {
+    "ident": "LODBE",
+    "type": "FIX",
+    "lat": 36.9404722,
+    "lon": -76.4914194,
+    "identifier": "LOD"
+  },
+  {
+    "ident": "MAGUZ",
+    "type": "FIX",
+    "lat": 36.9389139,
+    "lon": -76.3963611,
+    "identifier": "MAG"
+  },
+  {
+    "ident": "UBKUC",
+    "type": "FIX",
+    "lat": 36.7883028,
+    "lon": -76.6904111,
+    "identifier": "UBK"
+  },
+  {
+    "ident": "YIBUV",
+    "type": "FIX",
+    "lat": 36.7841528,
+    "lon": -76.5615583,
+    "identifier": "YIB"
+  },
+  {
+    "ident": "ETUME",
+    "type": "FIX",
+    "lat": 36.668575,
+    "lon": -77.1480583,
+    "identifier": "ETU"
+  },
+  {
+    "ident": "SURUE",
+    "type": "FIX",
+    "lat": 36.6857917,
+    "lon": -77.0150944,
+    "identifier": "SUR"
+  },
+  {
+    "ident": "OMRIE",
+    "type": "FIX",
+    "lat": 37.1865389,
+    "lon": -76.0265194,
+    "identifier": "OMR"
+  },
+  {
+    "ident": "RILLO",
+    "type": "FIX",
+    "lat": 37.0178111,
+    "lon": -76.1655,
+    "identifier": "RIL"
+  },
+  {
+    "ident": "MERFE",
+    "type": "FIX",
+    "lat": 36.934175,
+    "lon": -76.2341139,
+    "identifier": "MER"
+  },
+  {
+    "ident": "CEGLI",
+    "type": "FIX",
+    "lat": 36.8974028,
+    "lon": -76.3122028
+  },
+  {
+    "ident": "CROOM",
+    "type": "FIX",
+    "lat": 36.8415278,
+    "lon": -76.2510556,
+    "identifier": "CRO"
+  },
+  {
+    "ident": "TECHI",
+    "type": "FIX",
+    "lat": 36.9828722,
+    "lon": -76.1145028,
+    "identifier": "TEC"
+  },
+  {
+    "ident": "COKLI",
+    "type": "FIX",
+    "lat": 36.8117611,
+    "lon": -76.2797306,
+    "identifier": "COK"
+  },
+  {
+    "ident": "BAAGN",
+    "type": "FIX",
+    "lat": 36.9521611,
+    "lon": -76.1442306,
+    "identifier": "BAA"
+  },
+  {
+    "ident": "HUXOL",
+    "type": "FIX",
+    "lat": 36.9645306,
+    "lon": -76.1033806,
+    "identifier": "HUX"
+  },
+  {
+    "ident": "GUTLE",
+    "type": "FIX",
+    "lat": 36.9092528,
+    "lon": -76.0800556,
+    "identifier": "GUT"
+  },
+  {
+    "ident": "DULTS",
+    "type": "FIX",
+    "lat": 36.8380806,
+    "lon": -76.1590611,
+    "identifier": "DUL"
+  },
+  {
+    "ident": "HCM",
+    "type": "FIX",
+    "lat": 37.44866,
+    "lon": -76.7113539,
+    "identifier": "HCM"
+  },
+  {
+    "ident": "EVINN",
+    "type": "FIX",
+    "lat": 36.8458361,
+    "lon": -76.2604639,
+    "identifier": "EVI"
+  },
+  {
+    "ident": "NUTIY",
+    "type": "FIX",
+    "lat": 36.9454111,
+    "lon": -76.5500667,
+    "identifier": "NUT"
+  },
+  {
+    "ident": "BCOAT",
+    "type": "FIX",
+    "lat": 37.042525,
+    "lon": -76.5226083,
+    "identifier": "BCO"
+  },
+  {
+    "ident": "SOLOC",
+    "type": "FIX",
+    "lat": 37.0956722,
+    "lon": -76.5075528,
+    "identifier": "SOL"
+  },
+  {
+    "ident": "MIDRE",
+    "type": "FIX",
+    "lat": 36.9823861,
+    "lon": -76.7830139,
+    "identifier": "MID"
+  },
+  {
+    "ident": "ROBOY",
+    "type": "FIX",
+    "lat": 37.1673306,
+    "lon": -76.4872139,
+    "identifier": "ROB"
+  },
+  {
+    "ident": "SEZJY",
+    "type": "FIX",
+    "lat": 36.7883139,
+    "lon": -76.6904111,
+    "identifier": "SEZ"
+  },
+  {
+    "ident": "RONKE",
+    "type": "FIX",
+    "lat": 36.6727722,
+    "lon": -76.7118472,
+    "identifier": "RON"
+  },
+  {
+    "ident": "PEFOC",
+    "type": "FIX",
+    "lat": 36.7841611,
+    "lon": -76.5615556,
+    "identifier": "PEF"
+  },
+  {
+    "ident": "HUMIV",
+    "type": "FIX",
+    "lat": 36.7818833,
+    "lon": -76.4932444
+  },
+  {
+    "ident": "FOXEI",
+    "type": "FIX",
+    "lat": 36.7722556,
+    "lon": -76.2159,
+    "identifier": "FOX"
+  },
+  {
+    "ident": "JAJAE",
+    "type": "FIX",
+    "lat": 36.7767917,
+    "lon": -76.3441889,
+    "identifier": "JAJ"
+  },
+  {
+    "ident": "YINUK",
+    "type": "FIX",
+    "lat": 36.7785222,
+    "lon": -76.39415
+  },
+  {
+    "ident": "SUFSO",
+    "type": "FIX",
+    "lat": 36.4058778,
+    "lon": -76.5572944,
+    "identifier": "SUF"
+  },
+  {
+    "ident": "SIMLE",
+    "type": "FIX",
+    "lat": 36.6503333,
+    "lon": -76.6209278,
+    "identifier": "SIM"
+  },
+  {
+    "ident": "IDZAT",
+    "type": "FIX",
+    "lat": 36.6467667,
+    "lon": -76.6947361,
+    "identifier": "IDZ"
+  },
+  {
+    "ident": "LALSE",
+    "type": "FIX",
+    "lat": 36.6021528,
+    "lon": -76.8061639,
+    "identifier": "LAL"
+  },
+  {
+    "ident": "VEGHE",
+    "type": "FIX",
+    "lat": 36.8055194,
+    "lon": -76.3130306,
+    "identifier": "VEG"
+  },
+  {
+    "ident": "ZAKEN",
+    "type": "FIX",
+    "lat": 36.8621306,
+    "lon": -76.4687139,
+    "identifier": "ZAK"
+  },
+  {
+    "ident": "WOLIB",
+    "type": "FIX",
+    "lat": 36.7536111,
+    "lon": -76.5468278,
+    "identifier": "WOL"
+  },
+  {
+    "ident": "JOVAM",
+    "type": "FIX",
+    "lat": 36.711175,
+    "lon": -76.5773056,
+    "identifier": "JOV"
+  },
+  {
+    "ident": "IFESO",
+    "type": "FIX",
+    "lat": 37.5597056,
+    "lon": -76.446725,
+    "identifier": "IFE"
+  },
+  {
+    "ident": "JUBJI",
+    "type": "FIX",
+    "lat": 37.4623722,
+    "lon": -76.4473222,
+    "identifier": "JUB"
+  },
+  {
+    "ident": "ICACO",
+    "type": "FIX",
+    "lat": 37.5061806,
+    "lon": -77.0392972,
+    "identifier": "ICA"
+  },
+  {
+    "ident": "KULEY",
+    "type": "FIX",
+    "lat": 37.515125,
+    "lon": -76.8776583,
+    "identifier": "KUL"
+  },
+  {
+    "ident": "CIBAC",
+    "type": "FIX",
+    "lat": 37.5246833,
+    "lon": -76.7002722,
+    "identifier": "CIB"
+  },
+  {
+    "ident": "GORYE",
+    "type": "FIX",
+    "lat": 37.5187444,
+    "lon": -76.8110611,
+    "identifier": "GOR"
+  },
+  {
+    "ident": "HPW",
+    "type": "FIX",
+    "lat": 37.32887,
+    "lon": -77.1159436,
+    "identifier": "HPW"
+  },
+  {
+    "ident": "JUDLU",
+    "type": "FIX",
+    "lat": 37.4314722,
+    "lon": -76.5876778,
+    "identifier": "JUD"
+  },
+  {
+    "ident": "ZINAV",
+    "type": "FIX",
+    "lat": 37.5351806,
+    "lon": -76.4995028,
+    "identifier": "ZIN"
+  },
+  {
+    "ident": "JUGPI",
+    "type": "FIX",
+    "lat": 37.5275667,
+    "lon": -76.6457694,
+    "identifier": "JUG"
+  },
+  {
+    "ident": "YINDU",
+    "type": "FIX",
+    "lat": 37.5238194,
+    "lon": -76.7165194
+  },
+  {
+    "ident": "ZESMI",
+    "type": "FIX",
+    "lat": 37.2860333,
+    "lon": -76.9438806,
+    "identifier": "ZES"
+  },
+  {
+    "ident": "WENDU",
+    "type": "FIX",
+    "lat": 37.2603333,
+    "lon": -76.8172889
+  },
+  {
+    "ident": "JUSBO",
+    "type": "FIX",
+    "lat": 37.2407472,
+    "lon": -76.7213167,
+    "identifier": "JUS"
+  },
+  {
+    "ident": "ACOYU",
+    "type": "FIX",
+    "lat": 37.0446694,
+    "lon": -76.4761111,
+    "identifier": "ACO"
+  },
+  {
+    "ident": "GENUU",
+    "type": "FIX",
+    "lat": 37.061175,
+    "lon": -76.4262556,
+    "identifier": "GEN"
+  },
+  {
+    "ident": "BALIF",
+    "type": "FIX",
+    "lat": 37.1209222,
+    "lon": -76.2450778,
+    "identifier": "BAL"
+  },
+  {
+    "ident": "WENBA",
+    "type": "FIX",
+    "lat": 37.1578222,
+    "lon": -76.1326222
+  },
+  {
+    "ident": "MALEC",
+    "type": "FIX",
+    "lat": 37.1888667,
+    "lon": -76.0381028,
+    "identifier": "MAL"
+  },
+  {
+    "ident": "PAKSE",
+    "type": "FIX",
+    "lat": 37.2475111,
+    "lon": -76.7904917,
+    "identifier": "PAK"
+  },
+  {
+    "ident": "CATAS",
+    "type": "FIX",
+    "lat": 37.1849583,
+    "lon": -76.6915306,
+    "identifier": "CAT"
+  },
+  {
+    "ident": "HUMAL",
+    "type": "FIX",
+    "lat": 37.1820056,
+    "lon": -76.8551083
+  },
+  {
+    "ident": "OTETY",
+    "type": "FIX",
+    "lat": 36.4882222,
+    "lon": -75.9388694,
+    "identifier": "OTE"
+  },
+  {
+    "ident": "HABKI",
+    "type": "FIX",
+    "lat": 36.5714694,
+    "lon": -75.8664722,
+    "identifier": "HAB"
+  },
+  {
+    "ident": "FEVBI",
+    "type": "FIX",
+    "lat": 36.6194083,
+    "lon": -75.951175,
+    "identifier": "FEV"
+  },
+  {
+    "ident": "HAKDY",
+    "type": "FIX",
+    "lat": 36.2408139,
+    "lon": -76.1528778,
+    "identifier": "HAK"
+  },
+  {
+    "ident": "TACLO",
+    "type": "FIX",
+    "lat": 36.3242167,
+    "lon": -76.0809278,
+    "identifier": "TAC"
+  },
+  {
+    "ident": "OCSIP",
+    "type": "FIX",
+    "lat": 36.1374861,
+    "lon": -76.0042917,
+    "identifier": "OCS"
+  },
+  {
+    "ident": "ELMER",
+    "type": "FIX",
+    "lat": 37.1728361,
+    "lon": -76.0004333,
+    "identifier": "ELM"
+  },
+  {
+    "ident": "MIMAE",
+    "type": "FIX",
+    "lat": 36.9372778,
+    "lon": -76.0642333,
+    "identifier": "MIM"
+  },
+  {
+    "ident": "MESLE",
+    "type": "FIX",
+    "lat": 36.93745,
+    "lon": -76.2103028,
+    "identifier": "MES"
+  },
+  {
+    "ident": "OGTOE",
+    "type": "FIX",
+    "lat": 37.1579306,
+    "lon": -76.7500167,
+    "identifier": "OGT"
+  },
+  {
+    "ident": "HISAM",
+    "type": "FIX",
+    "lat": 36.9374028,
+    "lon": -76.3963778,
+    "identifier": "HIS"
+  },
+  {
+    "ident": "ZIXER",
+    "type": "FIX",
+    "lat": 37.8189083,
+    "lon": -75.6690306,
+    "identifier": "ZIX"
+  },
+  {
+    "ident": "RERSE",
+    "type": "FIX",
+    "lat": 37.72615,
+    "lon": -75.7187167,
+    "identifier": "RER"
+  },
+  {
+    "ident": "MELFA",
+    "type": "FIX",
+    "lat": 37.572375,
+    "lon": -75.8007417,
+    "identifier": "MEL"
+  },
+  {
+    "ident": "UCGEL",
+    "type": "FIX",
+    "lat": 37.4794056,
+    "lon": -75.8501528,
+    "identifier": "UCG"
+  },
+  {
+    "ident": "FOVPO",
+    "type": "FIX",
+    "lat": 36.7072806,
+    "lon": -76.8474889,
+    "identifier": "FOV"
+  },
+  {
+    "ident": "OBERE",
+    "type": "FIX",
+    "lat": 36.71465,
+    "lon": -76.7896278,
+    "identifier": "OBE"
+  },
+  {
+    "ident": "JADIM",
+    "type": "FIX",
+    "lat": 36.7314556,
+    "lon": -76.656425,
+    "identifier": "JAD"
+  },
+  {
+    "ident": "ZIGTU",
+    "type": "FIX",
+    "lat": 36.6926639,
+    "lon": -76.9616861,
+    "identifier": "ZIG"
+  },
+  {
+    "ident": "MAZON",
+    "type": "FIX",
+    "lat": 36.7564556,
+    "lon": -77.367475,
+    "identifier": "MAZ"
+  },
+  {
+    "ident": "GUMBE",
+    "type": "FIX",
+    "lat": 36.4959861,
+    "lon": -77.4806139
+  },
+  {
+    "ident": "RIDDS",
+    "type": "FIX",
+    "lat": 36.2734528,
+    "lon": -76.2767917,
+    "identifier": "RID"
+  },
+  {
+    "ident": "LIBLE",
+    "type": "FIX",
+    "lat": 36.2527194,
+    "lon": -75.9380194,
+    "identifier": "LIB"
+  },
+  {
+    "ident": "NETUE",
+    "type": "FIX",
+    "lat": 36.3360861,
+    "lon": -75.9334306,
+    "identifier": "NET"
+  },
+  {
+    "ident": "GUDLE",
+    "type": "FIX",
+    "lat": 36.2571139,
+    "lon": -76.0616083,
+    "identifier": "GUD"
+  },
+  {
+    "ident": "REXUE",
+    "type": "FIX",
+    "lat": 36.16935,
+    "lon": -75.9426,
+    "identifier": "REX"
+  },
+  {
+    "ident": "GEDLE",
+    "type": "FIX",
+    "lat": 36.4461472,
+    "lon": -76.1689778,
+    "identifier": "GED"
+  },
+  {
+    "ident": "BESRE",
+    "type": "FIX",
+    "lat": 36.3461694,
+    "lon": -76.1742333,
+    "identifier": "BES"
+  },
+  {
+    "ident": "ODGOE",
+    "type": "FIX",
+    "lat": 36.4496389,
+    "lon": -76.2721778,
+    "identifier": "ODG"
+  },
+  {
+    "ident": "SAGOE",
+    "type": "FIX",
+    "lat": 36.3781111,
+    "lon": -76.4020944,
+    "identifier": "SAG"
+  },
+  {
+    "ident": "FOSOP",
+    "type": "FIX",
+    "lat": 36.1966444,
+    "lon": -76.1630944,
+    "identifier": "FOS"
+  },
+  {
+    "ident": "CEGRU",
+    "type": "FIX",
+    "lat": 36.1017056,
+    "lon": -76.1238167
+  },
+  {
+    "ident": "NORTN",
+    "type": "FIX",
+    "lat": 36.0460694,
+    "lon": -75.8744639,
+    "identifier": "NOR"
+  },
+  {
+    "ident": "NOXEE",
+    "type": "FIX",
+    "lat": 37.167325,
+    "lon": -76.9327917,
+    "identifier": "NOX"
+  },
+  {
+    "ident": "MILUE",
+    "type": "FIX",
+    "lat": 37.058275,
+    "lon": -76.9742083,
+    "identifier": "MIL"
+  },
+  {
+    "ident": "SCTYP",
+    "type": "FIX",
+    "lat": 36.9463639,
+    "lon": -76.3688306,
+    "identifier": "SCT"
+  },
+  {
+    "ident": "HOLND",
+    "type": "FIX",
+    "lat": 37.1060889,
+    "lon": -75.8908306,
+    "identifier": "HND"
+  },
+  {
+    "ident": "VABCH",
+    "type": "FIX",
+    "lat": 36.9902944,
+    "lon": -76.1049972,
+    "identifier": "VAB"
+  },
+  {
+    "ident": "PXT",
+    "type": "FIX",
+    "lat": 38.2878,
+    "lon": -76.4002,
+    "identifier": "PXT"
+  },
+  {
+    "ident": "RIC",
+    "type": "FIX",
+    "lat": 37.5051811,
+    "lon": -77.3197386,
+    "identifier": "RIC"
+  },
+  {
+    "ident": "SBY",
+    "type": "FIX",
+    "lat": 38.3401894,
+    "lon": -75.5094781,
+    "identifier": "SBY"
+  },
+  {
+    "ident": "SIE",
+    "type": "FIX",
+    "lat": 39.0955089,
+    "lon": -74.8003439,
+    "identifier": "SIE"
+  },
+  {
+    "ident": "CHS",
+    "type": "FIX",
+    "lat": 32.8986389,
+    "lon": -80.0405278,
+    "identifier": "CHS"
+  }
+]
